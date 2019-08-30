@@ -11,7 +11,7 @@ output:
 library(emo)
 ```
 
-**Currently, this website is under construction, I'm moving my materials from a previous class on this topic to this site. Until I actually teach the class again, this is a 'under construction' site, with copy & paste from a different course, so most documents present here are not applicable and just here as placeholders for now. As long as you see this message, expect things to not really work `r emo::ji('smiley')`.
+**Currently, this website is under construction, I'm moving my materials from a previous class on this topic to this site. Until I actually teach the class again, this is a 'under construction' site, with copy & paste from a different course, so most documents present here are not applicable and just here as placeholders for now. As long as you see this message, expect things to not really work `r emo::ji('smiley')`.**
 
 
 Welcome to the Modern Dynamical Systems Approach to Infectious Disease Epidemiology (DSAIDE) course website.
