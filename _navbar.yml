@@ -1,0 +1,45 @@
+title: "MADA Course"
+type: inverse
+left:
+  - text: "General Information"
+    menu:
+      - text: "Syllabus"
+        href: ./Course_Syllabus.html
+      - text: "Schedule"
+        href: ./Course_Schedule.html
+  - text: "Modules"
+    menu:
+      - text: "1. Coures and Tools Introduction"
+        menu:
+          - text: "1a. Course introduction"
+            href: ./1a_Course_Introduction.html
+          - text: "1b. Teaching and Learning thoughts"
+            href: ./1b_Teaching_and_Learning.html
+          - text: "1c. R and Rstudio"
+            href: ./1c_RandRStudio.html
+          - text: "1d. GitHub"
+            href: ./1d_Github.html
+          - text: "1e. RMarkdown & Co"
+            href: ./1e_ToolsforReproducibility.html
+          - text: "1f. Reference Management"
+            href: ./1f_Reference_Management.html
+          - text: "1g. Assessment"
+            href: ./1g_Assessment.html
+      - text: "2. Topic Introduction"
+        menu:
+          - text: "2a. Topic introduction"
+            href: ./2a_Topic_Introduction.html
+          - text: "2b. Assessment"
+            href: ./2b_Assessment.html
+  - text: "Exercises"
+    menu:
+       - text: "Introducing ourselves"
+         href: ./Exercise_Introducing_Ourselves.html
+  - text: "Project"
+    menu:
+       - text: "Project information"
+         href: ./Project_Information.html
+  - text: "Communication"
+    href: ./Course_Communication.html
+  - text: "Resources"
+    href: ./Course_Resources.html

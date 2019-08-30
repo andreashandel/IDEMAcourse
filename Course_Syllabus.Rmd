@@ -1,0 +1,103 @@
+---
+title: Dynamical Systems Approach to Infectious Disease Epidemiology – Syllabus
+subtitle: ""
+author: Andreas Handel
+institute: "University of Georgia"
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+    toc_depth: 3
+---
+
+
+## Course Information
+
+* Instructor: Andreas Handel
+* Office Location: 124 B.S. Miller Hall, Health Sciences Campus
+* Email: ahandel@uga.edu
+* Office Hours:  by appointment/online
+* Course Meeting Time and Location: online
+
+## Textbook and Other Course Material
+
+There is no required textbook. We will make use of several freely available textbooks and other materials. All course materials will be provided. We will use the R software for data analysis, which is freely available for download. 
+
+## Course Description
+
+This course provides an introduction to infectious disease epidemiology from a systems and modeling approach. While we will not do any modeling in this course, i.e. we will not learn how to write and implement models or write computer code, we will use simulation models to understand the dynamics of transmission and spread of infectious diseases. 
+
+## Course Learning Objectives
+
+
+The specific learning objectives that I hope you will achieve by going through this course are:
+
+* Explain and compute important epidemiological measures, such as reproductive number and level of herd immunity
+
+* Appraise the fundamentally causal nature of mechanistic infectious disease (ID) computer models and master the use of such models to address important ID epidemiology research questions
+
+* Interpret the meaning of specific dynamic patterns seen in ID incidence and prevalence
+
+*	Choose optimal ID intervention strategies based on features of specific IDs
+
+*	Predict the impact of different ID intervention strategies
+
+*	Critically evaluate the ID epidemiology literature
+
+*	Compare and assess the strengths and weaknesses of different ID data collection and analysis approaches
+
+*	Formulate meaningful ID epidemiology research questions of public health importance 
+
+*	Select the appropriate data collection and analysis approach for a specific ID research question
+
+*	Explain the importance of system dynamical thinking for the study and control of ID
+
+
+## Grading
+
+The grade will be made up as follows:
+
+* 20% online quizzes
+* 20% homework/small projects
+* 20% participation/discussions
+* 40% a course long project, broken up into pieces. 
+
+The following grading scale will be used, final grades might be curved (upward): A 93-100, A- 90-93, B+ 87-90, B 83-87, B- 80-83, C+ 77-80, C 73-77, C- 70-73, D 60-70, F < 60
+
+
+## Class Attendance, Make-up Policy
+
+This class is online. You are expected to submit all assignments by their due dates. Excused misses of due dates are only provided by prior agreement with the instructor or for special reasons (medical, etc.).
+
+
+## Prerequisites
+
+This is a quantitative course. We will not go deep into the mathematical details of infectious disease models, not will we do much (if any) coding. However some statistical background and being comfortable with quantitative thinking are useful. 
+_Formal requirement for the course is BIOS7010. Knowledge of material from BIOS7010 is assumed. If you didn't take this course, please contact me to get permission to enroll._
+
+## Getting Help
+
+If you have questions about any aspect of the course, please do not hesitate to ask for help. The course materials describe in detail the ways you can ask for help.
+
+
+## University Honor Code and Academic Honesty Policy
+
+All academic work must meet the standards contained in _A Culture of Honesty_. All students are responsible to inform themselves about those standards before performing any academic work. More detailed information about academic honesty can be found at: http://www.uga.edu/honesty/
+
+Discussions with your classmates and the instructor are encouraged. However, the final work should be your own.
+
+
+## Students with Disabilities
+
+Students with disabilities who require reasonable accommodations in order to participate in course activities or meet course requirements should contact the instructor.
+
+## General Disclaimers
+
+This syllabus is a general plan, deviations announced to the class by the instructor may be necessary.
+
+## Course Outline
+
+For an outline of the course, please see the course schedule document. 
+
+## More Details
+
+The introductory unit of this course contains all the logistic details you need to know.
