@@ -1,5 +1,5 @@
 ---
-title: MADA Fall 2019 - Introducing Ourselves project
+title: Introducing Ourselves 
 subtitle: ""
 author: Andreas Handel
 institute: "University of Georgia"
