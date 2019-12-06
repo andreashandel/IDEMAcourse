@@ -1,4 +1,4 @@
-title: "MADA Course"
+title: "DSAIDE Course"
 type: inverse
 left:
   - text: "General Information"
@@ -41,5 +41,14 @@ left:
          href: ./Project_Information.html
   - text: "Communication"
     href: ./Course_Communication.html
+  - text: "Glossary"
+    href: ./Course_Glossary.html
   - text: "Resources"
-    href: ./Course_Resources.html
+    menu:
+       - text: "Course Resources"
+         href: ./Course_Resources.html
+       - text: "General Resources"
+         href: ./General_Resources.html
+right:
+  - icon: fa-github fa-lg
+    href: https://github.com/andreashandel/DSAIDEcourse
