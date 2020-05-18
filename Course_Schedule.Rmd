@@ -24,5 +24,10 @@ The _Assessments_ column lists items that need to be submitted and that will be 
 | --- | --- | --- | --- |
 | Module 1 – Course and tools introduction | 8/14 – 8/23 | none | quiz, introducing ourselves exercise |
 | Module 2 – Topic introduction | 8/14 – 8/23 | DSAIDE 1-2 | quiz, discussion|
+| Module  | 8/14 – 8/23 |  | |
+| Module  | 8/14 – 8/23 |  | |
+| Module  | 8/14 – 8/23 |  | |
+
+
 | Project Reviews | 12/2 – 12/6 | none | project reviews |
 | Final project submission  | 12/11 | none | project part 5 |
