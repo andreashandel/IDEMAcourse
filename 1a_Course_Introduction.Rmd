@@ -37,10 +37,6 @@ A second goal is to introduce you to some modern analysis approaches commonly re
 A related goal is to introduce you to a set of tools that allow for a modern, reproducible workflow of your analysis.
 
 
-```{r datacartoon,  echo=FALSE, fig.cap="In this course, we randomly switch back and forth. Source: phdcomics.com.", out.width = '100%', fig.align='center'}
-knitr::include_graphics("./media/phd_dataisorare.gif")
-```
-
 We will cover these goals in these specific learning objectives that I hope you will achieve by going through this course:
 
 _Design_

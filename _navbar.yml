@@ -1,4 +1,7 @@
-title: "MIDE Course"
+name: "IDEMAcourse"
+title: "IDEMA Course"
+logo:
+    image: ./media/IDEMAlogo.png
 type: inverse
 left:
   - text: "General Information"

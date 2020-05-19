@@ -1,11 +1,11 @@
-name: "DSAIDE Course"
+name: "IDEMA Course"
 output_dir: 'docs'
 output:
   html_document:
-    theme: cosmo
-    highlight: zenburn
+    theme: lumen
+    highlight: tango
     toc: true
     toc_depth: 2
     toc_float: 
       collapsed: false
-    css: DSAIDEstyle.css
+    css: IDEMAstyle.css

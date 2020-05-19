@@ -1,3 +1,3 @@
-This is the Github repository for the [Modern Infectious Disease Epidemiology (MIDE) course website.](https://andreashandel.github.io/MIDEcourse/) 
+This is the Github repository for the [Infectious Disease Epidemiology - a model based approach (IDEMA) course website.](https://andreashandel.github.io/IDEMAcourse/) 
 
 
