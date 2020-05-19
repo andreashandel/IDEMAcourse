@@ -38,9 +38,8 @@ The __Resources__ section contains a listing of external materials. Some of this
 Note that by default, all links open in the current tab. You'll likely want external ones to open in a separate tab or window. To do so, you can (with most browsers) hold the `Ctrl` button when clicking, or do a right-click and select `open in new tab/window`.
 
 
-# Additional Notes
+# Additional Notes for UGA students
 
-Some additional comments for UGA students: 
 * While the course's official title at UGA _EPID 8510 - Dynamical Systems Approach to Infectious Disease Epidemiology_, I think it's too much of a mouthful and I don't like that title much anymore, so I'll just be referring to the course as _IDEMA_.
 * Announcements, discussions and all other communication will happen through Slack.
 * We will not be using eLC.
