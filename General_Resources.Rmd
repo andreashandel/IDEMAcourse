@@ -1,0 +1,56 @@
+---
+title: General Infectious Disease Epidemiology and Modeling Resources
+subtitle: ""
+author: Andreas Handel
+institute: "University of Georgia"
+date: "`r file.mtime(knitr::current_input())`"
+#bibliography: ../media/references.bib
+output: 
+  html_document:
+    toc_depth: 3
+---
+
+
+```{r, echo = FALSE}
+#just so I can use emoticons
+#devtools::install_github("hadley/emo")
+library(emo)
+```
+
+To distinguish clearly which external resources are directly related to the course and which are not, I decided to have two resource pages. The _Course Resources_ page lists materials directly related to and used/mentioned in the course. This page lists a lot of other resources that might not be used or mentioned explicitly in the course, but that might be useful and interesting. Everything listed here is of course related to the course topic, i.e. infectious disease epidemiology (and related areas, e.g. ecology/evolution), with a focus on a model-based perspective. For even more materials, see the links to various lists by others at the end of this document.
+
+Apart from the books, most other materials described below are (should be) freely available online. For better or for worse, a lot of the resources I list below are dynamic and ever changing. That means occasionally links might not work, sites go offline, chapters in online books get re-arranged, etc. If any link does not work and you can't access the materials for some reason, let me know so I can update this document.
+
+
+# Books
+* [Modeling Infectious Diseases]() 
+
+
+# Journal articles
+
+
+
+# Online courses
+* [Data science for economists](https://github.com/uo-ec607/lectures)
+
+
+# Hands-on/interactive resources
+
+* [Swirl](http://swirlstats.com) is a package that teaches R inside R. Especially beginner students have found it to be a good start since it provides very encouraging feedback. The downside is that all code writing happens interactively in the console, which is not the way one should write `real` code. It's still worth checking out if you want to get some more direct, hands-on R practice.
+
+
+
+# Podcasts
+* 
+
+
+# Videos
+To be filled
+
+
+# Lists and other sources
+
+* I created lists related to R and Data Analysis (as well as other topics). [You can find all resource lists here](https://andreashandel.github.io/research-and-teaching-resources/). (These lists are works in progress, and some are better/more useful than others. Feel free to send me links/resources to include).
+
+
+_Obviously, there is no way my list is exhaustive. Let me know if you find other relevant and good sources._

@@ -12,7 +12,7 @@
 <meta name="author" content="Andreas Handel" />
 
 
-<title>Module 1 Assessment</title>
+<title>IDEMA Course Glossary</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -20,9 +20,6 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
-<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
-<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
-<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
@@ -238,75 +235,6 @@ $(document).ready(function () {
 
 
 
-<style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-@media print {
-.toc-content {
-  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
-  float: right;
-}
-}
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
-  }
-}
-
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
-
-.tocify-subheader .tocify-item {
-  font-size: 0.90em;
-}
-
-.tocify .list-group-item {
-  border-radius: 0px;
-}
-
-.tocify-subheader {
-  display: inline;
-}
-.tocify-subheader .tocify-item {
-  font-size: 0.95em;
-}
-
-</style>
-
-
 
 </head>
 
@@ -314,16 +242,6 @@ div.tocify {
 
 
 <div class="container-fluid main-container">
-
-
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
-<div class="col-xs-12 col-sm-4 col-md-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
-
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -460,30 +378,27 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Module 1 Assessment</h1>
+<h1 class="title toc-ignore">IDEMA Course Glossary</h1>
 <h4 class="author">Andreas Handel</h4>
-<h4 class="date">2020-05-20 08:48:08</h4>
+<h4 class="date">2020-05-20 08:18:38</h4>
 
 </div>
 
 
-<div id="module-assessments" class="section level1">
-<h1>Module Assessments</h1>
-<p>Make sure you’ve gone through all the content for this module.</p>
-<div id="quiz" class="section level2">
-<h2>Quiz</h2>
-<p>Fill out the quiz sheet for module 1 and submit it. You can find the sheet(s) for this module and submission instructions in the <em>Course Resources</em> section.</p>
-</div>
-<div id="exercise" class="section level2">
-<h2>Exercise</h2>
-<p>For this module, you are asked to do a small project which involves producing a short personal introduction of yourself. For a detailed description and instructions, see the <a href="./Exercise_Introducing_Ourselves.html">Introducing Ourselves</a> document in the <em>Exercises</em> section.</p>
-</div>
-</div>
+<p><strong>This page is work in progress.</strong></p>
+<p>As in any field, there are lots of technical terms related to Infectious Disease Epidemiology and Modeling. I try to explain them whenever they show up first. However, I figured it might also be useful to have one central place for quick reference. Terms are ordered alphabetically. This is how I define them, others might have different definitions - and so might I in the future, I try to change/update my understanding of things every so often 😁.</p>
+<p>Note that in general, there is no regulatory terminology agency, so everyone can use these words to mean whatever they want. While some are fairly well defined, other terms are often used and abused in ways outside the definitions I provide. Always look carefully at what is described to decide what exactly is going on.</p>
+<p>This list is and will likely forever remain incomplete. If you think there is a specific term missing that should be listed and explained here, please let me know.</p>
+<hr />
+<p><strong>Mechanistic Modeling:</strong> Building and using models that explicitly incorporate mechanisms and processes of the system under study to understand <em>how</em> things interact and lead to specific outcomes. Many models in the hard sciences are of this type. A common way to formulate such models is with differential equations.</p>
+<p><strong>Parameter:</strong></p>
+<p><strong>Reproductive Number:</strong> The expected number of new infected and infectious individuals, created by one individual (of the same type). Also known as <strong>reproductive/reproduction rate</strong> (bad terminology, it’s not a rate.)</p>
+<p><strong>Statistics:</strong> The basic/classical machinery for data analysis. Depending on the type of data, many different approaches have been developed (parametric vs. non-parametric methods, longitudinal analysis, time-series analysis, and many more). Models tend to be simple and interpretable, the goal is to understand how inputs (predictors) relate to outcomes. Statistics was developed when data was sparse, computers didn’t exist, and mainly scientists interested in a deep understanding of their data used it. Because of this, statistical models tend to be simple and work well on small datasets.</p>
+<p><strong>Statistical Learning:</strong> A term that seems to become more widely used in recent years. While some people distinguish this term from <strong>Statistics</strong> and consider it a sub-field (see e.g. Chapter 1 of <a href="http://faculty.marshall.usc.edu/gareth-james/ISL/"><em>Introduction to Statistical Learning</em></a>), the two terms are often used interchangably.</p>
+<p><strong>Variable:</strong> Any quantity that we consider to change (i.e. be variable). Almost always the change is over time. Contrast that to <strong>Parameter</strong>.</p>
 
 
 
-</div>
-</div>
 
 </div>
 
@@ -516,32 +431,6 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = false;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

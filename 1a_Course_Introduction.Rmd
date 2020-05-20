@@ -115,7 +115,8 @@ Most modules have assessments (these are graded). Due dates are usually Friday 5
 Every module will have an _Assessment_ document, which describes what work you need to do for that module that will be graded. The following types of assessments are part of the course.
 
 ## Online quizzes
-You will be provided with quiz sheets in the form of Excel files which contain quiz questions covering both the DSAIDE software and the course material. You can do the quizzes at any time, and need to upload your answers by the due date for a given week. The primary purpose of the quizzes is to ensure you worked through the assigned material. 
+In the _Course Resources_ section, you will find links to quiz sheets in the form of Excel files. Each Excel file contains quiz questions covering either the DSAIDE software or the other course material (or both). You need to fill out the quiz sheets for a given module and submit them by the due date. It should be clear which quiz sheets are the right ones for a given module.  You can do the quizzes at any time, and need to upload your answers [to this website](https://shiny.ovpr.uga.edu/gradingapp/) by the due date for a given week. The primary purpose of the quizzes is to ensure you worked through the assigned material. 
+
 
 ## Exercises
 The exercises are part of a single module and are due on the last day of the module. They are listed in the _Schedule_ and described in more detail in the _Exercises_ section. I will likely add further ones, so look out for updates. The _Assessment_ document for each module will tell you which exercise to do.

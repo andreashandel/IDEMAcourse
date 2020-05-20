@@ -1,5 +1,5 @@
 ---
-title: Course Tools Assessment 
+title: Module 1 Assessment 
 subtitle: ""
 author: Andreas Handel
 institute: "University of Georgia"
@@ -16,10 +16,10 @@ Make sure you've gone through all the content for this module.
 
 ## Quiz
 
-Do the quiz for this module on eLC. The quiz consists of around 5-10 fairly easy questions. It is timed, so you need to have gone through the material and either remember some of the main items or at least remember where you saw it so you can look it up quickly.
+Fill out the quiz sheet for module 1 and submit it. You can find the sheet(s) for this module and submission instructions in the _Course Resources_ section.
 
 
 ## Exercise
 
-For this module, you are asked to do a project for which you'll be using Github, R, RStudio, and Rmarkdown to post a short personal introduction of yourself. A detailed description and instructions are provided as [Introducing Ourselves](./Exercise_Introducing_Ourselves.html) in the _Exercises_ section.
+For this module, you are asked to do a small project which involves producing a short personal introduction of yourself. For a detailed description and instructions, see the [Introducing Ourselves](./Exercise_Introducing_Ourselves.html) document in the _Exercises_ section.
 

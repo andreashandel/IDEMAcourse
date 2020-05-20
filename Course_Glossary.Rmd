@@ -1,5 +1,5 @@
 ---
-title: Course Glossary
+title: IDEMA Course Glossary
 subtitle: ""
 author: Andreas Handel
 institute: "University of Georgia"

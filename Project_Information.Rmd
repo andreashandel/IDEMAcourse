@@ -1,5 +1,5 @@
 ---
-title: Class Project Information 
+title: IDEMA Course Project Information 
 subtitle: ""
 author: Andreas Handel
 institute: "University of Georgia"
@@ -10,76 +10,49 @@ output:
     toc_depth: 3
 ---
 
-_Some of this will only fully make sense once we are a few weeks into the course. It's nevertheless a good idea to read through it and get an overall idea before we have discussed all the different tools and details mentioned. Re-visit/re-read as needed._
-
 # Overview
-A semester long data analysis project will be a major method of assessment for this class. The project should include all the different components of a data analysis we will cover in this class.
 
-* Finding a good data - question pair
-* Getting the data
-* Cleaning the data
-* Exploring the data
-* Processing the data
-* Analyzing the data
-* Reporting/communicating your findings
-* Doing everything reproducibly
+This document contains the information you need to get started on the class project. If you still have questions after going through this document, post them in the 'Class Project' discussion area. Also, use that discussion board for anything related to the project.
+
 
 # Timeline
 There are several deadlines throughout the course at which time you need to submit parts of your project
 
-* Part 1: Have a question/hypothesis & suitable data. 
-* Part 2: Part 1 + and exploratory/univariate analysis. 
-* Part 3: Part 2 + basic analysis.
-* Part 4: Complete project (part 3 + full analysis).
-* Part 5: Complete project, updated based on reviewer feedback.
+* Part 1: Have a project idea. You need to have picked a topic and written a short plan/proposal describing your topic, project, approach and expected outcomes. 
+* Part 2: Part 1 + background. 
+* Part 3: Part 2 + preliminary results. You need to submit the first draft of your project. You don't need to have everything done by that time, but the main outline of your report and deliverables need to be there and filled with whatever you have done up to that point. 
+* Part 4: Complete project, ready for peer review.
+* Part 5: Complete project, updated based on reviewer feedback, ready for final assessment.
 
 The deadlines are listed in the _Schedule_ document (it's unlikely, but they might change, so keep checking that document).
 
 
 # Project Requirements
-You can pick your project topic and data source pretty much however you like. The only requirements are:
 
-* Real world (messy) data.
-* An interesting question.
-* An analysis that has not been done previously.
-* A fully reproducible and automated analysis using the tools we use in this class.
-
-# Data sources
-You can use data from any source you like, herer are some possible ones.
-
-## Your "own" data
-If you have data that you are using for some research project(s) you are doing, you are welcome and encouraged to work on this as part of the class project. Of course, what you do for this class project needs to be new work, not a previously done and recycled analysis. Also, since the analysis needs to be fully reproducible, you need to provide the data at least within the class (no need to make it publicly available). _I strongly encourage you to use the class project toward helping you do an analysis and write a report that can be something you can publish as part of your research!_ 
-
-## Publicly available data
-You can use any data you can get access to. Since it needs to be reproducible, you need to be able to share the data at least with me and the classmates who will review your project.
-
-I have a [list of data sources I maintain (contributions welcome)](https://github.com/ahgroup/research-and-teaching-resource-lists/blob/master/Data_Resources.md). Of course you are not limited to data listed there.
-
-_Often, the most interesting questions can be asked by combining data from more than one source._
+Broadly speaking, any substantial project that falls within the overall infectious disease topic covered in this course is acceptable as the class project. Your project should have a model/systems perspective. You are welcome to come up with your own project idea. The final product must at least involve a written report of some form. Beyond that, you can pursue other venues (videos, games, etc.). 
 
 
-# Logistics and formatting
-Each assignment needs to be submitted in a fully reproducible form. You should create a Github repository which should contain all the files for your project. Name it `YOURNAME-project`. You can create it as public or private repository within the course organization.
+# Project Ideas
+The following are some ideas for projects/products I was able to come up with. You don't have to pick any of these ideas/topics. They are mainly meant to get you thinking about suitable types of projects: 
 
-The main document should be an Rmarkdown (or bookdown) file, which can be turned into a suitable output format (html or word or pdf). I suggest having the output be a word document, since that is what most journals want for submission of a scientific paper. The template I provide is set up for word output. However, if you for instance decide to include interactive figures or apps (using e.g. Shiny) in your analysis project, you can also pick html as output. If for some reason you want/need pdf, that's ok too.
+* Pick some ID topic and come up with a concept for a TED Ed lesson (http://ed.ted.com/). Check out the ID examples on the TED webpage for ideas, e.g. this one: https://goo.gl/TBbGMr . Produce a concept book/script/detailed outline of your lesson. Also, design a quiz and a 'further resources' page (the 'think' and 'dig deeper' sections of a TED Ed lesson). If you feel up to it, take a stab at recording a draft of your video.   
+* Use http://usnewsmap.com/ to look at the spread of the term/word 'influenza' (and related terms) during the 1918 pandemic, then look at the spread of information (i.e. the word influenza and related) during 2009 using Google or other sources. Compare that with actual incidence data for those 2 outbreaks. It would be interesting to see if the pace of either information dissemination or the disease spread itself differed. 
+* Use Google trends (https://trends.google.com) to investigate an interesting ID question. E.g. you could look at patterns of one (or multiple) ID and how they might correlate with other search terms (e.g. related to weather), or you could look at patterns in different locations or. Yo can choose any interesting ID question you could come up with. For further ideas, take a look at the published literature, others have used google trends before to look at ID questions. 
+* Use some of the data available from project Tycho (https://www.tycho.pitt.edu/) to investigate an interesting ID question. Questions could be similar to that for google trends. You can pull in other data (e.g. historical weather records, or historical natural births/deaths) and combine with the Tycho data. For further ideas, take a look at the published literature, others have used Tycho data before to look at ID questions.
+* Use one of the apps in the DSAIDE package - potentially supplemented with some of your own code - to answer an interesting question related to a specific ID. Pick an ID, describe what you plan on analyzing, use the appropriate DSAIDE app (either through the graphical interface or the "Level 2/3 approach") to answer your question. The research question should be realistic in scope, interesting, and one that hasn't been asked before.
+* Pick an ID topic (that we did or did not cover in class) for which there is currently no DSAIDE app. Create a new app for DSAIDE that allows users to explore the topic. App development requires at least intermediate R coding skills. If you plan on doing this, I will help you get started and give you further details on how this is best done. 
+* Pick some ID topic and come up with an idea for a simple (online) game illustrating the topic. (For inspiration, check out http://vaxpackhero.com and http://vax.herokuapp.com/ - 2 games we'll be playing later on in the course). Write a report that describes in detail your game idea. Specifically the ID, topic, how it could be implemented, and how game play would work. It should be a document one could give to a software/app developer who would then build the game. If you feel bold and have the necessary coding skills, you are welcome to try and develop the game (or at least a prototype). That can be written in a programming language of your choice - it doesn't have to be R.
 
-I recommend structuring your project similar to the provided template and the structure we will cover in class, with data, scripts, results and manuscript in different folders, various R scripts to perform different bits of the analysis, and a final Rmd file that pulls everything in and generates the report. However, as long as it makes sense and allows easy reproducibility, you can structure your project as you like. 
 
-For all your submissions, you need to provide everything needed (data, code, etc.) to all full and automated reproduction of your analysis.
+Some of the ideas listed above could potentially lead to products that go beyond the class project (e.g. a published paper, a published Ted Ed lesson, an actual game). Getting to that stage is not required for the class, but if you are motivated to pursue it, I'm happy to provide help beyond the class.
 
-Your report should be more detailed than what would normally go into a peer reviewed paper. Include parts such as results from your exploratory analysis. Those can be part of the main document or if you prefer a separate supplementary document.
+# Project Logistics
+You'll be doing the project as teams of 3. I will post the teams to the Slack channel.
 
-References should be included as a bibtex file and cited in the Rmd file. See the template for an example.
+Before/by each of the deadlines for the different project parts (for dates, see the _Schedule_ document), submit your results or a link to your results to the 'Class Project' Slack channel. 
 
-# Project template
+Your report should look and read like a nicely formatted research paper or technical report. Include references as usual. Figures and tables should be included at the appropriate places inside the text (not at the end). Look at regular published papers/reports to see examples of formatting. Any additional deliverables (e.g. software, videos, etc.) should be supplied as supplementary files. 
 
-I created [a public Github repository called dataanalyis-template](https://github.com/andreashandel/dataanalysis-template) which is meant as a template for doing a data analysis project. It has different folders for organizing your project. Various readme files are provided to explain what each folder should contain. The template also contains several example files to show how the whole project workflow (or any data analysis workflow for that matter) can work. 
-
-Inside the `manuscript` folder, there is a R Markdown template file with a suggested outline for the report write-up. I have also indicated which sections need to be completed/filled for which part of the project. This template is just a guide, you do not have to follow exactly that structure, as long as you provide all the requested parts for the the different submission deadlines and a final, complete, fully automated and reproducible project, with all files in one github repository, at the end.
-
-In addition to the Rmd file, there is a bibliography file in bibtex format which contains the references, and a style file which indicates reference formatting. You can use it as starting point. Feel free to switch the reference formatting style.
-
-I recommend you use this template as starting point for your project. To use the template for your class project, go [its Github repository](https://github.com/andreashandel/dataanalysis-template) and follow the instructions to turn it into a new repository for your class project, call it `YOURNAME-project`. Create the repository inside the class organization. To do so, choose the class organization as the owner of the repository. This also allows you to make it a private repository if you want to (e.g. if you have data you do not want to be public). Once you made the new repository, follow the usual Github workflow to get it to your local computer. Then open the readme file and change the text so it states somewhere "This is YOURNAME class project repository".
 
 # Feedback and Assessment
 You will receive feedback from me and/or your classmates after each submission. 
@@ -93,4 +66,4 @@ I will assess parts 1-3, mainly checking to see that you deliver what you were s
 **More details on what exactly is expected and how it is assessed is provided in the _Project Rubric_ document.**
 
 # Project communications 
-Any communication regarding this project should happen in the _Class Project_ discussion board. Go there to ask project-specific questions, to post links to your repository whenever you have a part finished, etc. I will also post any further or clarifying information there.
+Any general communication and asking of questions regarding this project should happen in the _Class Project_ channel. Go there to ask project-specific questions, to post links to your documents whenever you have a part finished, etc. I will also post any further or clarifying information there. Of course, beyond that you are welcome to communicate with your project group members in any other way you like.

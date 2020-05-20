@@ -15,7 +15,6 @@ This is the current course schedule for the class. Things might change, so check
 The _External Sources_ column only lists major external sources. The course readings provided on this website, as well as other smaller assignments embedded or linked in the course documents (e.g. videos, papers) are not listed. This is only meant as a quick reference, the course readings provide more detail and are the definite source in case of discrepancies.
 
 Abbreviations used are: [IDEMAB = Infectious Disease Epidemiology - A model-based approach book](https://andreashandel.github.io/IDEMAbook/). Numbers refer to the chapter. [DSAIDE = Dyanamical Systems Approach to Infectious Disease Epidemiology - R package](https://ahgroup.github.io/DSAIDE/). Numbers refer to the number of the app. 
-
 The _Assessments_ column lists items that need to be submitted and that will be graded. Those are described in detail in an assessments document for each module. __Unless otherwise specified, submission deadline is the module end date (Friday) 5pm.__
 
 | **Module Topic**   | **Start and end dates** | **External Sources** | **Assessments** |
@@ -36,4 +35,6 @@ The _Assessments_ column lists items that need to be submitted and that will be 
 | Finishing Project | 11/23 – 11/27 (fall break part of the week) | none | project part 4 |
 | Project Reviews | 11/30 – 12/4 | none | project reviews |
 | Final project submission  | 12/9 | none | project part 5 |
+
+__Weekly Zoom meetings__ are currently scheduled for Wednesdays, alternating between 11am and 4pm each week. Week one (on 8/26) will be 11am, after that each even module will have a 4pm time, each odd module an 11am time. This schedule is tentative and might change based on your feedback. See the _Course Communication_ section for some more details.
 

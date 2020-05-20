@@ -29,9 +29,32 @@ All materials described below are (should be) freely available online. If you ca
 
 # Books
 
-* [Introduction to Data Science (IDS)](https://rafalab.github.io/dsbook/) is the book I'll refer to a good bit in the 1st part of the course. 
+* [Infectious Disease Epidemiology - a Model-based Approach (IDEMAB)](https://andreashandel.github.io/IDEMAbook/). This is the book that goes with the class, it's basically an extended version of my previous lecture notes. 
+
+
+# Online courses
+* [Epidemics]().
+
 
 
 # Hands-on/interactive resources
 
-* [Online Tutorials (primers) by Rstudio (RP)](https://rstudio.cloud/learn/primers) are a great source for introductory, interactive tutorials covering basics of R coding and data analysis. We'll use several of those primers in the class.
+* [Dynamical Systems Approach to Infectious Disease Epidemiology (DSAIDE)](https://ahgroup.github.io/DSAIDE/). The R package for the course which lets you do hands-on explorations of the different topics we will cover.
+
+
+# Quiz sheets
+These are links to the Excel files which contain the questions for a given module. Download them, fill in the "Answer" column, and submit [to this website](https://shiny.ovpr.uga.edu/gradingapp/).
+
+__Please do not make any other changes to the sheets apart from filling the "Answer" column. If you do make changes, submission might fail. If that happens and you get an error message, simply come back here, download a fresh sheet and copy and paste your answers into it, making sure to not change any other part of the sheet.__
+
+
+## Module 1
+* [Module 1 Quiz (M1Q)]()
+
+## Module 2
+* [Module 2 DSAIDE (Basic SIR Model)]()
+* [Module 2 Theory (M2T)]()
+
+
+
+
