@@ -26,11 +26,12 @@ Like every programming language, R has its advantages and disadvantages. Feel fr
 * R is a "high-level" programming language, relatively easy to learn (compared to Fortran, C, etc.).
 * R comes with many integrated functions.
 * R is great for statistics, data analysis, and graphics.
+* R is a full programming language and can do a lot of things, including running infectious disease models.
 * The R Community is very dynamic, helpful and welcoming.
 * Through R packages, it is easy to get lots of state-of-the-art algorithms.
 * Documentation and help files for R are generally good.
 
-While we use R in this course, it is not the only option to analyze data. Maybe the most similar to R, and widely used, is Python, which is also free. There is also commercial software that can be used to analyze data (e.g., Matlab, Mathematica, Tableau, SAS, SPSS). Other more general programming languages are suitable for certain types of analyses as well (e.g., C, Fortran, Perl, Java, Julia). Depending on your future needs or jobs, you might have to learn one or several of those additional languages. The good news is that even though those languages are all different, they all share general ways of thinking and structuring code. So once you understand a specific concept (e.g., variables, loops, branching statements or functions), it applies to all those languages. Thus, learning a new programming language is much easier once you already know one. And R is a good one to get started with.
+While we use R in this course, it is not the only option for building and exploring infectious disease models. Maybe the most similar to R, and widely used, is Python, which is also free. There is also commercial software that can be used (e.g., Matlab, Mathematica). Other more general programming languages are suitable too (e.g., C, Fortran, Java, Julia). Depending on your future needs or jobs, you might have to learn one or several of those languages. In general, knowing some coding is a very useful skill, and I strongly encourage you to learn some programming. The good news is that while all programming languages are somewhat different, they all share general ways of thinking and structuring code. So once you understand a specific concept (e.g., variables, loops, branching statements or functions), it applies to all those languages. Thus, learning a new programming language is much easier once you already know one. R is a good one to get started with.
 
   
 # Installing R and RStudio 
@@ -42,11 +43,11 @@ Installing R and RStudio should be fairly straightforward. If you want detailed 
 I personally only have experience with Windows, but everything should work on all the standard operating systems (Windows, Mac, and even Linux).
 
 # Installing and loading R packages
-Most of the functionality and features in R come in the form of add-on packages. There are tens of thousands of packages available, some big, some small, some well documented, some not. We'll be using many different packages in this course. Of course, you are free to install and use any package you come across for any of the assignments.
+Most of the functionality and features in R come in the form of add-on packages. There are tens of thousands of packages available, some big, some small, some well documented, some not. We'll be focusing on the `DSAIDE` package in this course. Of course, you are free to install and use any package you come across for any of the assignments.
 
 The "official" place for packages is the [CRAN website](https://cran.r-project.org/web/packages/available_packages_by_name.html). If you are interested in packages on a specific topic, the [CRAN task views](http://cran.r-project.org/web/views/) provide curated descriptions of packages sorted by topic. 
 
-To install a package from CRAN, go to the R prompt at the bottom left of your RStudio session and type `install.packages("PACKAGENAME")`. The figure shows an example where I installed a package called `learnr`. Often, a package needs other packages to work  (called dependencies), and they are installed automatically. It usually doesn't matter if you use a single or double quotation mark around the name of the package. Note that R cares about capitalization, so you need to get the upper and lower case exactly right. Otherwise, it won't work.
+To install a package from CRAN, go to the R prompt at the bottom left of your RStudio session and type `install.packages("PACKAGENAME")`. The figure shows an example where I installed a package called `learnr`. Often, a package needs other packages to work  (called dependencies), and they are installed automatically. It usually doesn't matter if you use a single or double quotation mark around the name of the package. **Note that R cares about capitalization, so you need to get the upper and lower case exactly right. Otherwise, it won't work.**
 
 
 ```{r installfig,  echo=FALSE, fig.cap='Installing an R package. Right-click on the image to enlarge it.', out.width = '100%', fig.align='center'}
