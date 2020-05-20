@@ -1,9 +1,9 @@
 ---
-title: Dynamical Systems Approach to Infectious Disease Epidemiology – Syllabus
+title: Infectious Disease Epidemiology - A model-based approach (IDEMA) – Syllabus
 subtitle: ""
 author: Andreas Handel
 institute: "University of Georgia"
-date: "`r Sys.Date()`"
+date: "`r file.mtime(knitr::current_input())`"
 output: 
   html_document:
     toc_depth: 3
@@ -20,11 +20,12 @@ output:
 
 ## Textbook and Other Course Material
 
-There is no required textbook. We will make use of several freely available textbooks and other materials. All course materials will be provided. We will use the R software for data analysis, which is freely available for download. 
+There is no required textbook. We will make use of several freely available resources. All course materials will be provided. We will use the R software , which is freely available for download. 
 
 ## Course Description
 
-This course provides an introduction to infectious disease epidemiology from a systems and modeling approach. While we will not do any modeling in this course, i.e. we will not learn how to write and implement models or write computer code, we will use simulation models to understand the dynamics of transmission and spread of infectious diseases. 
+This course provides an introduction to infectious disease epidemiology using a model-based approach. You do not have to (but could) build models or write computer code as part of this course. However, we will use simulation models to understand the dynamics of transmission and spread of infectious diseases.  
+
 
 ## Course Learning Objectives
 
@@ -54,29 +55,23 @@ The specific learning objectives that I hope you will achieve by going through t
 
 ## Grading
 
-The grade will be made up as follows:
-
-* 20% online quizzes
-* 20% homework/small projects
-* 20% participation/discussions
-* 40% a course long project, broken up into pieces. 
-
-The following grading scale will be used, final grades might be curved (upward): A 93-100, A- 90-93, B+ 87-90, B 83-87, B- 80-83, C+ 77-80, C 73-77, C- 70-73, D 60-70, F < 60
+Please see the _Course Introduction_ document for details regarding grading.
 
 
 ## Class Attendance, Make-up Policy
 
-This class is online. You are expected to submit all assignments by their due dates. Excused misses of due dates are only provided by prior agreement with the instructor or for special reasons (medical, etc.).
+This class is online. You are expected to submit all assignments by their due dates. Excused misses of due dates are only provided by prior agreement with the instructor or for special reasons (e.g. medical emergency).
 
 
 ## Prerequisites
 
-This is a quantitative course. We will not go deep into the mathematical details of infectious disease models, not will we do much (if any) coding. However some statistical background and being comfortable with quantitative thinking are useful. 
-_Formal requirement for the course is BIOS7010. Knowledge of material from BIOS7010 is assumed. If you didn't take this course, please contact me to get permission to enroll._
+This is a quantitative course. We will not go deep into the mathematical details of infectious disease models, you will not need to build models or write computer code. However some statistical background and being comfortable with quantitative thinking are useful. 
+_Formal requirement for the course is BIOS 7010. Knowledge of material from BIOS 7010 is assumed. If you didn't take this course, please contact me to get permission to enroll._
+
 
 ## Getting Help
 
-If you have questions about any aspect of the course, please do not hesitate to ask for help. The course materials describe in detail the ways you can ask for help.
+If you have questions about any aspect of the course, please do not hesitate to ask for help. The course materials describe in detail the ways you can ask for help. See the _Communications_ section for more details.
 
 
 ## University Honor Code and Academic Honesty Policy

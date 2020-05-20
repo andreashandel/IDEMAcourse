@@ -2,7 +2,7 @@ name: "IDEMA Course"
 output_dir: 'docs'
 output:
   html_document:
-    theme: yeti
+    theme: cosmo
     highlight: tango
     toc: true
     toc_depth: 2

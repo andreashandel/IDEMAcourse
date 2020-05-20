@@ -3,7 +3,7 @@ title: R and RStudio
 subtitle: ""
 author: Andreas Handel
 institute: "University of Georgia"
-date: "`r Sys.Date()`"
+date: "`r file.mtime(knitr::current_input())`"
 #bibliography: ../media/references.bib
 output: 
   html_document:
@@ -12,7 +12,7 @@ output:
 
 
 # Overview
-This is a very quick introduction to R and RStudio, to get you set up and running. We'll go deeper into R and coding later.
+This is a very quick introduction to R and RStudio, to get you set up and running. We won't do any coding in this class, but we need R to use the DSAIDE package. R is a very useful tool to be familiar with if you want to get into ID modeling, or if you want to do data analysis. As such, having a bit of familiarity is good.
 
 # Learning Objectives
 * Know some of the strengths and weaknesses of R.
@@ -35,9 +35,9 @@ While we use R in this course, it is not the only option to analyze data. Maybe 
   
 # Installing R and RStudio 
 * If you haven't already, [install R first](https://www.r-project.org/). You can pick any mirror you like. If you already have R installed, make sure it is a fairly recent version, version 3.5 or newer. If yours is older, I suggest you update (install a new R version).
-* Once you have R installed, install the free version of [RStudio Desktop](https://www.rstudio.com/products/rstudio/download/). Again, make sure it's a recent version, it should be of the 1.2.X series.
+* Once you have R installed, install the free version of [RStudio Desktop](https://www.rstudio.com/products/rstudio/download/). Again, make sure it's a recent version.
 
-Installing R and RStudio should be fairly straightforward. If you want detailed instructions [go through chapter 1 of IDS](https://rafalab.github.io/dsbook/installing-r-rstudio.html). If things don't work, ask for help in the _R/Coding_ discussion board.
+Installing R and RStudio should be fairly straightforward. If you want detailed instructions [this reading provides more detailed steps](https://rafalab.github.io/dsbook/installing-r-rstudio.html). If things don't work, ask for help in the _R/DSAIDE_ channel.
 
 I personally only have experience with Windows, but everything should work on all the standard operating systems (Windows, Mac, and even Linux).
 
@@ -62,6 +62,7 @@ install.packages('DSAIDE')
 ```
 
 __Question: As you installed the DSAIDE package, which of these packages was also installed: GillespieSSA, adaptivetau, gpDDE, irace? Record the answer. It will likely show up in the quiz.__ 
+
 *It is unlikely, but it could be that you already have all packages required by DSAIDE installed. In that case, you won't see any other packages installed. To see which of the packages above DSAIDE needs (and thus installs if it is not present), type `tools::package_dependencies("DSAIDE")` into the R console.*
 
 In RStudio, you can also install (and update/remove) packages by clicking on the 'Packages' tab in the bottom right window. 
@@ -75,31 +76,7 @@ You only need to install a package once, unless you upgrade/re-install R. Once i
 library('DSAIDE')
 ```
 
-You should see a short message on the screen. Some packages show messages when you load them, and others don't. In this case, the package tells you that you can start using it by typing `dsaidemenu()` into the R console. DSAIDE is a package I wrote that allows you to explore infectious disease models. We won't use it in this class. I'm just using it as an example here since you can use the package without having to write code. Try it briefly, by typing the code below into the R console
-
-```{r, eval=FALSE}
-dsaidemenu()
-```
-
-A menu should open in your browser, from which you can explore different models/apps.
-
-__Question: In the main menu of the DSAIDE package, what's the title of the second group of apps?__ 
-
-Once you are done with DSAIDE, close it.
-
-This was a quick overview of R packages. We'll use a lot of them, so you'll get used to them rather quickly. 
-
-Next, [go through chapter 2 of IDS](https://rafalab.github.io/dsbook/getting-started.html) for some further information on setting up and getting started with R, RStudio, and R packages. This chapter gives some tips and ideas that might be of interest even to those of you who already have R/RStudio experience. (Hint: I will ask about this chapter on the quiz).
-
+You should see a short message on the screen. Some packages show messages when you load them, and others don't. In this case, the package tells you that you can start using it by typing `dsaidemenu()` into the R console. You can do that now, or go straight to the next reading, which will talk about DSAIDE in more detail.
 
 # Learning R Studio
-While one can use R and do pretty much every task, including all the ones we cover in this class, without using RStudio, RStudio is very useful, has lots of features that make your R coding life easier and has become pretty much the default integrated development environment (IDE) for R. Since RStudio has lots of features, it takes time to learn them. A good resource to learn more about RStudio are the [R Studio Essentials](https://resources.rstudio.com/) collection of videos. 
-
-
-
-
-
-
-
-
-
+While one can use R and do pretty much every task, including all the ones we cover in this class, without using RStudio, RStudio is very useful, has lots of features that make your R coding life easier and has become pretty much the default integrated development environment (IDE) for R. Since RStudio has lots of features, it takes time to learn them. You don't really need to know much about RStudio for this course. But if you are interested, a good resource to learn more about RStudio are the [R Studio Essentials](https://resources.rstudio.com/) collection of videos. 

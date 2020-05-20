@@ -1,33 +1,39 @@
 ---
-title: DSAIDE  - Course Schedule
+title: IDEMA Fall 2020 - Course Schedule
 subtitle: ""
 author: Andreas Handel
 institute: "University of Georgia"
-date: "`r Sys.Date()`"
+date: "`r file.mtime(knitr::current_input())`"
 #bibliography: ../media/references.bib
 output: 
   html_document:
     toc: FALSE
 ---
 
-**This will contain the course schedule the next time the class is offered. Right now it's a template from a previous version.**
+This is the current course schedule for the class. Things might change, so check regularly for updates.
 
 The _External Sources_ column only lists major external sources. The course readings provided on this website, as well as other smaller assignments embedded or linked in the course documents (e.g. videos, papers) are not listed. This is only meant as a quick reference, the course readings provide more detail and are the definite source in case of discrepancies.
 
-Abbreviations used are: [DSAIDE = Infectious Disease Epidemiology - A modern systems approach](https://ahgroup.github.io/DSAIDEbook/)
-
-Numbers behind abbreviations refer to the chapter.
+Abbreviations used are: [IDEMAB = Infectious Disease Epidemiology - A model-based approach book](https://andreashandel.github.io/IDEMAbook/). Numbers refer to the chapter. [DSAIDE = Dyanamical Systems Approach to Infectious Disease Epidemiology - R package](https://ahgroup.github.io/DSAIDE/). Numbers refer to the number of the app. 
 
 The _Assessments_ column lists items that need to be submitted and that will be graded. Those are described in detail in an assessments document for each module. __Unless otherwise specified, submission deadline is the module end date (Friday) 5pm.__
 
-| **Module Topic**   | **Start and end dates** | **Sources** | **Assessments** |
+| **Module Topic**   | **Start and end dates** | **External Sources** | **Assessments** |
 | --- | --- | --- | --- |
-| Module 1 – Course and tools introduction | 8/14 – 8/23 | none | quiz, introducing ourselves exercise |
-| Module 2 – Topic introduction | 8/14 – 8/23 | DSAIDE 1-2 | quiz, discussion|
-| Module  | 8/14 – 8/23 |  | |
-| Module  | 8/14 – 8/23 |  | |
-| Module  | 8/14 – 8/23 |  | |
+| Module 1 – Course and tools introduction | 8/24 – 8/28 | none | quiz, introducing ourselves exercise |
+| Module 2 – Introduction to ID Epi | 8/31 – 9/4 | IDEMAB 1-2, DSAIDE 1  | quiz, discussion|
+| Module 3 - Characterizing Infection states  | 9/7 – 9/11 | IDEMAB 3, DSAIDE 2  | quiz, discussion |
+| Module 4  | 9/14 – 9/18 |  | |
+| Module 5  | 9/21 – 9/25 |  | |
+| Module 6  | 9/28 – 10/2 |  | |
+| Module 7  | 10/5 – 10/9 |  | |
+| Module 8  | 10/12 – 10/16 |  | |
+| Module 9  | 10/19 – 10/23 |  | |
+| Module 10  | 10/26 – 10/30 |  | |
+| Module 11  | 11/2 – 11/6 |  | |
+| Module 12  | 11/9 – 11/13 |  | |
+| Module 13  | 11/16 – 11/20 |  | |
+| Finishing Project | 11/23 – 11/27 (fall break part of the week) | none | project part 4 |
+| Project Reviews | 11/30 – 12/4 | none | project reviews |
+| Final project submission  | 12/9 | none | project part 5 |
 
-
-| Project Reviews | 12/2 – 12/6 | none | project reviews |
-| Final project submission  | 12/11 | none | project part 5 |

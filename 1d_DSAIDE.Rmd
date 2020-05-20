@@ -1,0 +1,52 @@
+---
+title: DSAIDE
+subtitle: ""
+author: Andreas Handel
+institute: "University of Georgia"
+date: "`r file.mtime(knitr::current_input())`"
+#bibliography: ../media/references.bib
+output: 
+  html_document:
+    toc_depth: 3
+---
+
+
+# Overview
+This document provides a brief introduction to the DSAIDE package, which we will use a lot in this course. 
+
+# Learning Objectives
+* Know how to run and use the DSAIDE package.
+
+
+# DSAIDE Introduction
+
+DSAIDE, which stands for _Dynamical Systems Approach to Infectious Disease Epidemiology_ is an R package I wrote. The goal is for users to explore infectious disease models and topics without having to implement their own models and write code. 
+[DSAIDE has a dedicated website](https://ahgroup.github.io/DSAIDE/). Visit the website and read through the _Get started_ document. You can skip or skim over the "Level 2" and "Level 3" sections. We won't use this approach to interact with DSAIDE in the course - though you are of course allowed to do so.  
+
+# DSAIDE hands-on
+
+If you haven't done already, load DSAIDE. You should see a short message on the screen. Some packages show messages when you load them, and others don't. In this case, the package tells you that you can start using it by typing `dsaidemenu()` into the R console. Do that to start it
+
+```{r, eval=FALSE}
+dsaidemenu()
+```
+
+A menu should open in your browser, from which you can explore different models/apps.
+
+__Question: In the main menu of the DSAIDE package, what's the title of the second group of apps?__ 
+
+
+You can explore DSAIDE now as much as you want, but you can also close it for now, as we'll be coming back to it and working through most of the apps as part of the course.
+
+
+# Optional video
+[I made a brief video]() showing how to load and interact with DSAIDE and explaining some of its features. The video covers the same material that you just read, so watching it is completely optional.
+
+
+
+
+
+
+
+
+

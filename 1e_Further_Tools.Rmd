@@ -1,0 +1,30 @@
+---
+title: Further tools 
+subtitle: ""
+author: Andreas Handel
+institute: "University of Georgia"
+date: "`r file.mtime(knitr::current_input())`"
+output: 
+  html_document:
+    toc_depth: 3
+---
+
+**This reading is completely optional.**
+
+
+# Overview
+This is a very short unit with a few pointers to other tools that we won't really need in this course, but that might be useful or of interest (and which you are welcome to use as you work on different course assignments).
+
+All these readings are from another online course I teach, so there might be some comments that are specific to that course. You can ignore those.
+
+# Github
+
+
+# Rmarkdown
+
+
+
+# Reference management
+
+I hope you are already using a reference manager for your academic work. If not, you should. It makes things much easier. While there are lots of reference managers out there, some work better with tools such as RMarkdown. To read a bit more about this, [see here]().
+

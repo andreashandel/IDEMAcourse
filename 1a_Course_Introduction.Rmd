@@ -1,9 +1,9 @@
 ---
-title: MADA Fall 2019 - Course Introduction 
+title: IDEMA Fall 2020 - Course Introduction 
 subtitle: ""
 author: Andreas Handel
 institute: "University of Georgia"
-date: "`r Sys.Date()`"
+date: "`r file.mtime(knitr::current_input())`"
 #bibliography: ../media/references.bib
 output: 
   html_document:
@@ -15,7 +15,9 @@ library(emo)
 ```
 
 # Introduction
-Welcome to the class Modern Applied Data Analysis (MADA)! The course is listed as EPID8060E/BIOS8060E. It doesn't matter if you are enrolled under the EPID or BIOS label. I will refer to the course as MADA or EPID8060 interchangeably. I think on eLC it is loaded as BIOS8060E.
+
+Welcome to **Infectious Disease Epidemiology - a Model-based Approach**. This is a long title, so I'll be referring to the course as IDEMA for short.
+
 
 # Module Overview
 The course is divided into modules. Each module consists of one or several units. This first module provides a brief introduction to the course, followed by discussing and setting up our various tools. 
@@ -28,55 +30,40 @@ The specific learning objectives for this module are:
 * Have all course tools and software set up and running.
 *	Get to know the instructor and your fellow students.
 
+
 # Course Learning Objectives 
 
-The main goal for this course is for you to learn the whole process of performing a data analysis project. The focus is on applied analysis of real world, messy data.
+The main goal for this course is for you to learn different concepts of infectious disease (ID) epidemiology from a model-based perspective. 
 
-A second goal is to introduce you to some modern analysis approaches commonly referred to as 'Machine Learning'.  
+I hope that this course will provide you with a view of infectious diseases at the population level (i.e. infectious disease epidemiology), which complements both a clinical perspective based on individual patients, and a classical epidemiological perspective based on specific study groups and designs (e.g. case-control, cohort and similar studies). 
 
-A related goal is to introduce you to a set of tools that allow for a modern, reproducible workflow of your analysis.
+Throughout this course, We will take a systems perspective to understand spread and control of infectious diseases. 
 
+To give an example: We know that many infectious diseases have temporal patterns. E.g. influenza outbreaks usually occur annually, while measles outbreaks -- before widespread vaccination -- often occurred in multi-year cycles. What determines such patterns? The classical medical and epidemiological approaches are not well suited to answer this question, but - as we will see in this course - a systems perspective using models as tools for inquiry can answer this and other questions related to population level disease patterns.
 
-We will cover these goals in these specific learning objectives that I hope you will achieve by going through this course:
+The learning objectives listed here are not complete, but cover the significant aspects of the course. By the end of the course, you will be able to:
 
-_Design_
-
-* Given a data set, define the questions that can be answered and formulate and implement suitable analytic approaches.
-* Given a data science question, determine the type of data and analytic approach needed to answer it.
-
-_Processing_
-
-* Know how to obtain, process and analyze data from a variety of different sources.
-* Be knowledgeable about data types and standards and what analysis methods to apply to specific situations.
-* Be able to thoughtfully and critically assess strengths and weaknesses of specific data sets and process and analyze the data appropriately.
-
-_Analysis_
-
-* Critically compare and evaluate the strengths and weaknesses of different data analysis approaches. 
-* Judge the appropriateness of different approaches for specific questions and data sets and know how to apply an appropriate analytic approach.
-* Design and implement successful data analyses using state-of-the-art analysis software to translate data to information and knowledge that leads to actionable insights.
-
-_Communication_
-
-* Summarize analysis results in ways that provide actionable conclusions and that are easily understandable by different audiences, such as laypersons, decision makers, and expert colleagues.
-* Assess the strengths and weaknesses of different formats for representing the results of data analyses.
-
-_Tools_
-
-* Explain the importance of workflow, project management, and reproducibility tools, and know how to use those tools.
-* Be comfortable using R and Github to do data analysis in a reproducible manner.
-* Be able to quickly learn how to use new software and tools, figure out how to get help when stuck, and make it work for you.
-
-_Overall_
-
-* Judge the usefulness and appropriateness of data analyses described in the primary research literature.
-* Learn to _look over your shoulder_ and critically assess what you are doing, what assumptions you make by doing certain things, and if and how you can justify these.
+* Explain and compute important epidemiological measures, such as reproductive number and level of herd immunity
+* Appraise the fundamentally causal nature of mechanistic infectious disease (ID) computer models and master the use of such models to address important ID epidemiology research questions
+* Interpret the meaning of specific dynamic patterns seen in ID incidence and prevalence
+* Choose optimal ID intervention strategies based on features of specific IDs
+* Predict the impact of different ID intervention strategies
+* Critically evaluate the ID epidemiology literature
+* Compare and assess the strengths and weaknesses of different ID data collection and analysis approaches
+* Formulate meaningful ID epidemiology research questions of public health importance 
+* Select the appropriate data collection and analysis approach for a specific ID research question
+* Explain the importance of system dynamical thinking for the study and control of ID
 
 
 
 # Course Prerequisites
 
-Some R coding skills (e.g., as obtained in our EPID 7500 class), as well as basic knowledge of statistics at the level of fitting linear or logistic models to data (e.g., as obtained in our BIOS 7010 and 7020 courses) are ideal. If you do not have any such R coding or statistics knowledge, you can still take the class, but you need to be prepared to spend some extra time and effort to fill any gaps. This will be especially true for the R coding part. Some of you likely have previous R experience, while others might have little to none. If you are in the "little to none" category, expect to spend extra time getting up to speed. I believe it's doable and worth the effort, but you need to be prepared for it. For instance, we'll spend one module on _R Basics_. For those with R knowledge, it might be a 2 hour refresher, for those with none that week might be a 20+ hour commitment. There will be plenty of help from myself, classmates, and the internet if you end up getting stuck with some of the coding, but your effort and commitment are still required.
+While the course is all about infectious diseases (ID), we will not spend much time discussing different diseases in detail. Instead, the focus is on overall patterns we see among different types of ID. We will of course often use specific ID as an example. In that case, I assume you know some basics of the disease or if you do not, that you will be reading up on it. Knowledge about a specific ID at the level provided by sources such as Wikipedia or CDC is usually enough.
+
+I also assume that you are familiar with public health/epidemiology concepts and terminology at a basic level. If you come across concepts or terms that you are unfamiliar with, a quick online search should help fill any gaps.
+
+The study of infectious diseases as dynamical systems is intimately linked to mathematical and computational modeling of infectious diseases. For that reason, this course has a computational component. To reduce the barriers surrounding computational modeling, the course does not require any programming on your part. In this course, we will learn how to use ID computer models, but not how to formulate models and write computer programs of those models. Instead, you will be interactively exploring already developed computer simulations of infectious disease systems. So while there will be computer simulations, and you will see equations describing the computer models, this course does not require you to know any programming or to perform any mathematical manipulations beyond basic algebra.
+
 
 
 # Course Philosophy
@@ -85,41 +72,50 @@ I describe my thoughts on teaching and learning a bit more in the __completely o
 
 * I expect you to be self-motivated and committed to learning the material by putting in the effort needed to succeed.
 
-* I will try to maximize the rewards you get by hopefully teaching methods that are useful to you, and I will try to provide as much help as needed to maximize your learning.
+* I will try to maximize the rewards you get by hopefully teaching topics you find interesting and useful.
 
-* This class strives to be challenging but non-threatening. As such, I'll make you work hard, and expect you to do the assigned tasks by the deadlines, but in the end, I usually don't grade hard - unless you fail to keep up your end of the agreement and don't put in the work.
+* This class strives to be challenging but non-threatening. As such, you will be asked to work hard, and I expect you to do the assigned tasks by the deadlines, but in the end, I usually don't grade hard - unless you fail to keep up your end of the agreement and don't put in the work.
 
 * This class is 'open everything'. You can use the internet, ask your classmates, myself and others, get help from wherever you can. I trust you will find the right balance of getting help when you need it while still putting in enough effort to experience real learning. 
 
-* I will not perform any 'policing' to try to prevent you from taking shortcuts (i.e., not doing work yourself). The class contains graded assessments with deadlines, but those are meant to _help you stay on track._ If you somehow cheat - and cheating will be easy - you are mainly cheating yourself out of learning. 
+* I will not perform any 'policing' to try to prevent you from taking shortcuts (i.e., not doing work yourself). The class contains graded assessments with deadlines, but those are meant to _help you stay on track._ If you cheat - and cheating will be easy - you are mainly cheating yourself out of learning. 
 
 
-__Overall, I hope this course is going to be useful, interesting, challenging and also interactive. Online courses are always a bit tricky with interaction/participation. I hope we can create something online that feels like a classroom. Please participate, ask questions, etc. The more you engage in the course, the more you'll get out of it.__
+__Overall, I hope this course is going to be useful, interesting, challenging and also interactive. Online courses are always a bit tricky with interaction/participation. I hope we can create something online that feels like a classroom. Please participate, ask questions, provide feedback, make suggestions for improvements, etc. The more you engage in the course, the more you'll get out of it.__
 
 
 # Course Setup
 * The course is split into modules, each with one or more units. Each module will usually be covered in a week. The _Schedule_ document gives an outline. The schedule is not fully finalized and will change, so check frequently.
-* Each module consists of one or several units/documents containing a mix of things I wrote, writings or videos by others, exercises, etc. They are listed in the order you should go through them.
-* All material for the course can be accessed through this course website or through eLC. Most material is not yet available. It will be added/unlocked as the course proceeds.
+* Each module consists of one or several units/documents containing a mix of things I wrote, writings or videos by others, computer based exercises, discussions, etc. Content for a specific module is listed in the order you should go through things. It should always be clear what is required for a given module. If anything is ever unclear, please ask (see _Communications_ section on course website).
+* All material for the course can be accessed through this course website. Most material is not yet available. It will be added/unlocked as the course proceeds.
 * The main page of the course describes the different sections and documents. 
 
 # Course Tools
 This is a brief overview of the tools we will be using for this class. The next module, which you can and should start right after finishing this one, describes all these tools in more detail and gives instructions on how to set them all up.
 
-* We will use the R software in this course.
+* We will use the DSAIDE software package in this course. This software is written for R. Therefore, you will also need to install R, which is very easy. Further instructions on this are provided.
 * We will also use RStudio (a graphical frontend to R).
-* We will use a lot of tools available within R/Rstudio, such as Rmarkdown and related features.
-* We will use Git/Github for exercises and the project.
-* We will use eLC for discussions, help, and quizzes.
+* We will use Slack for discussions, help, announcements, and any other form of asynchronous communication.
+* We will use Zoom for occasional, completely optional synchronous disucssions.
+
 
 # Assessments
-* Your grade is made up of online quizzes (20%), discussion/participation (20%), homework exercises (20%) and a course long project (40%). 
-* Most modules have assessments (these are graded). Due dates are usually Friday 5 pm the week of the module. Some might be at other times, e.g., the beginning or middle of the week. You are responsible for keeping up with the due dates. If in doubt, ask.
+
+The grade will be made up as follows:
+
+* 20% weekly quizzes
+* 20% homework/small projects
+* 20% discussion and general participation
+* 40% a course long project, broken up into pieces. 
+
+The following grading scale will be used, final grades might be curved (upward): A 93-100, A- 90-93, B+ 87-90, B 83-87, B- 80-83, C+ 77-80, C 73-77, C- 70-73, D 60-70, F < 60
+
+Most modules have assessments (these are graded). Due dates are usually Friday 5 pm the week of the module. Some might be at other times, e.g., the beginning or middle of the week. You are responsible for keeping up with the due dates. If in doubt, ask.
 
 Every module will have an _Assessment_ document, which describes what work you need to do for that module that will be graded. The following types of assessments are part of the course.
 
 ## Online quizzes
-The online quizzes are on eLC. They tend to be around 5-10 fairly straightforward questions. The primary purpose of the quizzes is to ensure you worked through the assigned material. __Quizzes are timed (usually 20min). You will have enough time to look up something you forgot but remember where it was, but you won't have enough time to start the quiz and then try to find the answers in the materials.__ Therefore, before taking a quiz, make sure you do all the assigned reading, video watching, exercises, coding, etc. for the module. Sometimes I tell you to note a specific answer. This means it's likely going to be asked in the quiz. 
+You will be provided with quiz sheets in the form of Excel files which contain quiz questions covering both the DSAIDE software and the course material. You can do the quizzes at any time, and need to upload your answers by the due date for a given week. The primary purpose of the quizzes is to ensure you worked through the assigned material. 
 
 ## Exercises
 The exercises are part of a single module and are due on the last day of the module. They are listed in the _Schedule_ and described in more detail in the _Exercises_ section. I will likely add further ones, so look out for updates. The _Assessment_ document for each module will tell you which exercise to do.
@@ -134,8 +130,4 @@ At times, I will ask you to post specific assignments to the discussion boards a
 We'll be drawing on a lot of different resources. I compiled a list with the ones we'll use and others you might find helpful in the _Resources_ section of the class website. 
 
 # Getting help
-I do not expect you to figure it all out yourselves. You will get stuck and are encouraged to seek help. I'll suggest specific places to get help, see the _Resources_ page.
-
-
-
-
+I do not expect you to figure it all out yourselves. You will get stuck and are encouraged to seek help. Please use the communications tools for this class liberally to ask for help.
