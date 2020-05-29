@@ -12,16 +12,19 @@ output:
 
 
 # Overview
-This document provides a brief introduction to the DSAIDE package, which we will use a lot in this course. 
+This document provides a brief introduction to the `DSAIDE` package, which we will use a lot in this course. 
 
 # Learning Objectives
-* Know how to run and use the DSAIDE package.
+* Know how to run and use the `DSAIDE` package.
 
 
 # DSAIDE Introduction
 
 DSAIDE, which stands for _Dynamical Systems Approach to Infectious Disease Epidemiology_ is an R package I wrote. The goal is for users to explore infectious disease models and topics without having to implement their own models and write code. 
-[DSAIDE has a dedicated website](https://ahgroup.github.io/DSAIDE/). Visit the website and read through the _Get started_ document. You can skip or skim over the "Level 2" and "Level 3" sections. We won't use this approach to interact with DSAIDE in the course - though you are of course allowed to do so.  
+
+Go to the [DSAIDE website](https://ahgroup.github.io/DSAIDE/) and read through the main page and the _Get started_ section. Follow any instructions for steps that you haven't done yet, namely installing R and RStudio and the DSAIDE package.  
+
+You can skip or skim over the "Level 2" and "Level 3" sections. We won't use this approach to interact with DSAIDE in the course - though you are of course allowed to do so. 
 
 # DSAIDE hands-on
 

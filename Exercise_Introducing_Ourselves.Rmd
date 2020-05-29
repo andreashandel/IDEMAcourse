@@ -43,7 +43,7 @@ Record a video of yourself talking about the topics mentioned above, and post th
 
 ## The geeky way
 
-Create a quick website by following the workflow of the introduction exrecise from my Modern Applied Data Analysis class, [described here.]() This requires the use of Github. Note that for our class, there is no Github organization. Instead, create the repository in your own Github account. Everything else should work the same. 
+Create a quick website by following the workflow of the introduction exercise from my Modern Applied Data Analysis class, [described here.]() This requires the use of Github. Note that for our class, there is no Github organization. Instead, create the repository in your own Github account. Everything else should work the same. 
 
 
 ## The inventive way
@@ -53,12 +53,14 @@ Find another way to produce an introduction of yourself and share it with the cl
 
 # Interact
 
-Please freely respond to the introductions posted by your classmates, using Slack.
+Please engage with and respond to the introductions posted by your classmates, using Slack.
 
-# Make Slack personal
+
+# Make Slack and Zoom personal
 
 Instead of seeing an empty cutout of a person, it's much nicer if your Slack persona features your picture. To that end, in Slack click on your name, go to 'edit profile' and upload an image of yourself. Further adjust your profile as suitable. Note that this only applies to our class workspace. If you use other Slack workspaces, your profile on those won't be affected.
 
+In a similar fashion, you can add a picture to your Zoom account. Hopefully we can use video turned on for most Zoom sessions. But it's nice to show a picture even if you turn off video and only use audio. Instruction on how to do this [can be found here.](https://support.zoom.us/hc/en-us/articles/201363203-Customizing-your-Profile)
 
 
 _You need to have your introduction posted by the final date of the module (see syllabus). I encourage you to do it sooner, so we can get to know each other quickly!_

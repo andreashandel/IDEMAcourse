@@ -18,9 +18,10 @@ output:
 * Office Hours:  by appointment/online
 * Course Meeting Time and Location: online
 
-## Textbook and Other Course Material
+## Course Material
 
-There is no required textbook. We will make use of several freely available resources. All course materials will be provided. We will use the R software , which is freely available for download. 
+All materials used in this course are freely available online. You will be able to access all materials from this website.
+
 
 ## Course Description
 
