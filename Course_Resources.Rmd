@@ -29,11 +29,18 @@ All materials described below are (should be) freely available online. If you ca
 
 # Books
 
-* [Infectious Disease Epidemiology - a Model-based Approach (IDEMAB)](https://andreashandel.github.io/IDEMAbook/). This is the book that goes with the class, it's basically an extended version of my previous lecture notes. 
+* [Infectious Disease Epidemiology - a Model-based Approach (IDEMAB)](https://andreashandel.github.io/IDEMAbook/). This is the book that goes with the class, it is basically an extended version of my previous lecture notes. 
 
 
 # Online courses
-* [Epidemics]().
+
+Throughout this course, I link to videos from a few online courses that cover a similar topic to this course. While the videos are embedded and you do not need to sign up for those online courses, if you are interested, you could. Signing up for those courses should be free.
+
+* [Epidemics]() - .
+* [Epidemics I]() -
+* [Epidemics II]() - 
+
+Note that the HKU courses used to be a single course called "Epidemics".
 
 
 

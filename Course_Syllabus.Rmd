@@ -16,7 +16,7 @@ output:
 * Office Location: 124 B.S. Miller Hall, Health Sciences Campus
 * Email: ahandel@uga.edu
 * Office Hours:  by appointment/online
-* Course Meeting Time and Location: online
+* Course Meeting Time and Location: online, see _Schedule_ document for details
 
 ## Course Material
 
@@ -25,7 +25,7 @@ All materials used in this course are freely available online. You will be able 
 
 ## Course Description
 
-This course provides an introduction to infectious disease epidemiology using a model-based approach. You do not have to (but could) build models or write computer code as part of this course. However, we will use simulation models to understand the dynamics of transmission and spread of infectious diseases.  
+This course provides an introduction to infectious disease epidemiology using a model-based approach. We will use simulation models to understand the dynamics of transmission and spread of infectious diseases. You do not have to (but could) build models or write computer code as part of this course. 
 
 
 ## Course Learning Objectives
@@ -67,7 +67,7 @@ This class is online. You are expected to submit all assignments by their due da
 ## Prerequisites
 
 This is a quantitative course. We will not go deep into the mathematical details of infectious disease models, you will not need to build models or write computer code. However some statistical background and being comfortable with quantitative thinking are useful. 
-_Formal requirement for the course is BIOS 7010. Knowledge of material from BIOS 7010 is assumed. If you didn't take this course, please contact me to get permission to enroll._
+_Formal requirement for the course is BIOS 7010. If you didn't take this course, please contact me to get permission to enroll._
 
 
 ## Getting Help
@@ -92,7 +92,7 @@ This syllabus is a general plan, deviations announced to the class by the instru
 
 ## Course Outline
 
-For an outline of the course, please see the course schedule document. 
+For an outline of the course, please see the _Schedule_ document. 
 
 ## More Details
 

@@ -12,7 +12,7 @@
 <meta name="author" content="Andreas Handel" />
 
 
-<title>DSAIDE</title>
+<title>Reproductive Number</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -28,98 +28,6 @@
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 
-<style type="text/css">code{white-space: pre;}</style>
-<style type="text/css" data-origin="pandoc">
-code.sourceCode > span { display: inline-block; line-height: 1.25; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; position: relative; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-code.sourceCode { white-space: pre-wrap; }
-code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  { color: #cccccc; background-color: #303030; }
-@media screen {
-code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
-code span.al { color: #ffcfaf; } /* Alert */
-code span.an { color: #7f9f7f; font-weight: bold; } /* Annotation */
-code span.at { } /* Attribute */
-code span.bn { color: #dca3a3; } /* BaseN */
-code span.bu { } /* BuiltIn */
-code span.cf { color: #f0dfaf; } /* ControlFlow */
-code span.ch { color: #dca3a3; } /* Char */
-code span.cn { color: #dca3a3; font-weight: bold; } /* Constant */
-code span.co { color: #7f9f7f; } /* Comment */
-code span.cv { color: #7f9f7f; font-weight: bold; } /* CommentVar */
-code span.do { color: #7f9f7f; } /* Documentation */
-code span.dt { color: #dfdfbf; } /* DataType */
-code span.dv { color: #dcdccc; } /* DecVal */
-code span.er { color: #c3bf9f; } /* Error */
-code span.ex { } /* Extension */
-code span.fl { color: #c0bed1; } /* Float */
-code span.fu { color: #efef8f; } /* Function */
-code span.im { } /* Import */
-code span.in { color: #7f9f7f; font-weight: bold; } /* Information */
-code span.kw { color: #f0dfaf; } /* Keyword */
-code span.op { color: #f0efd0; } /* Operator */
-code span.ot { color: #efef8f; } /* Other */
-code span.pp { color: #ffcfaf; font-weight: bold; } /* Preprocessor */
-code span.sc { color: #dca3a3; } /* SpecialChar */
-code span.ss { color: #cc9393; } /* SpecialString */
-code span.st { color: #cc9393; } /* String */
-code span.va { } /* Variable */
-code span.vs { color: #cc9393; } /* VerbatimString */
-code span.wa { color: #7f9f7f; font-weight: bold; } /* Warning */
-
-</style>
-<script>
-// apply pandoc div.sourceCode style to pre.sourceCode instead
-(function() {
-  var sheets = document.styleSheets;
-  for (var i = 0; i < sheets.length; i++) {
-    if (sheets[i].ownerNode.dataset["origin"] !== "pandoc") continue;
-    try { var rules = sheets[i].cssRules; } catch (e) { continue; }
-    for (var j = 0; j < rules.length; j++) {
-      var rule = rules[j];
-      // check if there is a div.sourceCode rule
-      if (rule.type !== rule.STYLE_RULE || rule.selectorText !== "div.sourceCode") continue;
-      var style = rule.style.cssText;
-      // check if color or background-color is set
-      if (rule.style.color === '' && rule.style.backgroundColor === '') continue;
-      // replace div.sourceCode by a pre.sourceCode rule
-      sheets[i].deleteRule(j);
-      sheets[i].insertRule('pre.sourceCode{' + style + '}', j);
-    }
-  }
-})();
-</script>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 
 
 <style type="text/css">
@@ -558,42 +466,40 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">DSAIDE</h1>
+<h1 class="title toc-ignore">Reproductive Number</h1>
 <h4 class="author">Andreas Handel</h4>
-<h4 class="date">2020-05-21 16:02:33</h4>
+<h4 class="date">2020-06-01 11:30:21</h4>
 
 </div>
 
 
 <div id="overview" class="section level1">
 <h1>Overview</h1>
-<p>This document provides a brief introduction to the <code>DSAIDE</code> package, which we will use a lot in this course.</p>
+<p>In this module, we will discuss an important concept in infectious disease epidemiology, the reproductive number. We will define it and discuss why it is a very important quantity in infectious disease epidemiology. We will discuss what the reproductive number does and does not tell us about the dynamics of an outbreak, and how to estimate it for a given disease.</p>
 </div>
-<div id="learning-objectives" class="section level1">
-<h1>Learning Objectives</h1>
+<div id="assignments" class="section level1">
+<h1>Assignments</h1>
+<p>Start by reading the <a href="https://andreashandel.github.io/IDEMAbook/R0.html">“Reproductive Number” chapter of IDEMAB</a>.</p>
+<p>The book chapter gives you one view .</p>
+<p>An important concept related to the reproductive number is the idea of <em>Herd or Population Immunity</em>. To</p>
+<p>For some further discussions, check out the following videos.</p>
+<p>The first video is from a MOOC (Massive Open Online Course) called <a href="https://www.coursera.org/learn/epidemics">“Epidemics”</a>, developed by several infectious disease faculty at Penn State and offered through the MOOC provider Coursera. Mary Poss, one of the course instructors, talks about the difference between infection and disease.</p>
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/feurlFtWIsM" frameborder="0" allowfullscreen>
+</iframe>
+</p>
+<p>The second video is also from a MOOC, this one developed by the University of Hong Kong. This used to be a single course, also called “Epidemics”. It’s now a multi-course sequence, here are the links to the <a href="https://www.edx.org/course/epidemics-i">Epidemics I</a> and <a href="https://www.edx.org/course/epidemics-ii">Epidemics II</a> courses.</p>
+<p>In that video, Joseph Wu from the University of Hong Kong discusses some quantities relating to infection and disease state and duration and their importance for public health. Again, ignore anything we haven’t covered yet.</p>
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/z9EItIxkaVs" frameborder="0" allowfullscreen>
+</iframe>
+</p>
+<p>###Videos to watch * See Videos document</p>
+<p>###Computer Exercises to do * Work through the Shiny App listed at the end of the assigned DSAIDE book chapter.</p>
+<p>###Discussions to participate in * From the exercise section of the DSAIDE chapter for this module, answer the question that refers to the assigned paper by Kajita et al. * Post to the discussion forum for this module. The general rules for discussion and assessment apply.</p>
 <ul>
-<li>Know how to run and use the <code>DSAIDE</code> package.</li>
+<li>The Paper by Kajita et al, Nat Rev Mic 2007. When reading the paper, focus on understanding their model and assumptions. You can skim or skip anything related to the reproductive number, R<sub>0</sub>, for now. We’ll discuss that quantity soon.</li>
 </ul>
-</div>
-<div id="dsaide-introduction" class="section level1">
-<h1>DSAIDE Introduction</h1>
-<p>DSAIDE, which stands for <em>Dynamical Systems Approach to Infectious Disease Epidemiology</em> is an R package I wrote. The goal is for users to explore infectious disease models and topics without having to implement their own models and write code.</p>
-<p>Go to the <a href="https://ahgroup.github.io/DSAIDE/">DSAIDE website</a> and read through the main page and the <em>Get started</em> section. Follow any instructions for steps that you haven’t done yet, namely installing R and RStudio and the DSAIDE package.</p>
-<p>You can skip or skim over the “Level 2” and “Level 3” sections. We won’t use this approach to interact with DSAIDE in the course - though you are of course allowed to do so.</p>
-</div>
-<div id="dsaide-hands-on" class="section level1">
-<h1>DSAIDE hands-on</h1>
-<p>If you haven’t done already, load DSAIDE. You should see a short message on the screen. Some packages show messages when you load them, and others don’t. In this case, the package tells you that you can start using it by typing <code>dsaidemenu()</code> into the R console. Do that to start it</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="kw">dsaidemenu</span>()</span></code></pre></div>
-<p>A menu should open in your browser, from which you can explore different models/apps.</p>
-<p><strong>Question: In the main menu of the DSAIDE package, what’s the title of the second group of apps?</strong></p>
-<p>You can explore DSAIDE now as much as you want, but you can also close it for now, as we’ll be coming back to it and working through most of the apps as part of the course.</p>
-</div>
-<div id="further-materials" class="section level1">
-<h1>Further materials</h1>
-<p><em>These sources cover more or less the same material that you just read, so checking them out is optional.</em></p>
-<p><a href="https://doi.org/10.1371/journal.pcbi.1005642">I published a paper describing the package</a>. The paper is by now somewhat outdated with regards to the details of the package, but it describes the overall idea and context well.</p>
-<p><a href="">Here is a brief video</a> showing how to load and interact with DSAIDE and explaining some of its features.</p>
 </div>
 
 

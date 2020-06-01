@@ -85,10 +85,11 @@ __Overall, I hope this course is going to be useful, interesting, challenging an
 
 
 # Course Setup
-* The course is split into modules, each with one or more units. Each module will usually be covered in a week. The _Schedule_ document gives an outline. The schedule is not fully finalized and will change, so check frequently.
+* The course is taught in an **asynchronous** and **cohort** style. **Asynchronous** means that you can do each part of the course at times that are convenient for you -- **as long as you complete all the assessments by the specified deadlines.** **Cohort style** means that everyone taking the class starts and ends at the same dates, corresponding to the start and end of the semester. 
+* The course is split into modules. Each module will usually be covered in a week. The _Schedule_ document provides more details. The schedule is not fully finalized and will change, so check frequently. Each module will be covered during a specific time frame and has assignments which you need to complete by the specified deadline.
 * Each module consists of one or several units/documents containing a mix of things I wrote, writings or videos by others, computer based exercises, discussions, etc. Content for a specific module is listed in the order you should go through things. It should always be clear what is required for a given module. If anything is ever unclear, please ask (see _Communications_ section on course website).
-* All material for the course can be accessed through this course website. Most material is not yet available. It will be added/unlocked as the course proceeds.
-* The main page of the course describes the different sections and documents. 
+* All material for the course can be accessed through this course website. The main page of the course describes the different sections and documents. Most material is not yet available. It will be added/unlocked as the course proceeds. Once material is added, it will remain on the site. I might update materials occasionally.
+* We will have a few synchronous Zoom meetings, those are entirely optional. See the _Communication_ section of the course website.
 
 # Course Tools
 This is a brief overview of the tools we will be using for this class. The next module, which you can and should start right after finishing this one, describes all these tools in more detail and gives instructions on how to set them all up.
@@ -103,10 +104,10 @@ This is a brief overview of the tools we will be using for this class. The next 
 
 The grade will be made up as follows:
 
-* 20% weekly quizzes
+* 30% weekly quizzes
 * 20% homework/small projects
 * 20% discussion and general participation
-* 40% a course long project, broken up into pieces. 
+* 30% a course long project, broken up into pieces. 
 
 The following grading scale will be used, final grades might be curved (upward): A 93-100, A- 90-93, B+ 87-90, B 83-87, B- 80-83, C+ 77-80, C 73-77, C- 70-73, D 60-70, F < 60
 
@@ -115,17 +116,19 @@ Most modules have assessments (these are graded). Due dates are usually Friday 5
 Every module will have an _Assessment_ document, which describes what work you need to do for that module that will be graded. The following types of assessments are part of the course.
 
 ## Online quizzes
-In the _Course Resources_ section, you will find links to quiz sheets in the form of Excel files. Each Excel file contains quiz questions covering either the DSAIDE software or the other course material (or both). You need to fill out the quiz sheets for a given module and submit them by the due date. It should be clear which quiz sheets are the right ones for a given module.  You can do the quizzes at any time, and need to upload your answers [to this website](https://shiny.ovpr.uga.edu/gradingapp/) by the due date for a given week. The primary purpose of the quizzes is to ensure you worked through the assigned material. 
+* For each module, there will be (usually two) fairly short quizzes. The primary purpose of the quizzes is to ensure you worked through the assigned material.
+* Each quiz will be scored 'out of a 100%', no matter how many questions there are for a given quiz (e.g. if there are 8 questions and you got 7 right, your score will be 7/8 * 100). Since there are often only few questions, if you say miss 1 out of 5, you get a score of 80%. Don't think of this as a grade, it's just a raw score. At the end, those will all get adjusted.
+* The quizzes are available in the _Course Resources_ section. There you will find links to quiz sheets in the form of Excel files. Each Excel file contains quiz questions covering either the DSAIDE software or the other course material (or both). You can fill in the answers on the quiz sheet at any time, and once finished, you need to upload it [to this website](https://shiny.ovpr.uga.edu/gradingapp/) by the due date for a given week. **You can only submit your answers once for each quiz, and you will not be able to submit your quiz after the due date.** 
 
 
 ## Exercises
-The exercises are part of a single module and are due on the last day of the module. They are listed in the _Schedule_ and described in more detail in the _Exercises_ section. I will likely add further ones, so look out for updates. The _Assessment_ document for each module will tell you which exercise to do.
+Most course modules have one or more exercises, which are due on the last day of the module. These exercises are listed in the _Exercises_ section. I will likely add further ones, so look out for updates. The _Assessment_ document for each module will tell you which exercise to do.
 
 ## Class project
 The project is a semester-long data analysis project broken into pieces with several deadlines. The _Projects_ section provides more details.
 
 ## Discussion and Participation
-At times, I will ask you to post specific assignments to the discussion boards and reply to other posts. I also encourage general, continued participation on the discussion boards. Participation can take any form, such as asking questions, answering questions, posting links to interesting content, providing feedback, etc. The more, the better `r emo::ji('smile')`. Both quality and quantity will affect your participation grade. 
+You will be asked regularly to post discussions to Slack, and respond to posts by others. **Those often have Wednesday deadlines.** I also encourage general, continued participation on the discussion boards. Participation can take any form, such as asking questions, answering questions, posting links to interesting content, providing feedback, etc. The more, the better `r emo::ji('smile')`. Both quality and quantity will affect your participation grade. 
 
 # Course Resources
 We'll be drawing on a lot of different resources. I compiled a list with the ones we'll use and others you might find helpful in the _Resources_ section of the class website. 
