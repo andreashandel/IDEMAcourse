@@ -1,0 +1,43 @@
+---
+title: Reproductive Number 
+subtitle: ""
+author: Andreas Handel
+institute: "University of Georgia"
+date: "`r file.mtime(knitr::current_input())`"
+#bibliography: ../media/references.bib
+output: 
+  html_document:
+    toc_depth: 3
+---
+
+
+# Overview
+In this module, we will discuss an important concept in infectious disease epidemiology, the reproductive number. We will define it and discuss why it is a very important quantity in infectious disease epidemiology. We will discuss what the reproductive number does and does not tell us about the dynamics of an outbreak, and how to estimate it for a given disease.
+
+
+# Assignments
+
+Start by reading the ["Reproductive Number" chapter of IDEMAB](https://andreashandel.github.io/IDEMAbook/R0.html). 
+
+The book chapter gives you one view .
+
+An important concept related to the reproductive number is the idea of _Herd or Population Immunity_. To 
+
+
+
+For some further discussions, check out the following videos. 
+
+The first video is from a MOOC (Massive Open Online Course) called ["Epidemics"](https://www.coursera.org/learn/epidemics), developed by several infectious disease faculty at Penn State and offered through the MOOC provider Coursera. Mary Poss, one of the course instructors, talks about the difference between infection and disease.
+
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/feurlFtWIsM" frameborder="0" allowfullscreen></iframe></p>
+
+
+The second video is also from a MOOC, this one developed by the University of Hong Kong. This used to be a single course, also called "Epidemics". It's now a multi-course sequence, here are the links to the [Epidemics I](https://www.edx.org/course/epidemics-i) and [Epidemics II](https://www.edx.org/course/epidemics-ii) courses.
+
+In that video, Joseph Wu from the University of Hong Kong discusses some quantities relating to infection and disease state and duration and their importance for public health. Again, ignore anything we haven't covered yet.
+
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/z9EItIxkaVs" frameborder="0" allowfullscreen></iframe></p>
+
+
+
+

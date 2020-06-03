@@ -32,12 +32,18 @@ left:
             href: ./2a_ID_Dynamics_Introduction.html
           - text: "2b. Assessment"
             href: ./2b_Assessment.html
-      - text: "2. Characteristics of ID"
+      - text: "3. Characteristics of ID"
         menu:
           - text: "3a. Characteristics of ID"
             href: ./3a_Characteristics_of_ID.html
           - text: "3b. Assessment"
             href: ./3b_Assessment.html
+      - text: "4. Patterns of ID"
+        menu:
+          - text: "4a. Patterns of ID"
+            href: ./4a_Patterns_of_ID.html
+          - text: "4b. Assessment"
+            href: ./4b_Assessment.html
       - text: "5. Reproductive Number"
         menu:
           - text: "5a. Reproductive Number"
