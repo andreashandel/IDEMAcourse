@@ -10,6 +10,14 @@ output:
     toc_depth: 3
 ---
 
+
+```{r, echo = FALSE}
+#just so I can use emoticons
+#devtools::install_github("hadley/emo")
+library(emo)
+```
+
+
 # Overview
 
 The goal of this exercise is to get to know your classmates. You have several ways you can do so, described here.
@@ -21,17 +29,19 @@ No matter how you deliver your introduction (see below), it should have at the m
 
 * Talk a bit about yourself, your background, training, research interests. 
 * I'd be curious to know the main reason you signed up for this course an what you most hope to learn in this course. 
-* Mention (at least) one interesting personal fact about you.
+* Mention (at least) one interesting/curious/noteworthy personal fact about you.
 * Include a picture of yourself, either in your post or as a link. 
+* Let us know one thing/question you'd like to know about your classmates (or instructor). 
 * Finally, include a link to a picture/video/website/etc. that has to do with an infectious disease topic that you find cool/interesting/weird/etc. Provide a few explanatory sentences.
+
 
 
 # Delivery
 
-You can make and deliver the introduction in multiple ways, as follows. No matter what method you choose, post a message into the `introductions` Slack channel so people can find your introduction.
+You can make and deliver the introduction in multiple ways, as follows. No matter what method you choose, post a message into the `introductions` Slack channel with information on how people can find your introduction.
 
 
-## The lazy way
+## The simple (lazy `r emo::ji("smiley")`) way
 
 Answer the questions above and send it all as a post straight to the `introductions` Slack channel.
 
@@ -43,7 +53,7 @@ Record a video of yourself talking about the topics mentioned above, and post th
 
 ## The geeky way
 
-Create a quick website by following the workflow of the introduction exercise from my Modern Applied Data Analysis class, [described here.]() This requires the use of Github. Note that for our class, there is no Github organization. Instead, create the repository in your own Github account. Everything else should work the same. 
+Create a quick personal website by following the workflow of the introduction exercise from my Modern Applied Data Analysis class, [described here.](https://andreashandel.github.io/MADAcourse/Exercise_Introducing_Ourselves.html) This requires the use of Github. Note that for our class, there is no Github organization. Instead, create the repository in your own Github account. Everything else should work the same. 
 
 
 ## The inventive way
@@ -53,15 +63,15 @@ Find another way to produce an introduction of yourself and share it with the cl
 
 # Interact
 
-Please engage with and respond to the introductions posted by your classmates, using Slack.
+Please engage with and respond to the introductions posted by your classmates, using Slack. At minimum, you need to post 3 responses to other's postings.
 
 
 # Make Slack and Zoom personal
 
-Instead of seeing an empty cutout of a person, it's much nicer if your Slack persona features your picture. To that end, in Slack click on your name, go to 'edit profile' and upload an image of yourself. Further adjust your profile as suitable. Note that this only applies to our class workspace. If you use other Slack workspaces, your profile on those won't be affected.
+Instead of seeing an empty cutout of a person, it's much nicer if your Slack persona features your picture. To that end, in Slack click on your name/profile, go to _Edit Profile_ and upload an image of yourself. Further adjust your profile as suitable. Note that this only applies to our class workspace. If you use other Slack workspaces, your profile on those won't be affected.
 
 In a similar fashion, you can add a picture to your Zoom account. Hopefully we can use video turned on for most Zoom sessions. But it's nice to show a picture even if you turn off video and only use audio. Instruction on how to do this [can be found here.](https://support.zoom.us/hc/en-us/articles/201363203-Customizing-your-Profile)
 
 
-_You need to have your introduction posted by the final date of the module (see syllabus). I encourage you to do it sooner, so we can get to know each other quickly!_
+_You need to have your introduction posted by Wednesday of the week, and your responses to others should be posted by the end of the week._
 

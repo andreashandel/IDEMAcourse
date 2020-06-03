@@ -34,13 +34,15 @@ All materials described below are (should be) freely available online. If you ca
 
 # Online courses
 
-Throughout this course, I link to videos from a few online courses that cover a similar topic to this course. While the videos are embedded and you do not need to sign up for those online courses, if you are interested, you could. Signing up for those courses should be free.
+Throughout this course, I link to videos from a few online courses that cover similar topics to this course. While the videos are embedded and you do not need to sign up for those online courses, if you are interested, you could. Signing up for those courses should be free.
 
-* [Epidemics]() - .
-* [Epidemics I]() -
-* [Epidemics II]() - 
+* [Epidemics](https://www.coursera.org/learn/epidemics). This course was developed by several infectious disease faculty at Penn State and offered through the MOOC provider Coursera. 
+* [Epidemics](https://www.coursera.org/learn/hkuepidemics/). This course has the same name and lives on the same platform as the Penn State course, but it is offered by a team of instructors from the University of Hong Kong (HKU).
 
-Note that the HKU courses used to be a single course called "Epidemics".
+Note that the HKU course started out as a course called "Epidemics" on the EdX platform. Now there is the above course on the Coursera platform. In addition, there is a sequence of courses, [Epidemics I-IV on the EdX platform](https://www.edx.org/search?q=epidemics). The Coursera and EdX offerings seem similar, I don't know if/how they differ.
+
+Again, for this class, I will embed all relevant materials so you don't need to further check out those courses. However, if you are interested, I encourage you to give them a try, they have great content and cover some topics which we won't cover in this course. Neither of these courses takes an explicit model-based perspective, but many topics are discussed with such a framework in mind (and several of the instructors for each course are infectious disease modelers).
+
 
 
 
@@ -62,6 +64,6 @@ __Please do not make any other changes to the sheets apart from filling the "Ans
 * [Module 2 DSAIDE (Basic SIR Model)]()
 * [Module 2 Theory (M2T)]()
 
-
+## Module 3
 
 

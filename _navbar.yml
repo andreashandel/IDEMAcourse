@@ -28,10 +28,22 @@ left:
             href: ./1f_Assessment.html
       - text: "2. Topic Introduction"
         menu:
-          - text: "2a. Topic introduction"
-            href: ./2a_Topic_Introduction.html
+          - text: "2a. ID Dynamics introduction"
+            href: ./2a_ID_Dynamics_Introduction.html
           - text: "2b. Assessment"
             href: ./2b_Assessment.html
+      - text: "2. Characteristics of ID"
+        menu:
+          - text: "3a. Characteristics of ID"
+            href: ./3a_Characteristics_of_ID.html
+          - text: "3b. Assessment"
+            href: ./3b_Assessment.html
+      - text: "5. Reproductive Number"
+        menu:
+          - text: "5a. Reproductive Number"
+            href: ./5a_Reproductive_Number.html
+          - text: "5b. Assessment"
+            href: ./5b_Assessment.html
   - text: "Exercises"
     menu:
        - text: "Introducing ourselves"

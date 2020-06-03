@@ -41,17 +41,3 @@ In that video, Joseph Wu from the University of Hong Kong discusses some quantit
 
 
 
-
-###Videos to watch
-* See Videos document
-
-###Computer Exercises to do
-* Work through the Shiny App listed at the end of the assigned DSAIDE book chapter.  
-
-###Discussions to participate in
-* From the exercise section of the DSAIDE chapter for this module, answer the question that refers to the assigned paper by Kajita et al.
-* Post to the discussion forum for this module. The general rules for discussion and assessment apply.
-
-* The Paper by Kajita et al, Nat Rev Mic 2007. When reading the paper, focus on understanding their model and assumptions. You can skim or skip anything related to the reproductive number, R~0~, for now. We'll discuss that quantity soon.
-
-
