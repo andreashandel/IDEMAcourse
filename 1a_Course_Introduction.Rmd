@@ -62,7 +62,7 @@ While the course is all about infectious diseases (ID), we will not spend much t
 
 I also assume that you are familiar with public health/epidemiology concepts and terminology at a basic level. If you come across concepts or terms that you are unfamiliar with, a quick online search should help fill any gaps.
 
-The study of infectious diseases as dynamical systems is intimately linked to mathematical and computational modeling of infectious diseases. For that reason, this course has a computational component. To reduce the barriers surrounding computational modeling, the course does not require any programming on your part. In this course, we will learn how to use ID computer models, but not how to formulate models and write computer programs of those models. Instead, you will be interactively exploring already developed computer simulations of infectious disease systems. So while there will be computer simulations, and you will see equations describing the computer models, this course does not require you to know any programming or to perform any mathematical manipulations beyond basic algebra.
+Since this course takes a model-based approach, you will encounter mathematical and computer models. You will see equations describing specific ID systems, and you will see some R code. However, this course does not cover building and implementing models and how to write code. Instead, you will be interactively exploring already developed computer simulations of infectious disease systems, without the need to write code. You will occasionally have to perform some mathematical manipulations, but those won't go beyond basic algebra.
 
 
 
@@ -76,10 +76,9 @@ I describe my thoughts on teaching and learning a bit more in the __completely o
 
 * This class strives to be challenging but non-threatening. As such, you will be asked to work hard, and I expect you to do the assigned tasks by the deadlines, but in the end, I usually don't grade hard - unless you fail to keep up your end of the agreement and don't put in the work.
 
-* This class is 'open everything'. You can use the internet, ask your classmates, myself and others, get help from wherever you can. I trust you will find the right balance of getting help when you need it while still putting in enough effort to experience real learning. 
+* This class is _open everything_. You can use the internet, ask your classmates, myself and others, get help from wherever you can. I trust you will find the right balance of getting help when you need it while still putting in enough effort to experience real learning. 
 
-* I will not perform any 'policing' to try to prevent you from taking shortcuts (i.e., not doing work yourself). The class contains graded assessments with deadlines, but those are meant to _help you stay on track._ If you cheat - and cheating will be easy - you are mainly cheating yourself out of learning. 
-
+* I will not perform any policing to try to prevent you from taking shortcuts (i.e., not doing work yourself). The class contains graded assessments with deadlines; those are meant to _help you stay on track._ If you cheat - and cheating will be easy - you are mainly cheating yourself out of learning. 
 
 __Overall, I hope this course is going to be useful, interesting, challenging and also interactive. Online courses are always a bit tricky with interaction/participation. I hope we can create something online that feels like a classroom. Please participate, ask questions, provide feedback, make suggestions for improvements, etc. The more you engage in the course, the more you'll get out of it.__
 
@@ -105,8 +104,8 @@ This is a brief overview of the tools we will be using for this class. The next 
 The grade will be made up as follows:
 
 * 30% weekly quizzes
-* 20% homework/small projects
-* 20% discussion and general participation
+* 30% discussion 
+* 10% general participation
 * 30% a course long project, broken up into pieces. 
 
 The following grading scale will be used, final grades might be curved (upward): A 93-100, A- 90-93, B+ 87-90, B 83-87, B- 80-83, C+ 77-80, C 73-77, C- 70-73, D 60-70, F < 60
@@ -116,22 +115,24 @@ Most modules have assessments (these are graded). Due dates are usually Friday 5
 Every module will have an _Assessment_ document, which describes what work you need to do for that module that will be graded. The following types of assessments are part of the course.
 
 ## Online quizzes
-* For each module, there will be (usually two) fairly short quizzes. The primary purpose of the quizzes is to ensure you worked through the assigned material.
+* For each module, there will be (usually two) fairly short quizzes. One quiz covers the DSAIDE exercise, the other the reading material. The primary purpose of the quizzes is to ensure you worked through the assigned material.
 * Each quiz will be scored 'out of a 100%', no matter how many questions there are for a given quiz (e.g. if there are 8 questions and you got 7 right, your score will be 7/8 * 100). Since there are often only few questions, if you say miss 1 out of 5, you get a score of 80%. Don't think of this as a grade, it's just a raw score. At the end, those will all get adjusted.
-* The quizzes are available in the _Course Resources_ section. There you will find links to quiz sheets in the form of Excel files. Each Excel file contains quiz questions covering either the DSAIDE software or the other course material (or both). You can fill in the answers on the quiz sheet at any time, and once finished, you need to upload it [to this website](https://shiny.ovpr.uga.edu/gradingapp/) by the due date for a given week. **You can only submit your answers once for each quiz, and you will not be able to submit your quiz after the due date.** 
-
+* For each quiz, there is a quiz sheet, available in the _Course Resources_ section. Quiz sheets are Excel files. Each Excel file contains quiz questions covering either the DSAIDE software or the other course material (or both). You can fill in the answers on the quiz sheet at any time. Once finished, you need to upload it [to this website](https://shiny.ovpr.uga.edu/gradingapp/) by the due date for a given week. **You can only submit your answers once for each quiz, and you will not be able to submit your quiz after the due date.** 
 
 ## Exercises
-Most course modules have one or more exercises, which are due on the last day of the module. These exercises are listed in the _Exercises_ section. I will likely add further ones, so look out for updates. The _Assessment_ document for each module will tell you which exercise to do.
-
-## Class project
-The project is a semester-long data analysis project broken into pieces with several deadlines. The _Projects_ section provides more details.
+Most course modules have one or more exercises, usually based on the DSAIDE package. Do the exercises at any time, and as you go, fill in the answers to the quiz sheet for that exercise. The _Assessment_ document for each module will tell you which exercise to do.
 
 ## Discussion and Participation
 You will be asked regularly to post discussions to Slack, and respond to posts by others. **Those often have Wednesday deadlines.** I also encourage general, continued participation on the discussion boards. Participation can take any form, such as asking questions, answering questions, posting links to interesting content, providing feedback, etc. The more, the better `r emo::ji('smile')`. Both quality and quantity will affect your participation grade. 
+
+## Class project
+The project is a semester-long project broken into pieces with several deadlines. The _Projects_ section provides more details.
 
 # Course Resources
 We'll be drawing on a lot of different resources. I compiled a list with the ones we'll use and others you might find helpful in the _Resources_ section of the class website. 
 
 # Getting help
-I do not expect you to figure it all out yourselves. You will get stuck and are encouraged to seek help. Please use the communications tools for this class liberally to ask for help.
+Please use the communications tools for this class liberally to ask for help. See the _Communication_ page for more.
+
+![A way you could interact with your course instructor. [Source: Dilbert](http://dilbert.com/strip/2013-05-24)](./media/dilbert-overqualified-phd.gif)
+

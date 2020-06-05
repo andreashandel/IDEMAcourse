@@ -18,23 +18,13 @@ This module provides an introduction to the overall idea of studying the dynamic
 
 # Assignments
 
+Start by reading the chapter ["Introduction to the dynamical systems approach" of IDEMAB](https://andreashandel.github.io/IDEMAbook). 
 
 
-* [The "Introduction to the dynamical systems approach" chapter of the DSAIDE book](https://ahgroup.github.io/DSAIDEbook). 
 * The paper "Systems Science Methods in Public Health: Dynamics, Networks, and Agents" by Luke & Stamatakis (in the folder for this module).
-
-
-Start by reading the ["Characterizing Infectious Disease States" chapter of the DSAIDE book](https://ahgroup.github.io/DSAIDEbook/characterizing-infectious-disease-states.html). 
-
-The book chapter gives you one view .
 
 For some further discussions, check out the following videos. 
 
-
-###Things to read
-
-###Videos to watch 
-* See the Videos document.
 
 _Note: For this and any future modules, you can do the videos and readings in any order. Usually, if there is a paper assigned, it is best to read it last since it often assumes knowledge of material covered in the videos and the reading._
 
@@ -50,40 +40,36 @@ __As you work through the apps, always take notes, write down your results as yo
 _In addition to the tasks just described, you are welcome and encouraged to discuss anything else related to the content of this module within the topic for this module. Discuss anything else relevant to the course in the appropriate topic area._
 
 
-# Overview
-In this module, we will discuss how to characterize the infection states of different ID. We will look at this both from a medical perspective and from a public health perspective and discuss how these perspectives complement each other. 
+##Introduction Video
+In this video, I provide a brief introduction to the concept of dynamical systems thinking applied to infectious diseases
+
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/t5D5ki18cO8" frameborder="0" allowfullscreen></iframe>
+</p>
 
 
-# Assignments
-
-Start by reading the ["Characterizing Infectious Disease States" chapter of IDEMAB](https://andreashandel.github.io/IDEMAbook/characterizing-infectious-disease-states.html). 
-
-The book chapter gives you one view .
-
-For some further discussions, check out the following videos. 
-
-The first video is from the ["Epidemics"](https://www.coursera.org/learn/epidemics) online course. Mary Poss, one of the course instructors, talks about the difference between infection and disease.
-
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/feurlFtWIsM" frameborder="0" allowfullscreen></iframe></p>
-
-The second video is from the HKU Epidemics course sequence. In that video, Joseph Wu from the University of Hong Kong discusses some quantities relating to infection and disease state and duration and their importance for public health. Again, ignore anything we haven't covered yet.
-
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/z9EItIxkaVs" frameborder="0" allowfullscreen></iframe></p>
+##Systems Thinking
+This video provides a nice introduction to systems thinking, using the example of obesity.
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2vojPksdbtI" frameborder="0" allowfullscreen></iframe>
+</p>
 
 
+## A systems model example
+A famous dynamical system model (not from the area of infectious diseases) is Schelling's segregation model. In the following video, [Scott Page](http://sites.lsa.umich.edu/scottepage/) explains and illustrates this model.  
+<p> 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dFl3Cfw12bo" frameborder="0" allowfullscreen></iframe>
+</p>
+This video is part of a course called ["Model Thinking"](https://www.coursera.org/learn/model-thinking). Like all Coursera courses, it is available for free. I highly recommend the course.
+
+
+## Models in infectious disease epidemiology
+This video is from a MOOC (Massive Open Online Course) called ["Epidemics"](https://www.coursera.org/learn/epidemics), developed by several infectious disease faculty at Penn State and offered through the MOOC provider Coursera. Matt Ferrari, one of the course instructors, gives a brief discussion of infectious disease models.
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SmhgeS-g90c" frameborder="0" allowfullscreen></iframe>
+</p>
 
 
 
-###Videos to watch
-* See Videos document
-
-###Computer Exercises to do
-* Work through the Shiny App listed at the end of the assigned DSAIDE book chapter.  
-
-###Discussions to participate in
-* From the exercise section of the DSAIDE chapter for this module, answer the question that refers to the assigned paper by Kajita et al.
-* Post to the discussion forum for this module. The general rules for discussion and assessment apply.
-
-* The Paper by Kajita et al, Nat Rev Mic 2007. When reading the paper, focus on understanding their model and assumptions. You can skim or skip anything related to the reproductive number, R~0~, for now. We'll discuss that quantity soon.
 
 

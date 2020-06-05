@@ -1,5 +1,5 @@
 ---
-title: "Infectious Disease Epidemiology - A model-based approach (IDEMA)"
+title: "Infectious Disease Epidemiology <br> - A model-based approach (IDEMA)"
 output: 
   html_document:
     toc: FALSE
