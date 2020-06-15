@@ -3,3 +3,5 @@ https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html
 
 Possible themes:
 https://bootswatch.com/3/
+
+Logo/Favicon is included via include_head.html

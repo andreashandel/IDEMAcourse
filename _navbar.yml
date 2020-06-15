@@ -24,36 +24,42 @@ left:
             href: ./1d_DSAIDE.html
           - text: "1e. Further Tools"
             href: ./1e_Further_Tools.html
-          - text: "1f. Assessment"
-            href: ./1f_Assessment.html
+          - text: "1f. Exercises"
+            href: ./1f_Exercises.html
+          - text: "1g. Assessment"
+            href: ./1g_Assessment.html
       - text: "2. Topic Introduction"
         menu:
           - text: "2a. ID Dynamics introduction"
             href: ./2a_ID_Dynamics_Introduction.html
-          - text: "2b. Assessment"
-            href: ./2b_Assessment.html
+          - text: "2b. Exercises"
+            href: ./2b_Exercises.html
+          - text: "2c. Assessment"
+            href: ./2c_Assessment.html
       - text: "3. Characteristics of ID"
         menu:
           - text: "3a. Characteristics of ID"
             href: ./3a_Characteristics_of_ID.html
-          - text: "3b. Assessment"
-            href: ./3b_Assessment.html
+          - text: "3b. Exercises"
+            href: ./3b_Exercises.html
+          - text: "3c. Assessment"
+            href: ./3c_Assessment.html
       - text: "4. Patterns of ID"
         menu:
           - text: "4a. Patterns of ID"
             href: ./4a_Patterns_of_ID.html
-          - text: "4b. Assessment"
-            href: ./4b_Assessment.html
+          - text: "4b. Exercises"
+            href: ./4b_Exercises.html
+          - text: "4c. Assessment"
+            href: ./4c_Assessment.html
       - text: "5. Reproductive Number"
         menu:
           - text: "5a. Reproductive Number"
             href: ./5a_Reproductive_Number.html
           - text: "5b. Assessment"
             href: ./5b_Assessment.html
-  - text: "Exercises"
-    menu:
-       - text: "Introducing ourselves"
-         href: ./Exercise_Introducing_Ourselves.html
+          - text: "5c. Assessment"
+            href: ./5c_Assessment.html
   - text: "Project"
     menu:
        - text: "Project information"
