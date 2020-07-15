@@ -56,10 +56,18 @@ left:
         menu:
           - text: "5a. Reproductive Number"
             href: ./5a_Reproductive_Number.html
-          - text: "5b. Assessment"
-            href: ./5b_Assessment.html
+          - text: "5b. Exercises"
+            href: ./5b_Exercises.html
           - text: "5c. Assessment"
             href: ./5c_Assessment.html
+      - text: "6. Direct Transmission"
+        menu:
+          - text: "6a. Direct Transmission"
+            href: ./6a_Direct_Transmission.html
+          - text: "6b. Exercises"
+            href: ./6b_Exercises.html
+          - text: "6c. Assessment"
+            href: ./6c_Assessment.html
   - text: "Project"
     menu:
        - text: "Project information"

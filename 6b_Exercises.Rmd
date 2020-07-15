@@ -1,5 +1,5 @@
 ---
-title: Reproductive Number - Assessment 
+title: Direct Transmission - Exercises 
 subtitle: ""
 author: Andreas Handel
 institute: "University of Georgia"
@@ -10,25 +10,21 @@ output:
     toc_depth: 3
 ---
 
-# Module Assessments
 
-Make sure you've gone through all the content for this module. 
+# Computer Model
 
-
-## Exercise
-* Work through the Shiny App listed at the end of the assigned DSAIDE book chapter.  
-
-
-## Quiz
-
-Fill out the quiz sheet for module 3 and submit it. You can find the sheet(s) for this module and submission instructions in the _Course Resources_ section.
+* For this module, work through the " " app. Fill and submit the corresponding quiz sheet.
 
 
 
-###Discussions to participate in
+
+# Discussions
+
+
 * From the exercise section of the DSAIDE chapter for this module, answer the question that refers to the assigned paper by Kajita et al.
 * Post to the discussion forum for this module. The general rules for discussion and assessment apply.
 
 * The Paper by Kajita et al, Nat Rev Mic 2007. When reading the paper, focus on understanding their model and assumptions. You can skim or skip anything related to the reproductive number, R~0~, for now. We'll discuss that quantity soon.
+
 
 

@@ -22,35 +22,70 @@ To distinguish clearly which external resources are directly related to the cour
 Apart from the books, most other materials described below are (should be) freely available online. For better or for worse, a lot of the resources I list below are dynamic and ever changing. That means occasionally links might not work, sites go offline, chapters in online books get re-arranged, etc. If any link does not work and you can't access the materials for some reason, let me know so I can update this document.
 
 
+_Obviously, there is no way my list is exhaustive. Let me know if you find other relevant and good sources._
+
 # Books
-* [Modeling Infectious Diseases]() 
 
 
-# Journal articles
-
-
-
-# Online courses
-* [Data science for economists](https://github.com/uo-ec607/lectures)
-
-
-# Hands-on/interactive resources
-
-* [Swirl](http://swirlstats.com) is a package that teaches R inside R. Especially beginner students have found it to be a good start since it provides very encouraging feedback. The downside is that all code writing happens interactively in the console, which is not the way one should write `real` code. It's still worth checking out if you want to get some more direct, hands-on R practice.
+## Infectious Disease Epidemiology
 
 
 
-# Podcasts
-* 
+## General modeling
+* Britton (2003) “Essential mathematical biology” Springer: Relatively easy, not too math heavy.
+* Allman and Rhodes (2004) “Mathematical Models in Biology: An Introduction”
+Cambridge U Press: Integrates MATLAB into the text/exercises.
+* Ellner and Guckenheimer (2006) “Dynamic Models in Biology” Princeton
+University Press: Nice integration of mathematical analysis and computer
+modeling, topics very broad.
+* Otto and Day (2007) “A Biologist's Guide to Mathematical Modeling in Ecology
+and Evolution” Princeton University Press: Some good background/primers on
+math topics, explanations on how to model, not much infectious disease
+specific material.
+* Epstein “Why Model?”
+* May “Uses and Abuses of Mathematics in Biology” (2004) Science
 
 
-# Videos
-To be filled
+## population level modeling books
+*  Vynnycky and White (2010) "An Introduction to Infectious Disease Modelling": The most introductory level book.
+* Keeling and Rohani (2008) "Modeling Infectious Diseases": Introductory but at a higher level.  
+* Bjornstadt (2018) "Epidemics - Models and Data using R": Shows how to do it in R. Some topics are basic, others fairly advanced and theoretical.
+* Anderson and May (1992) "Infectious Diseases of Humans - Dynamics and Control": The "classic". Lots of material, but the math can be somewhat challenging. 
+* Daley and Gani (2001) "Epidemic modeling: an introduction": Thorough mathematical treatment, not too intuitive/easy.
+* Diekmann & Heesterbeek (2000) "Mathematical Epidemiology of Infectious Diseases: Model Building, Analysis and Interpretation": Relatively advanced math level.
+* Dynamical Systems Approach to Infectious Disease Epidemiology - draft of a book I wrote (uses models, but doesn't really teach modeling): https://ahgroup.github.io/DSAIDEbook/
+
+# Papers
+
+## Population level modeling papers
+* Ness et al. “Causal System Modeling in Chronic Disease Epidemiology: A Proposal” (2007) Ann Epidemiol
+* Sterman “Learning from Evidence in a Complex World” (2006) PHM
+* Kajita et al. (2007) Nature Reviews Microbiology
+* Grassly & Fraser (2008) Nature Reviews Microbiology
+* Brauer (2009) BMC Public Health
+* Wendelboe et al. (2010) Am J Med Sci
+* Louz et al. (2010) Critical Reviews in Microbiology
+* Garnett et al. (2011) Lancet
+
+
+
+# Software
+
+* [idmodelr](https://www.samabbott.co.uk/idmodelr/) by Sam Abbott. Many basic compartmental (SIR type) models, a little bit of coding is required. He also has [a list of related resources](https://www.samabbott.co.uk/idmodelr/articles/resources.html), which - not surprisingly - has a lot of overlap with the information on this page.
+
+* [shinySIR](https://github.com/SineadMorris/shinySIR) by Sinead Morris. Exploration of several SIR-type models through Shiny. Doesn't have the documentation of DSAIDE, but has some models not in DSAIDE.
+
+* [Epimodel](https://www.epimodel.org/)
+
+
+# ID modeling websites
+
+[epirecipes](http://epirecip.es/) - a cookbook of ID epi models.
+
+
 
 
 # Lists and other sources
 
-* I created lists related to R and Data Analysis (as well as other topics). [You can find all resource lists here](https://andreashandel.github.io/research-and-teaching-resources/). (These lists are works in progress, and some are better/more useful than others. Feel free to send me links/resources to include).
+* I created lists related to various topics, including infectious disease modeling. [You can find all resource lists here](https://andreashandel.github.io/research-and-teaching-resources/). (These lists are works in progress, and some are better/more useful than others. There is also a lot of overlap with the resources listed above. Feel free to send me links/resources to include).
 
-
-_Obviously, there is no way my list is exhaustive. Let me know if you find other relevant and good sources._
