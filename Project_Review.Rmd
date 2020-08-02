@@ -2,7 +2,7 @@
 title: Project Review Information 
 author: Andreas Handel
 institute: "University of Georgia"
-date: "`r file.mtime(knitr::current_input())`"
+date: "`r as.Date(file.mtime(knitr::current_input()))`"
 #bibliography: ../media/references.bib
 output: 
   html_document:

@@ -1,11 +1,104 @@
-name: "IDEMA Course"
-output_dir: 'docs'
+name: "IDEMAcourse"
+title: "IDEMA Course"
+output_dir: "docs"
+exclude: ["./auxiliary/", "*.csv"]
+favicon: media/IDEMAlogo.png
+base_url: https://andreashandel.github.io/IDEMAcourse/
+repository_url: https://github.com/andreashandel/IDEMAcourse
+navbar:
+  logo:
+    image: media/IDEMAlogo.png
+    href: https://andreashandel.github.io/IDEMAcourse/
+  left:
+    - text: "General Information"
+      menu:
+        - text: "Syllabus"
+          href: ./Course_Syllabus.html
+        - text: "Schedule"
+          href: ./Course_Schedule.html
+    - text: "Modules"
+      menu:
+        - text: "1. Coures and Tools Introduction"
+          menu:
+            - text: "1a. Course introduction"
+              href: ./1a_Course_Introduction.html
+            - text: "1b. Teaching and Learning thoughts"
+              href: ./1b_Teaching_and_Learning.html
+            - text: "1c. R and Rstudio"
+              href: ./1c_R_and_RStudio.html
+            - text: "1d. DSAIDE"
+              href: ./1d_DSAIDE.html
+            - text: "1e. Further Tools"
+              href: ./1e_Further_Tools.html
+            - text: "1f. Exercises"
+              href: ./1f_Exercises.html
+            - text: "1g. Assessment"
+              href: ./1g_Assessment.html
+        - text: "2. Topic Introduction"
+          menu:
+            - text: "2a. ID Dynamics introduction"
+              href: ./2a_ID_Dynamics_Introduction.html
+            - text: "2b. Exercises"
+              href: ./2b_Exercises.html
+            - text: "2c. Assessment"
+              href: ./2c_Assessment.html
+        - text: "3. Characteristics of ID"
+          menu:
+            - text: "3a. Characteristics of ID"
+              href: ./3a_Characteristics_of_ID.html
+            - text: "3b. Exercises"
+              href: ./3b_Exercises.html
+            - text: "3c. Assessment"
+              href: ./3c_Assessment.html
+        - text: "4. Patterns of ID"
+          menu:
+            - text: "4a. Patterns of ID"
+              href: ./4a_Patterns_of_ID.html
+            - text: "4b. Exercises"
+              href: ./4b_Exercises.html
+            - text: "4c. Assessment"
+              href: ./4c_Assessment.html
+        - text: "5. Reproductive Number"
+          menu:
+            - text: "5a. Reproductive Number"
+              href: ./5a_Reproductive_Number.html
+            - text: "5b. Exercises"
+              href: ./5b_Exercises.html
+            - text: "5c. Assessment"
+              href: ./5c_Assessment.html
+        - text: "6. Direct Transmission"
+          menu:
+            - text: "6a. Direct Transmission"
+              href: ./6a_Direct_Transmission.html
+            - text: "6b. Exercises"
+              href: ./6b_Exercises.html
+            - text: "6c. Assessment"
+              href: ./6c_Assessment.html
+    - text: "Project"
+      menu:
+         - text: "Project information"
+           href: ./Project_Information.html
+         - text: "Project rubric"
+           href: ./Project_Rubric.html
+         - text: "Project review"
+           href: ./Project_Review.html
+    - text: "Communication"
+      href: ./Course_Communication.html
+    - text: "Glossary"
+      href: ./Course_Glossary.html
+    - text: "Resources"
+      menu:
+         - text: "Course Resources"
+           href: ./Course_Resources.html
+         - text: "General Resources"
+           href: ./General_Resources.html
+  right:
+    - icon: fa-github fa-lg
+      href: https://github.com/andreashandel/IDEMAcourse
 output:
-  html_document:
-    theme: cerulean
-    highlight: zenburn
+  distill::distill_article:
     toc: true
     toc_depth: 2
     toc_float: 
       collapsed: false
-    css: IDEMAstyle.css
+    css: media/IDEMAstyle.css

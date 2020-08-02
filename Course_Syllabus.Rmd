@@ -1,12 +1,13 @@
 ---
 title: Infectious Disease Epidemiology - A model-based approach (IDEMA) – Syllabus
-subtitle: ""
-author: Andreas Handel
-institute: "University of Georgia"
-date: "`r file.mtime(knitr::current_input())`"
+author:
+  - name: "Andreas Handel"
+    url: https://www.andreashandel.com/
+    affiliation: "University of Georgia"
+date: "`r as.Date(file.mtime(knitr::current_input()))`"
+bibliography: ./media/references.bib
 output: 
-  html_document:
-    toc_depth: 3
+  distill::distill_article
 ---
 
 

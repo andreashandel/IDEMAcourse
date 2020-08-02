@@ -57,7 +57,7 @@ This course was developed and is maintained by [Andreas Handel](https://www.andr
 ```{r, results = "asis", echo = FALSE, message = FALSE}
 #the following code snipped is taken from Hadley's R4DS intro page
 library(dplyr)
-contributors <- readr::read_csv("contributors.csv", col_types = list())
+contributors <- readr::read_csv("IDEMACoursecontributors.csv", col_types = list())
 contributors <- contributors %>% 
   mutate(
     link = glue::glue("[\\@{login}](https://github.com/{login})"),
