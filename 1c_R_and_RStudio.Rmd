@@ -6,8 +6,7 @@ institute: "University of Georgia"
 date: "`r as.Date(file.mtime(knitr::current_input()))`"
 #bibliography: ../media/references.bib
 output: 
-  html_document:
-    toc_depth: 3
+  distill::distill_article
 ---
 
 

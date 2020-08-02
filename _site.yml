@@ -97,6 +97,8 @@ navbar:
       href: https://github.com/andreashandel/IDEMAcourse
 output:
   distill::distill_article:
+    theme: cerulean
+    highlight: zenburn
     toc: true
     toc_depth: 2
     toc_float: 
