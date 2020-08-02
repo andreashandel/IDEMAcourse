@@ -1,7 +1,7 @@
 name: "IDEMAcourse"
 title: "IDEMA Course"
 output_dir: "docs"
-exclude: ["./auxiliary/", "*.csv"]
+exclude: ["auxiliary", "media", "*.csv"]
 favicon: media/IDEMAlogo.png
 base_url: https://andreashandel.github.io/IDEMAcourse/
 repository_url: https://github.com/andreashandel/IDEMAcourse
