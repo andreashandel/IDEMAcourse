@@ -96,7 +96,7 @@ navbar:
     - icon: fa-github fa-lg
       href: https://github.com/andreashandel/IDEMAcourse
 output:
-  distill::distill_article:
+  html_document:
     theme: cerulean
     highlight: zenburn
     toc: true

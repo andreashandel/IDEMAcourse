@@ -1,7 +1,8 @@
 ---
 title: "Infectious Disease Epidemiology <br> - A model-based approach (IDEMA)"
 output: 
-  distill::distill_article
+  html_document:
+        toc: FALSE
 ---
 
 ```{r, include = FALSE}
