@@ -10,7 +10,9 @@ output:
     toc: FALSE
 ---
 
-This is the current course schedule for the class. Things might change. Check regularly for updates.
+## Overview
+
+This is the current course schedule for the class. Things will likely change somewhat as the semester progresses. Check regularly for updates.
 
 The _External Sources_ column only lists major external sources. Material provided on this website, as well as other smaller assignments embedded or linked in the course documents (e.g. videos, papers) are not listed. This is only meant as a quick reference, the course materials provide more detail and are the definite source in case of discrepancies.
 
@@ -21,25 +23,27 @@ Abbreviations used are:
 
 The _Assessments_ column lists items that need to be submitted and that will be graded. Those are described in detail in the assessment document for each module. __Unless otherwise specified, submission deadline is the module end date (Friday) 5pm.__
 
+## Schedule
+
 | **Module Topic**   | **Start and end dates** | **External Sources** | **Assessments** |
 | --- | --- | --- | --- |
-| Module 1 – Introduction to the course & to ID Epi | 8/24 – 8/28 | IDEMAB 1-2, DSAIDE 1 | quiz, introducing ourselves exercise |
-| Module 2 –    | 8/31 – 9/4 |   | quiz, discussion|
-| Module 3 - Characterizing Infection states  | 9/7 – 9/11 | IDEMAB 3, DSAIDE 2  | quiz, discussion |
-| Module 4 - ID Patterns - Outbreaks, cycles and endemic states | 9/14 – 9/18 |  | |
-| Module 5 - Reproductive Number  | 9/21 – 9/25 |  | |
-| Module 6 - Modes of direct transmission  | 9/28 – 10/2 |  | |
-| Module 7 - Environmentally transmitted ID  | 10/5 – 10/9 |  | |
-| Module 8 - Vector-borne ID  | 10/12 – 10/16 |  | |
-| Module 9  - Host Heterogeneity | 10/19 – 10/23 |  | |
-| Module 10 - ID Control 1 | 10/26 – 10/30 |  | |
-| Module 11 - ID Control 2 | 11/2 – 11/6 |  | |
-| Module 12 - Stochasticity and Extinctions | 11/9 – 11/13 |  | |
-| Module 13 - ID on Networks | 11/16 – 11/20 |  | |
+| Module 1 – Introduction to the course | 8/20 – 8/28 | IDEMAB 1-2, DSAIDE | quiz, introducing ourselves exercise |
+| Module 2 –  Characterizing Infection states  | 8/31 – 9/4 | IDEMAB 3, DSAIDE   | quiz, discussion|
+| Module 3 -  ID Patterns - Outbreaks, cycles and endemic states | 9/7 – 9/11 | IDEMAB 4, DSAIDE | quiz, discussion |
+| Module 4 - Reproductive Number 1 | 9/14 – 9/18 | IDEMAB 5, DSAIDE | quiz, discussion |
+| Module 5 - Reproductive Number 2| 9/21 – 9/25 | IDEMAB 5, DSAIDE | quiz, discussion |
+| Module 6 - Modes of direct transmission  | 9/28 – 10/2 | IDEMAB 6+7, DSAIDE  | quiz, discussion |
+| Module 7 - Environmentally transmitted ID  | 10/5 – 10/9 | IDEMAB 8, DSAIDE | quiz, discussion |
+| Module 8 - Vector-borne ID  | 10/12 – 10/16 | IDEMAB 9, DSAIDE  | quiz, discussion |
+| Module 9  - Host Heterogeneity | 10/19 – 10/23 | IDEMAB 10, DSAIDE  | quiz, discussion |
+| Module 10 - ID Control 1 | 10/26 – 10/30 | IDEMAB 11, DSAIDE  | quiz, discussion |
+| Module 11 - ID Control 2 | 11/2 – 11/6 | IDEMAB 11, DSAIDE  | quiz, discussion |
+| Module 12 - Stochasticity and Extinctions | 11/9 – 11/13 | IDEMAB 14, DSAIDE  |  quiz, discussion |
+| Module 13 - Evolutionary Dynamics and EID | 11/16 – 11/20 | IDEMAB 15-17 , DSAIDE | quiz, discussion |
 | Finishing Project | 11/23 – 11/27 (fall break part of the week) | none | project part 4 |
 | Project Reviews | 11/30 – 12/4 | none | project reviews |
 | Final project submission  | 12/9 | none | project part 5 |
 
 ## Synchronous Zoom meetings
-The current plan is to have _weekly_, **completelye optional** Zoom meetings. Those are currently scheduled for Wednesdays, alternating between 11am and 4pm each week. Week one (on 8/26) will be 11am, after that each even module will have a 4pm time, each odd module an 11am time. This schedule is tentative and might change based on your feedback. See the _Communication_ section for some more details.
+The current plan is to have _weekly_, **completely optional** Zoom meetings. Those are currently scheduled for Wednesdays, alternating between 11am and 3pm each week. Week one (on 8/26) will be 11am, after that each even module will have a 4pm time, each odd module an 11am time. This schedule is tentative and might change based on your feedback. See the _Communication_ section for some more details.
 

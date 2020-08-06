@@ -7,7 +7,8 @@ author:
 date: "`r as.Date(file.mtime(knitr::current_input()))`"
 bibliography: ./media/references.bib
 output: 
-  distill::distill_article
+  html_document:
+    toc_depth: 3
 ---
 
 

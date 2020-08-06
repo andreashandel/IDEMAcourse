@@ -18,62 +18,80 @@ navbar:
           href: ./Course_Schedule.html
     - text: "Modules"
       menu:
-        - text: "1. Coures and Tools Introduction"
+        - text: "1. Course, Tools and Topic Introduction"
           menu:
             - text: "1a. Course introduction"
-              href: ./1a_Course_Introduction.html
+              href: ./Course_Introduction.html
             - text: "1b. Teaching and Learning thoughts"
-              href: ./1b_Teaching_and_Learning.html
+              href: ./Teaching_and_Learning.html
             - text: "1c. R and Rstudio"
-              href: ./1c_R_and_RStudio.html
+              href: ./R_and_RStudio.html
             - text: "1d. DSAIDE"
-              href: ./1d_DSAIDE.html
+              href: ./DSAIDE.html
             - text: "1e. Further Tools"
-              href: ./1e_Further_Tools.html
-            - text: "1f. Exercises"
-              href: ./1f_Exercises.html
-            - text: "1g. Assessment"
-              href: ./1g_Assessment.html
-        - text: "2. Topic Introduction"
+              href: ./Further_Tools.html
+            - text: "1f. Topic introduction"
+              href: ./ID_Dynamics_Introduction.html
+            - text: "1g. Exercises"
+              href: ./1_Exercises.html
+            - text: "1h. Assessments"
+              href: ./1_Assessments.html
+        - text: "2. Characterizing infection states"
           menu:
-            - text: "2a. ID Dynamics introduction"
-              href: ./2a_ID_Dynamics_Introduction.html
+            - text: "2a. Characteristics of ID"
+              href: ./Characteristics_of_ID.html
             - text: "2b. Exercises"
-              href: ./2b_Exercises.html
-            - text: "2c. Assessment"
-              href: ./2c_Assessment.html
-        - text: "3. Characteristics of ID"
+              href: ./2_Exercises.html
+            - text: "2c. Assessments"
+              href: ./2_Assessments.html
+        - text: "3. Patterns of ID"
           menu:
-            - text: "3a. Characteristics of ID"
-              href: ./3a_Characteristics_of_ID.html
+            - text: "3a. Patterns of ID"
+              href: ./Patterns_of_ID.html
             - text: "3b. Exercises"
-              href: ./3b_Exercises.html
-            - text: "3c. Assessment"
-              href: ./3c_Assessment.html
-        - text: "4. Patterns of ID"
+              href: ./3_Exercises.html
+            - text: "3. Assessments"
+              href: ./3_Assessments.html
+        - text: "4. Reproductive Number 1"
           menu:
-            - text: "4a. Patterns of ID"
-              href: ./4a_Patterns_of_ID.html
+            - text: "4a. Reproductive Number"
+              href: ./Reproductive_Number_1.html
             - text: "4b. Exercises"
-              href: ./4b_Exercises.html
-            - text: "4c. Assessment"
-              href: ./4c_Assessment.html
-        - text: "5. Reproductive Number"
+              href: ./4_Exercises.html
+            - text: "4c. Assessments"
+              href: ./4c_Assessments.html
+        - text: "5. Reproductive Number 2"
           menu:
             - text: "5a. Reproductive Number"
-              href: ./5a_Reproductive_Number.html
+              href: ./Reproductive_Number_2.html
             - text: "5b. Exercises"
-              href: ./5b_Exercises.html
-            - text: "5c. Assessment"
-              href: ./5c_Assessment.html
+              href: ./5_Exercises.html
+            - text: "5c. Assessments"
+              href: ./5_Assessments.html
         - text: "6. Direct Transmission"
           menu:
             - text: "6a. Direct Transmission"
-              href: ./6a_Direct_Transmission.html
+              href: ./Direct_Transmission.html
             - text: "6b. Exercises"
-              href: ./6b_Exercises.html
-            - text: "6c. Assessment"
-              href: ./6c_Assessment.html
+              href: ./6_Exercises.html
+            - text: "6c. Assessments"
+              href: ./6_Assessments.html
+        - text: "7. Environmental Transmission"
+          menu:
+            - text: "7a. Environmental Transmission"
+              href: ./Environmental_Transmission.html
+            - text: "7b. Exercises"
+              href: ./7_Exercises.html
+            - text: "7c. Assessments"
+              href: ./7_Assessments.html
+        - text: "8. Environmental Transmission"
+          menu:
+            - text: "8a. Vector-borne ID"
+              href: ./Vector_Transmission.html
+            - text: "8b. Exercises"
+              href: ./8_Exercises.html
+            - text: "8c. Assessments"
+              href: ./8_Assessments.html
     - text: "Project"
       menu:
          - text: "Project information"

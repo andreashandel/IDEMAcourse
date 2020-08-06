@@ -13,7 +13,7 @@
 
 <meta name="date" content="2020-08-03" />
 
-<title>DSAIDE</title>
+<title>Further tools</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -30,98 +30,6 @@
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 
-<style type="text/css">code{white-space: pre;}</style>
-<style type="text/css" data-origin="pandoc">
-code.sourceCode > span { display: inline-block; line-height: 1.25; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; position: relative; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-code.sourceCode { white-space: pre-wrap; }
-code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  { color: #cccccc; background-color: #303030; }
-@media screen {
-code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
-code span.al { color: #ffcfaf; } /* Alert */
-code span.an { color: #7f9f7f; font-weight: bold; } /* Annotation */
-code span.at { } /* Attribute */
-code span.bn { color: #dca3a3; } /* BaseN */
-code span.bu { } /* BuiltIn */
-code span.cf { color: #f0dfaf; } /* ControlFlow */
-code span.ch { color: #dca3a3; } /* Char */
-code span.cn { color: #dca3a3; font-weight: bold; } /* Constant */
-code span.co { color: #7f9f7f; } /* Comment */
-code span.cv { color: #7f9f7f; font-weight: bold; } /* CommentVar */
-code span.do { color: #7f9f7f; } /* Documentation */
-code span.dt { color: #dfdfbf; } /* DataType */
-code span.dv { color: #dcdccc; } /* DecVal */
-code span.er { color: #c3bf9f; } /* Error */
-code span.ex { } /* Extension */
-code span.fl { color: #c0bed1; } /* Float */
-code span.fu { color: #efef8f; } /* Function */
-code span.im { } /* Import */
-code span.in { color: #7f9f7f; font-weight: bold; } /* Information */
-code span.kw { color: #f0dfaf; } /* Keyword */
-code span.op { color: #f0efd0; } /* Operator */
-code span.ot { color: #efef8f; } /* Other */
-code span.pp { color: #ffcfaf; font-weight: bold; } /* Preprocessor */
-code span.sc { color: #dca3a3; } /* SpecialChar */
-code span.ss { color: #cc9393; } /* SpecialString */
-code span.st { color: #cc9393; } /* String */
-code span.va { } /* Variable */
-code span.vs { color: #cc9393; } /* VerbatimString */
-code span.wa { color: #7f9f7f; font-weight: bold; } /* Warning */
-
-</style>
-<script>
-// apply pandoc div.sourceCode style to pre.sourceCode instead
-(function() {
-  var sheets = document.styleSheets;
-  for (var i = 0; i < sheets.length; i++) {
-    if (sheets[i].ownerNode.dataset["origin"] !== "pandoc") continue;
-    try { var rules = sheets[i].cssRules; } catch (e) { continue; }
-    for (var j = 0; j < rules.length; j++) {
-      var rule = rules[j];
-      // check if there is a div.sourceCode rule
-      if (rule.type !== rule.STYLE_RULE || rule.selectorText !== "div.sourceCode") continue;
-      var style = rule.style.cssText;
-      // check if color or background-color is set
-      if (rule.style.color === '' && rule.style.backgroundColor === '') continue;
-      // replace div.sourceCode by a pre.sourceCode rule
-      sheets[i].deleteRule(j);
-      sheets[i].insertRule('pre.sourceCode{' + style + '}', j);
-    }
-  }
-})();
-</script>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 
 
 <style type="text/css">
@@ -457,84 +365,87 @@ div.tocify {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li class="dropdown-submenu">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">1. Coures and Tools Introduction</a>
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">1. Course, Tools and Topic Introduction</a>
       <ul class="dropdown-menu" role="menu">
         <li>
-          <a href="./1a_Course_Introduction.html">1a. Course introduction</a>
+          <a href="./Course_Introduction.html">1a. Course introduction</a>
         </li>
         <li>
-          <a href="./1b_Teaching_and_Learning.html">1b. Teaching and Learning thoughts</a>
+          <a href="./Teaching_and_Learning.html">1b. Teaching and Learning thoughts</a>
         </li>
         <li>
-          <a href="./1c_R_and_RStudio.html">1c. R and Rstudio</a>
+          <a href="./R_and_RStudio.html">1c. R and Rstudio</a>
         </li>
         <li>
-          <a href="./1d_DSAIDE.html">1d. DSAIDE</a>
+          <a href="./DSAIDE.html">1d. DSAIDE</a>
         </li>
         <li>
-          <a href="./1e_Further_Tools.html">1e. Further Tools</a>
+          <a href="./Further_Tools.html">1e. Further Tools</a>
         </li>
         <li>
-          <a href="./1f_Exercises.html">1f. Exercises</a>
+          <a href="./ID_Dynamics_Introduction.html">1f. Topic introduction</a>
         </li>
         <li>
-          <a href="./1g_Assessment.html">1g. Assessment</a>
+          <a href="./1_Exercises.html">1g. Exercises</a>
+        </li>
+        <li>
+          <a href="./1_Assessments.html">1h. Assessments</a>
         </li>
       </ul>
     </li>
     <li class="dropdown-submenu">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">2. Topic Introduction</a>
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">2. Characterizing infection states</a>
       <ul class="dropdown-menu" role="menu">
         <li>
-          <a href="./2a_ID_Dynamics_Introduction.html">2a. ID Dynamics introduction</a>
+          <a href="./Characteristics_of_ID.html">2a. Characteristics of ID</a>
         </li>
         <li>
-          <a href="./2b_Exercises.html">2b. Exercises</a>
+          <a href="./2_Exercises.html">2b. Exercises</a>
         </li>
         <li>
-          <a href="./2c_Assessment.html">2c. Assessment</a>
+          <a href="./2_Assessments.html">2c. Assessments</a>
         </li>
       </ul>
     </li>
     <li class="dropdown-submenu">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">3. Characteristics of ID</a>
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">3. Patterns of ID</a>
       <ul class="dropdown-menu" role="menu">
         <li>
-          <a href="./3a_Characteristics_of_ID.html">3a. Characteristics of ID</a>
+          <a href="./Patterns_of_ID.html">3a. Patterns of ID</a>
         </li>
         <li>
-          <a href="./3b_Exercises.html">3b. Exercises</a>
+          <a href="./3_Exercises.html">3b. Exercises</a>
         </li>
         <li>
-          <a href="./3c_Assessment.html">3c. Assessment</a>
+          <a href="./3_Assessments.html">3. Assessments</a>
         </li>
       </ul>
     </li>
     <li class="dropdown-submenu">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">4. Patterns of ID</a>
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">4. Reproductive Number 1</a>
       <ul class="dropdown-menu" role="menu">
         <li>
-          <a href="./4a_Patterns_of_ID.html">4a. Patterns of ID</a>
+          <a href="./Reproductive_Number_1.html">4a. Reproductive Number</a>
         </li>
         <li>
-          <a href="./4b_Exercises.html">4b. Exercises</a>
+          <a href="./4_Exercises.html">4b. Exercises</a>
         </li>
         <li>
-          <a href="./4c_Assessment.html">4c. Assessment</a>
+          <a href="./4c_Assessments.html">4c. Assessments</a>
         </li>
       </ul>
     </li>
     <li class="dropdown-submenu">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">5. Reproductive Number</a>
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">5. Reproductive Number 2</a>
       <ul class="dropdown-menu" role="menu">
         <li>
-          <a href="./5a_Reproductive_Number.html">5a. Reproductive Number</a>
+          <a href="./Reproductive_Number_2.html">5a. Reproductive Number</a>
         </li>
         <li>
-          <a href="./5b_Exercises.html">5b. Exercises</a>
+          <a href="./5_Exercises.html">5b. Exercises</a>
         </li>
         <li>
-          <a href="./5c_Assessment.html">5c. Assessment</a>
+          <a href="./5_Assessments.html">5c. Assessments</a>
         </li>
       </ul>
     </li>
@@ -542,13 +453,41 @@ div.tocify {
       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">6. Direct Transmission</a>
       <ul class="dropdown-menu" role="menu">
         <li>
-          <a href="./6a_Direct_Transmission.html">6a. Direct Transmission</a>
+          <a href="./Direct_Transmission.html">6a. Direct Transmission</a>
         </li>
         <li>
-          <a href="./6b_Exercises.html">6b. Exercises</a>
+          <a href="./6_Exercises.html">6b. Exercises</a>
         </li>
         <li>
-          <a href="./6c_Assessment.html">6c. Assessment</a>
+          <a href="./6_Assessments.html">6c. Assessments</a>
+        </li>
+      </ul>
+    </li>
+    <li class="dropdown-submenu">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">7. Environmental Transmission</a>
+      <ul class="dropdown-menu" role="menu">
+        <li>
+          <a href="./Environmental_Transmission.html">7a. Environmental Transmission</a>
+        </li>
+        <li>
+          <a href="./7_Exercises.html">7b. Exercises</a>
+        </li>
+        <li>
+          <a href="./7_Assessments.html">7c. Assessments</a>
+        </li>
+      </ul>
+    </li>
+    <li class="dropdown-submenu">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">8. Environmental Transmission</a>
+      <ul class="dropdown-menu" role="menu">
+        <li>
+          <a href="./Vector_Transmission.html">8a. Vector-borne ID</a>
+        </li>
+        <li>
+          <a href="./8_Exercises.html">8b. Exercises</a>
+        </li>
+        <li>
+          <a href="./8_Assessments.html">8c. Assessments</a>
         </li>
       </ul>
     </li>
@@ -610,42 +549,28 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">DSAIDE</h1>
+<h1 class="title toc-ignore">Further tools</h1>
 <h4 class="author">Andreas Handel</h4>
 <h4 class="date">2020-08-03</h4>
 
 </div>
 
 
+<p><strong>This reading is completely optional.</strong></p>
 <div id="overview" class="section level1">
 <h1>Overview</h1>
-<p>This document provides a brief introduction to the <code>DSAIDE</code> package, which we will use a lot in this course.</p>
+<p>This is a very short unit with a few pointers to other tools that we won’t really need in this course, but that might be useful or of interest (and which you are welcome to use as you work on different course assignments).</p>
+<p>All these readings are from another online course I teach, so there might be some comments that are specific to that course. You can ignore those.</p>
 </div>
-<div id="learning-objectives" class="section level1">
-<h1>Learning Objectives</h1>
-<ul>
-<li>Know how to run and use the <code>DSAIDE</code> package.</li>
-</ul>
+<div id="github" class="section level1">
+<h1>Github</h1>
 </div>
-<div id="dsaide-introduction" class="section level1">
-<h1>DSAIDE Introduction</h1>
-<p>DSAIDE, which stands for <em>Dynamical Systems Approach to Infectious Disease Epidemiology</em> is an R package I wrote. The goal is for users to explore infectious disease models and topics without having to implement their own models and write code.</p>
-<p>Go to the <a href="https://ahgroup.github.io/DSAIDE/">DSAIDE website</a> and read through the main page and the <em>Get started</em> section. Follow any instructions for steps that you haven’t done yet, namely installing R and RStudio and the DSAIDE package.</p>
-<p>You can skip or skim over the “Level 2” and “Level 3” sections. We won’t use this approach to interact with DSAIDE in the course - though you are of course allowed to do so.</p>
+<div id="rmarkdown" class="section level1">
+<h1>Rmarkdown</h1>
 </div>
-<div id="dsaide-hands-on" class="section level1">
-<h1>DSAIDE hands-on</h1>
-<p>If you haven’t done already, load DSAIDE. You should see a short message on the screen. Some packages show messages when you load them, and others don’t. In this case, the package tells you that you can start using it by typing <code>dsaidemenu()</code> into the R console. Do that to start it</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="kw">dsaidemenu</span>()</span></code></pre></div>
-<p>A menu should open in your browser, from which you can explore different models/apps.</p>
-<p><strong>Question: In the main menu of the DSAIDE package, what’s the title of the second group of apps?</strong></p>
-<p>You can explore DSAIDE now as much as you want, but you can also close it for now, as we’ll be coming back to it and working through most of the apps as part of the course.</p>
-</div>
-<div id="further-materials" class="section level1">
-<h1>Further materials</h1>
-<p><em>These sources cover more or less the same material that you just read, so checking them out is optional.</em></p>
-<p><a href="https://doi.org/10.1371/journal.pcbi.1005642">I published a paper describing the package</a>. The paper is by now somewhat outdated with regards to the details of the package, but it describes the overall idea and context well.</p>
-<p><a href="">Here is a brief video</a> showing how to load and interact with DSAIDE and explaining some of its features.</p>
+<div id="reference-management" class="section level1">
+<h1>Reference management</h1>
+<p>I hope you are already using a reference manager for your academic work. If not, you should. It makes things much easier. While there are lots of reference managers out there, some work better with tools such as RMarkdown. To read a bit more about this, <a href="">see here</a>.</p>
 </div>
 
 
