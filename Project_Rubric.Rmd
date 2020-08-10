@@ -12,7 +12,7 @@ output:
 
 # Overview
 
-This documents provides more detailed instructions and grading rubrics for each part of the project.
+This document provides more detailed instructions and grading rubrics for each part of the project.
 
 
 # Part 1
@@ -20,66 +20,57 @@ This documents provides more detailed instructions and grading rubrics for each 
 **The main objective for part 1 is to describe your planned project in enough detail that I can assess if is suitable and feasible.** 
 
 To that end, provide any information you think is necessary for me to judge the chances for your project to be doable and result in a good quality project.
+For instance you can describe why it's an interesting question, if anyone else has done similar things, how your project is going to be new, what your project will entail, how you plan on going about doing it. 
 
-You are allowed, but not yet required, to provide detailed background information. 
+You are allowed, but not yet required, to start include citations, provide background information, etc. This document can be fairly short, a page might be enough. Of course if you already have details, provide them. 
 
-For instance you can describe why it's an interesting question, who else has done similar analyses, how your analysis will be new/different, etc. Similar to what you read in an introduction to a research paper. For the final report, you'll need these parts. For part 1, they are not required, but you are welcome to already scribble down some of that.
-* Eventually, for your final report, what you write for this part will go into different sections of the full report. Some will go into the introdcution, some in the methods section. You can already place these items there, or for now just write them as a single section.
-
-Grading for this part will follow the following rubric: 
+Grading for this part will follow the following simple rubric: 
 
 | **Category** | **Description**  | **Score** |
 | --- | --- | --- |
 | Absent | Everything or majority of submission is missing | 0 |
-| Not sufficient | Submission is very incomplete, has major missing parts which does not allow assessment of feasiblity of proposed project | 50 |
+| Not sufficient | Submission is very incomplete, has major missing parts which does not allow assessment of feasibility of proposed project | 50 |
 | Sufficient | Submission is complete or fairly complete, contains enough information to allow assessment of feasibility of proposed project | 100 |
 
 
 # Part 2
 
-**The main objective for part 2 is to have mostly completed the data loading/cleaning/wrangling part, as well as having a mostly complete data exploration part.** 
+**The main objective for part 2 is to have your project conceptualized and a structure in place, with more details included. Potential changes might happen from part 1 based on feedback you received for your initial submission. ** 
 
 To that end, provide the following pieces of information:
 
-* Everything from part 1. That doesn't mean you need to keep what you wrote for part 1 frozen. Just that the description you provided there should be part of this submission. As appropriate, you can rewrite/reformat things to get it closer to a final report structure (e.g. start moving some parts into a method section).
-* A somewhat detailed description containing text and code showing your cleaning/wrangling steps. You can have that in the main report. However, if you plan to write your project report like a manuscript, you might want to have a separate supplementary file which contains these details. 
-* The main text should show plots or tables that explore the data, with a focus on the quantities of main interest (outcome, main predictor, co-variates of specific interest, etc.).
-* It is up to you how you structure things. The combination of R or Rmd scripts and if you add comments into the code or use the text+code approach of Rmd files is your choice. Look for instance at Brian's project for ideas.
-* Everything needs to be fully reproducible and you need to provide somewhere (e.g. in the main text file or in the readme file in your repository) instructions on what one needs to do to completely reproduce everything.
-* Your main article and - if applicable supplementary files - should knit into a word or pdf or html document.
-* I recommend that at this stage you start including references using the bibtex reference approach. The bib file should be provided too.
+* A report that contains the full concept and structure for the project, inluding a detailed outline. 
+* Inclusion of some background information and references.
+* Any components/results you have started working on.
 
 Grading for this part will follow the following rubric: 
 
 | **Category** | **Description**  | **Score** |
 | --- | --- | --- |
 | Absent | Everything or majority of submission is missing | 0 |
-| Insufficient | Submission is very incomplete, major parts missing or not reproducible| 50 |
-| Not fully sufficient | Submission is somewhat incomplete, minor parts missing or not reproducible| 75 |
+| Not sufficient | Submission is very incomplete, has major missing parts | 50 |
 | Sufficient | Submission is complete or fairly complete | 100 |
 
 
 
 # Part 3
 
-**The main objective for part 3 is to have started the analysis part of the project and continued to improve everything.** 
+**The main objective for part 3 is to have a first draft of the full project and report.** 
 
 To that end, provide the following pieces of information:
 
-* All relevant files and documents needed to reproduce everything.
-* Some documentation (e.g. a readme.md file) explaining how your project is set up and which scripts need to be run in what order to reproduce everyting.
-* A main article/manuscript file which contains the most pertinent findings. You should include more figures/tables here than you would in a regular manuscript. However, it should still be nicely readable, so don't produce page-long raw R output or similar things. Further figures and tables con go into supplementary document(s). The way you split content between main manuscript file and supplement is up to you.
-* Files with code that are well documented, and that do all the previous tasks (cleaning/processing), as well as running a few analyses. You can start with simple bivariate ones, looking for patterns between your outcome(s) and individal predictors of interest. Those will likely take the form of scatterplots or boxplots or 2x2 tables, with accompanying statistical model analysis.
+* A report that has all the needed components (in can be draft, doesn't have to be polished yet).
+* Any other relevant files or links to files that are part of the project, as a first draft.
+* The whole project should essentially be there, at least as a first draft. It is understood that things can change, might not be polished, etc.
 
 Grading for this part will follow this rubric: 
 
 | **Category** | **Description**  | **Score** |
 | --- | --- | --- |
 | Absent | Everything or majority of submission is missing | 0 |
-| Insufficient | Submission is very incomplete, major parts missing or not reproducible| 50 |
-| Not fully sufficient | Submission is somewhat incomplete, minor parts missing or not reproducible| 75 |
+| Insufficient | Submission is very incomplete, major parts missing | 50 |
+| Not fully sufficient | Submission is somewhat incomplete, minor parts missing | 75 |
 | Sufficient | Submission is complete or fairly complete | 100 |
-
 
 
 # Part 4
@@ -88,15 +79,11 @@ Grading for this part will follow this rubric:
 
 To that end, provide the following pieces of information:
 
-* Every file needed to reproduce your complete analysis and report in your project repository.
-* Detailed instructions (e.g. as a `readme.md` file) explaining how to reproduce all your results.
-* A complete, nicely readable and well formatted report, written in structure like a research paper (Abstract/Introduction/Methods/Results/Discussion/Citations).
-* Well documented supplementary material/text, Rmd/R scripts, data, etc. as needed.
-* bibtex file.
-* Everything well documented.
+* The fully completed report for your project.
+* Any other materials that are part of your project either as supplementary files or links. 
+* Everything should be well written and polished.
 
 I will not grade this part but it will be assessed by your peers, as described in the _Project Review_ document.
-
 
 
 # Part 5
@@ -107,6 +94,6 @@ To that end, provide the following pieces of information:
 
 * Everything from part 4, with improvements based on peer review feedback.
 
-Grading for this part will follow the rubric provided in the _Project Review_ document. 
+Grading for this part will follow the same rubric used for peer review, provided in the _Project Review_ document. 
 
 

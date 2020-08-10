@@ -28,11 +28,25 @@ __This page is work in progress.__ This list is and will likely forever remain i
 --- 
 
 
-__Agent Based Model (ABM):__	Also called individual-based models (IBM). A model in which individuals/agents are explicitly modeled. Agents can be entities such as hosts, virions, bacteria, cells, etc. Models are usually stochastic and have spatial structure. 
+## Infectious Disease Epidemiology related terms
+
+
+__Reproductive Number:__ The expected number of new infected and infectious individuals, created by one individual (of the same type). Also known as __reproductive/reproduction rate__ (bad terminology, it's not a rate.)
+
+
+
+
+
+
+
+## Modeling related terms
+
+__Agent Based Model (ABM):__ Also called individual-based models (IBM). A model in which individuals/agents are explicitly modeled. Agents can be entities such as hosts, virions, bacteria, cells, etc. Models are usually stochastic and have spatial structure (see also NetLogo). 
 
 __AIC:__	An Information Criterion (often also called Akaike Information Criterion). A statistical measure that allows one to compare the goodness of fit of multiple models. Other quantities, such as BIC, DIC, Likelihood ratio, etc. can also be used for model selection.
 
-__Compartment:__ Corresponds usually to a variable in a model, tracks the number of some variable in a certain stage. For instance the compartment/variable of cells in the infected state. Compartments track total numbers of a quantity, as opposed to agent-based model, where each unit is tracked individually (e.g. each infected cell is being modeled, instead of just modeling the compartment of the total number of infected cells). 
+__Compartment:__	Corresponds usually to a variable in a model, tracks the number of some variable in a certain stage. For instance the compartment/variable of cells in the infected state. 
+Compartments track total numbers of a quantity, as opposed to agent-based model, where each unit is tracked individually (e.g. each infected cell is being modeled, instead of just modeling the compartment of the total number of infected cells). 
 
 __Delay differential equation (DDE):__	A differential equation (or more often, a set of differential equations) that describe the dynamics of one or multiple quantities and allow for delayed actions. Example: The influx of new cells into a system could depend on the number of cells several hours/days ago. 
 
@@ -40,40 +54,34 @@ __Discrete time model:__	A mathematical model in which one or multiple variables
 
 __Deterministic:__	A system that – for a given set of initial conditions and parameters – produces always the same dynamics/outcome
 
-__Dynamic(al) model:__	A model that tracks how entities change as a function of time. 
+__Dynamic model:__	A model that tracks how entities change as a function of time. 
 
 __Fitting/Inference:__	The rigorous, statistical comparison of a (mechanistic or phenomenological) model with data. This is used to test hypotheses and estimate parameters.
 
 __Initial condition:__	The state of the system (i.e. the values of the different variables of a system) at the beginning (usually at the start of the infection, or at the start of treatment, etc.). Needs to be specified to allow simulating a model.
 
-__Mechanistic model:__	A model that explicitly describes processes/mechanisms of a system, either in terms of mathematical equations or computer instructions. Such models can be used to understand _how_ things interact and lead to specific outcomes. Many models in the hard sciences are of this type. A common way to formulate such models is with differential equations.
+__Mechanistic model:__	A model that explicitly describes processes/mechanisms of a system, either in terms of mathematical equations or computer instructions. Such models can be used to study  _how_ things interact and lead to specific outcomes. Many models in the hard sciences are of this type. A common way to formulate such models is with differential equations.
 
 __Parameter:__ A quantity of a model that is usually considered fixed. For instance the life-span of an infected cell is a parameter. Parameter values are needed to fully specify a system. They can be obtained from experimental data, either through reading the literature or through fitting of models to data.
 
-__Phenomenological model:__ A model that captures correlations between certain quantities without invoking specific mechanisms. Most statistical models fall into this category.
+__Phenomenological model:__	A model that captures correlations between certain quantities without invoking specific mechanisms. Most statistical models fall into this category.
 
 __Ordinary differential equation (ODE):__	A differential equation (or more often, a set of differential equations) that describe the continuous-time dynamics of one or multiple quantities/variables. The left-hand side of the equation specifies the quantity/variable; the instantaneous change is specified on the right-hand side of the equation. 
 
 __Quantitative model:__	A mathematical or computational description of some system of interest.
 
-__Reproductive Number:__ The expected number of new infected and infectious individuals, created by one individual (of the same type). Also known as __reproductive/reproduction rate__ (bad terminology, it's not a rate.)
+__R:__	Freely available programming language that allows for relatively easy and convenient implementation of a large number of statistical and scientific research projects. 
 
 __Spatial model:__	A model that in some way explicitly accounts for spatial structure. Most ABM are spatial models, compartmental models can include spatial features.
 
-__Statistics:__ The basic/classical machinery for data analysis. Depending on the type of data, many different approaches have been developed (parametric vs. non-parametric methods, longitudinal analysis, time-series analysis, and many more). Models tend to be simple and interpretable, the goal is to understand how inputs (predictors) relate to outcomes. Statistics was developed when data was sparse, computers didn't exist, and mainly scientists interested in a deep understanding of their data used it. Because of this, statistical models tend to be simple and work well on small datasets. 
+__Statistical Learning:__ A term that seems to become more widely used in recent years. While some people distinguish this term from __Statistics__ and consider it a sub-field, the two terms are often used interchangably.
 
-__Statistical Learning:__ A term that seems to become more widely used in recent years. While some people distinguish this term from __Statistics__ and consider it a sub-field (see e.g. Chapter 1 of [_Introduction to Statistical Learning_ ](http://faculty.marshall.usc.edu/gareth-james/ISL/)), the two terms are often used interchangably.
+__Statistics:__ The basic/classical machinery for data analysis. Depending on the type of data, many different approaches have been developed (parametric vs. non-parametric methods, longitudinal analysis, time-series analysis, and many more). Models tend to be simple and interpretable, the goal is to understand how inputs (predictors) relate to outcomes. Statistics was developed when data was sparse, computers didn't exist, and mainly scientists interested in a deep understanding of their data used it. Because of this, statistical models tend to be simple and work well on small datasets. 
 
 __Stochastic:__	A system that can produce varying dynamics/outcomes when simulated multiple times, even for a given set of initial conditions and parameters. 
 
 __Uncertainty/Sensitivity analysis:__	An approach in modeling that helps one to understand how uncertain model outcomes are, given uncertainty in the inputs. It also allows one to figure out how much of the outcome uncertainty can be attributed to specific inputs. Inputs are often parameters, but don’t have to be.
 
-__Variable:__	Any quantity that we consider to change (i.e. be variable). Almost always the change is over time. Contrast that to __Parameter__. This change can be modeled and is tracked with some equation or model (e.g. an ODE, DDE, ABM).
-
-
-
-
-
-
+__Variable:__ Any quantity that we consider to change (i.e. be variable). Almost always the change is over time. This change is tracked with some equation or model (e.g. an ODE, DDE, ABM). Contrast that to __Parameter__. 
 
 

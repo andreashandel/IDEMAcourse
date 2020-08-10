@@ -84,7 +84,7 @@ navbar:
               href: ./7_Exercises.html
             - text: "7c. Assessments"
               href: ./7_Assessments.html
-        - text: "8. Environmental Transmission"
+        - text: "8. Vector-borne infectious diseases"
           menu:
             - text: "8a. Vector-borne ID"
               href: ./Vector_Transmission.html
