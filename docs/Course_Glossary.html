@@ -11,7 +11,7 @@
 
 <meta name="author" content="Andreas Handel" />
 
-<meta name="date" content="2020-08-03" />
+<meta name="date" content="2020-08-06" />
 
 <title>IDEMA Course Glossary</title>
 
@@ -367,48 +367,6 @@ $(document).ready(function () {
         </li>
       </ul>
     </li>
-    <li class="dropdown-submenu">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">6. Direct Transmission</a>
-      <ul class="dropdown-menu" role="menu">
-        <li>
-          <a href="./Direct_Transmission.html">6a. Direct Transmission</a>
-        </li>
-        <li>
-          <a href="./6_Exercises.html">6b. Exercises</a>
-        </li>
-        <li>
-          <a href="./6_Assessments.html">6c. Assessments</a>
-        </li>
-      </ul>
-    </li>
-    <li class="dropdown-submenu">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">7. Environmental Transmission</a>
-      <ul class="dropdown-menu" role="menu">
-        <li>
-          <a href="./Environmental_Transmission.html">7a. Environmental Transmission</a>
-        </li>
-        <li>
-          <a href="./7_Exercises.html">7b. Exercises</a>
-        </li>
-        <li>
-          <a href="./7_Assessments.html">7c. Assessments</a>
-        </li>
-      </ul>
-    </li>
-    <li class="dropdown-submenu">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">8. Environmental Transmission</a>
-      <ul class="dropdown-menu" role="menu">
-        <li>
-          <a href="./Vector_Transmission.html">8a. Vector-borne ID</a>
-        </li>
-        <li>
-          <a href="./8_Exercises.html">8b. Exercises</a>
-        </li>
-        <li>
-          <a href="./8_Assessments.html">8c. Assessments</a>
-        </li>
-      </ul>
-    </li>
   </ul>
 </li>
 <li class="dropdown">
@@ -469,7 +427,7 @@ $(document).ready(function () {
 
 <h1 class="title toc-ignore">IDEMA Course Glossary</h1>
 <h4 class="author">Andreas Handel</h4>
-<h4 class="date">2020-08-03</h4>
+<h4 class="date">2020-08-06</h4>
 
 </div>
 
@@ -478,27 +436,34 @@ $(document).ready(function () {
 <p>Note that in general, there is no regulatory terminology agency, so everyone can use these words to mean whatever they want. While some are fairly well defined, other terms are often used and abused in ways outside the definitions I provide. Always look carefully at what is described to decide what exactly is going on.</p>
 <p><strong>This page is work in progress.</strong> This list is and will likely forever remain incomplete. If you think there is a specific term missing that should be listed and explained here, please let me know or contribute via a <a href="https://github.com/andreashandel/IDEMAcourse">Github pull request</a>.</p>
 <hr />
-<p><strong>Agent Based Model (ABM):</strong> Also called individual-based models (IBM). A model in which individuals/agents are explicitly modeled. Agents can be entities such as hosts, virions, bacteria, cells, etc. Models are usually stochastic and have spatial structure.</p>
+<div id="infectious-disease-epidemiology-related-terms" class="section level2">
+<h2>Infectious Disease Epidemiology related terms</h2>
+<p><strong>Reproductive Number:</strong> The expected number of new infected and infectious individuals, created by one individual (of the same type). Also known as <strong>reproductive/reproduction rate</strong> (bad terminology, it’s not a rate.)</p>
+</div>
+<div id="modeling-related-terms" class="section level2">
+<h2>Modeling related terms</h2>
+<p><strong>Agent Based Model (ABM):</strong> Also called individual-based models (IBM). A model in which individuals/agents are explicitly modeled. Agents can be entities such as hosts, virions, bacteria, cells, etc. Models are usually stochastic and have spatial structure (see also NetLogo).</p>
 <p><strong>AIC:</strong> An Information Criterion (often also called Akaike Information Criterion). A statistical measure that allows one to compare the goodness of fit of multiple models. Other quantities, such as BIC, DIC, Likelihood ratio, etc. can also be used for model selection.</p>
 <p><strong>Compartment:</strong> Corresponds usually to a variable in a model, tracks the number of some variable in a certain stage. For instance the compartment/variable of cells in the infected state. Compartments track total numbers of a quantity, as opposed to agent-based model, where each unit is tracked individually (e.g. each infected cell is being modeled, instead of just modeling the compartment of the total number of infected cells).</p>
 <p><strong>Delay differential equation (DDE):</strong> A differential equation (or more often, a set of differential equations) that describe the dynamics of one or multiple quantities and allow for delayed actions. Example: The influx of new cells into a system could depend on the number of cells several hours/days ago.</p>
 <p><strong>Discrete time model:</strong> A mathematical model in which one or multiple variables are updated in discrete time-steps. Contrast this with differential equation models, which implement continuous-time dynamics.</p>
 <p><strong>Deterministic:</strong> A system that – for a given set of initial conditions and parameters – produces always the same dynamics/outcome</p>
-<p><strong>Dynamic(al) model:</strong> A model that tracks how entities change as a function of time.</p>
+<p><strong>Dynamic model:</strong> A model that tracks how entities change as a function of time.</p>
 <p><strong>Fitting/Inference:</strong> The rigorous, statistical comparison of a (mechanistic or phenomenological) model with data. This is used to test hypotheses and estimate parameters.</p>
 <p><strong>Initial condition:</strong> The state of the system (i.e. the values of the different variables of a system) at the beginning (usually at the start of the infection, or at the start of treatment, etc.). Needs to be specified to allow simulating a model.</p>
-<p><strong>Mechanistic model:</strong> A model that explicitly describes processes/mechanisms of a system, either in terms of mathematical equations or computer instructions. Such models can be used to understand <em>how</em> things interact and lead to specific outcomes. Many models in the hard sciences are of this type. A common way to formulate such models is with differential equations.</p>
+<p><strong>Mechanistic model:</strong> A model that explicitly describes processes/mechanisms of a system, either in terms of mathematical equations or computer instructions. Such models can be used to study <em>how</em> things interact and lead to specific outcomes. Many models in the hard sciences are of this type. A common way to formulate such models is with differential equations.</p>
 <p><strong>Parameter:</strong> A quantity of a model that is usually considered fixed. For instance the life-span of an infected cell is a parameter. Parameter values are needed to fully specify a system. They can be obtained from experimental data, either through reading the literature or through fitting of models to data.</p>
 <p><strong>Phenomenological model:</strong> A model that captures correlations between certain quantities without invoking specific mechanisms. Most statistical models fall into this category.</p>
 <p><strong>Ordinary differential equation (ODE):</strong> A differential equation (or more often, a set of differential equations) that describe the continuous-time dynamics of one or multiple quantities/variables. The left-hand side of the equation specifies the quantity/variable; the instantaneous change is specified on the right-hand side of the equation.</p>
 <p><strong>Quantitative model:</strong> A mathematical or computational description of some system of interest.</p>
-<p><strong>Reproductive Number:</strong> The expected number of new infected and infectious individuals, created by one individual (of the same type). Also known as <strong>reproductive/reproduction rate</strong> (bad terminology, it’s not a rate.)</p>
+<p><strong>R:</strong> Freely available programming language that allows for relatively easy and convenient implementation of a large number of statistical and scientific research projects.</p>
 <p><strong>Spatial model:</strong> A model that in some way explicitly accounts for spatial structure. Most ABM are spatial models, compartmental models can include spatial features.</p>
+<p><strong>Statistical Learning:</strong> A term that seems to become more widely used in recent years. While some people distinguish this term from <strong>Statistics</strong> and consider it a sub-field, the two terms are often used interchangably.</p>
 <p><strong>Statistics:</strong> The basic/classical machinery for data analysis. Depending on the type of data, many different approaches have been developed (parametric vs. non-parametric methods, longitudinal analysis, time-series analysis, and many more). Models tend to be simple and interpretable, the goal is to understand how inputs (predictors) relate to outcomes. Statistics was developed when data was sparse, computers didn’t exist, and mainly scientists interested in a deep understanding of their data used it. Because of this, statistical models tend to be simple and work well on small datasets.</p>
-<p><strong>Statistical Learning:</strong> A term that seems to become more widely used in recent years. While some people distinguish this term from <strong>Statistics</strong> and consider it a sub-field (see e.g. Chapter 1 of <a href="http://faculty.marshall.usc.edu/gareth-james/ISL/"><em>Introduction to Statistical Learning</em></a>), the two terms are often used interchangably.</p>
 <p><strong>Stochastic:</strong> A system that can produce varying dynamics/outcomes when simulated multiple times, even for a given set of initial conditions and parameters.</p>
 <p><strong>Uncertainty/Sensitivity analysis:</strong> An approach in modeling that helps one to understand how uncertain model outcomes are, given uncertainty in the inputs. It also allows one to figure out how much of the outcome uncertainty can be attributed to specific inputs. Inputs are often parameters, but don’t have to be.</p>
-<p><strong>Variable:</strong> Any quantity that we consider to change (i.e. be variable). Almost always the change is over time. Contrast that to <strong>Parameter</strong>. This change can be modeled and is tracked with some equation or model (e.g. an ODE, DDE, ABM).</p>
+<p><strong>Variable:</strong> Any quantity that we consider to change (i.e. be variable). Almost always the change is over time. This change is tracked with some equation or model (e.g. an ODE, DDE, ABM). Contrast that to <strong>Parameter</strong>.</p>
+</div>
 
 
 

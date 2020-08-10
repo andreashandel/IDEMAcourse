@@ -39,7 +39,7 @@ _Obviously, there is no way my list is exhaustive. Let me know if you find other
 * Otto and Day (2007) A Biologist's Guide to Mathematical Modeling in Ecology and Evolution. Princeton University Press: Some good background/primers on
 math topics, explanations on how to model, not much infectious disease specific material.
 
-## Infectious Disease modeling books
+## Infectious disease modeling books
 * Vynnycky and White (2010) An Introduction to Infectious Disease Modelling. The most introductory level book.
 * Keeling and Rohani (2008) Modeling Infectious Diseases. Introductory but at a higher level.  
 * Bjornstadt (2018) Epidemics - Models and Data using R. Shows how to do it in R. Some topics are basic, others fairly advanced and theoretical.

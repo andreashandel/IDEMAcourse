@@ -68,30 +68,30 @@ navbar:
               href: ./5_Exercises.html
             - text: "5c. Assessments"
               href: ./5_Assessments.html
-        - text: "6. Direct Transmission"
-          menu:
-            - text: "6a. Direct Transmission"
-              href: ./Direct_Transmission.html
-            - text: "6b. Exercises"
-              href: ./6_Exercises.html
-            - text: "6c. Assessments"
-              href: ./6_Assessments.html
-        - text: "7. Environmental Transmission"
-          menu:
-            - text: "7a. Environmental Transmission"
-              href: ./Environmental_Transmission.html
-            - text: "7b. Exercises"
-              href: ./7_Exercises.html
-            - text: "7c. Assessments"
-              href: ./7_Assessments.html
-        - text: "8. Vector-borne infectious diseases"
-          menu:
-            - text: "8a. Vector-borne ID"
-              href: ./Vector_Transmission.html
-            - text: "8b. Exercises"
-              href: ./8_Exercises.html
-            - text: "8c. Assessments"
-              href: ./8_Assessments.html
+        # - text: "6. Direct Transmission"
+        #   menu:
+        #     - text: "6a. Direct Transmission"
+        #       href: ./Direct_Transmission.html
+        #     - text: "6b. Exercises"
+        #       href: ./6_Exercises.html
+        #     - text: "6c. Assessments"
+        #       href: ./6_Assessments.html
+        # - text: "7. Environmental Transmission"
+        #   menu:
+        #     - text: "7a. Environmental Transmission"
+        #       href: ./Environmental_Transmission.html
+        #     - text: "7b. Exercises"
+        #       href: ./7_Exercises.html
+        #     - text: "7c. Assessments"
+        #       href: ./7_Assessments.html
+        # - text: "8. Vector-borne infectious diseases"
+        #   menu:
+        #     - text: "8a. Vector-borne ID"
+        #       href: ./Vector_Transmission.html
+        #     - text: "8b. Exercises"
+        #       href: ./8_Exercises.html
+        #     - text: "8c. Assessments"
+        #       href: ./8_Assessments.html
     - text: "Project"
       menu:
          - text: "Project information"

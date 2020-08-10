@@ -11,7 +11,7 @@
 
 <meta name="author" content="Andreas Handel" />
 
-<meta name="date" content="2020-08-03" />
+<meta name="date" content="2020-08-06" />
 
 <title>IDEMA Project Rubric</title>
 
@@ -449,48 +449,6 @@ div.tocify {
         </li>
       </ul>
     </li>
-    <li class="dropdown-submenu">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">6. Direct Transmission</a>
-      <ul class="dropdown-menu" role="menu">
-        <li>
-          <a href="./Direct_Transmission.html">6a. Direct Transmission</a>
-        </li>
-        <li>
-          <a href="./6_Exercises.html">6b. Exercises</a>
-        </li>
-        <li>
-          <a href="./6_Assessments.html">6c. Assessments</a>
-        </li>
-      </ul>
-    </li>
-    <li class="dropdown-submenu">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">7. Environmental Transmission</a>
-      <ul class="dropdown-menu" role="menu">
-        <li>
-          <a href="./Environmental_Transmission.html">7a. Environmental Transmission</a>
-        </li>
-        <li>
-          <a href="./7_Exercises.html">7b. Exercises</a>
-        </li>
-        <li>
-          <a href="./7_Assessments.html">7c. Assessments</a>
-        </li>
-      </ul>
-    </li>
-    <li class="dropdown-submenu">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">8. Environmental Transmission</a>
-      <ul class="dropdown-menu" role="menu">
-        <li>
-          <a href="./Vector_Transmission.html">8a. Vector-borne ID</a>
-        </li>
-        <li>
-          <a href="./8_Exercises.html">8b. Exercises</a>
-        </li>
-        <li>
-          <a href="./8_Assessments.html">8c. Assessments</a>
-        </li>
-      </ul>
-    </li>
   </ul>
 </li>
 <li class="dropdown">
@@ -551,22 +509,21 @@ div.tocify {
 
 <h1 class="title toc-ignore">IDEMA Project Rubric</h1>
 <h4 class="author">Andreas Handel</h4>
-<h4 class="date">2020-08-03</h4>
+<h4 class="date">2020-08-06</h4>
 
 </div>
 
 
 <div id="overview" class="section level1">
 <h1>Overview</h1>
-<p>This documents provides more detailed instructions and grading rubrics for each part of the project.</p>
+<p>This document provides more detailed instructions and grading rubrics for each part of the project.</p>
 </div>
 <div id="part-1" class="section level1">
 <h1>Part 1</h1>
 <p><strong>The main objective for part 1 is to describe your planned project in enough detail that I can assess if is suitable and feasible.</strong></p>
-<p>To that end, provide any information you think is necessary for me to judge the chances for your project to be doable and result in a good quality project.</p>
-<p>You are allowed, but not yet required, to provide detailed background information.</p>
-<p>For instance you can describe why it’s an interesting question, who else has done similar analyses, how your analysis will be new/different, etc. Similar to what you read in an introduction to a research paper. For the final report, you’ll need these parts. For part 1, they are not required, but you are welcome to already scribble down some of that. * Eventually, for your final report, what you write for this part will go into different sections of the full report. Some will go into the introdcution, some in the methods section. You can already place these items there, or for now just write them as a single section.</p>
-<p>Grading for this part will follow the following rubric:</p>
+<p>To that end, provide any information you think is necessary for me to judge the chances for your project to be doable and result in a good quality project. For instance you can describe why it’s an interesting question, if anyone else has done similar things, how your project is going to be new, what your project will entail, how you plan on going about doing it.</p>
+<p>You are allowed, but not yet required, to start include citations, provide background information, etc. This document can be fairly short, a page might be enough. Of course if you already have details, provide them.</p>
+<p>Grading for this part will follow the following simple rubric:</p>
 <table>
 <colgroup>
 <col width="33%" />
@@ -588,7 +545,7 @@ div.tocify {
 </tr>
 <tr class="even">
 <td>Not sufficient</td>
-<td>Submission is very incomplete, has major missing parts which does not allow assessment of feasiblity of proposed project</td>
+<td>Submission is very incomplete, has major missing parts which does not allow assessment of feasibility of proposed project</td>
 <td>50</td>
 </tr>
 <tr class="odd">
@@ -601,24 +558,15 @@ div.tocify {
 </div>
 <div id="part-2" class="section level1">
 <h1>Part 2</h1>
-<p><strong>The main objective for part 2 is to have mostly completed the data loading/cleaning/wrangling part, as well as having a mostly complete data exploration part.</strong></p>
+<p><strong>The main objective for part 2 is to have your project conceptualized and a structure in place, with more details included. Potential changes might happen from part 1 based on feedback you received for your initial submission. </strong></p>
 <p>To that end, provide the following pieces of information:</p>
 <ul>
-<li>Everything from part 1. That doesn’t mean you need to keep what you wrote for part 1 frozen. Just that the description you provided there should be part of this submission. As appropriate, you can rewrite/reformat things to get it closer to a final report structure (e.g. start moving some parts into a method section).</li>
-<li>A somewhat detailed description containing text and code showing your cleaning/wrangling steps. You can have that in the main report. However, if you plan to write your project report like a manuscript, you might want to have a separate supplementary file which contains these details.</li>
-<li>The main text should show plots or tables that explore the data, with a focus on the quantities of main interest (outcome, main predictor, co-variates of specific interest, etc.).</li>
-<li>It is up to you how you structure things. The combination of R or Rmd scripts and if you add comments into the code or use the text+code approach of Rmd files is your choice. Look for instance at Brian’s project for ideas.</li>
-<li>Everything needs to be fully reproducible and you need to provide somewhere (e.g. in the main text file or in the readme file in your repository) instructions on what one needs to do to completely reproduce everything.</li>
-<li>Your main article and - if applicable supplementary files - should knit into a word or pdf or html document.</li>
-<li>I recommend that at this stage you start including references using the bibtex reference approach. The bib file should be provided too.</li>
+<li>A report that contains the full concept and structure for the project, inluding a detailed outline.</li>
+<li>Inclusion of some background information and references.</li>
+<li>Any components/results you have started working on.</li>
 </ul>
 <p>Grading for this part will follow the following rubric:</p>
 <table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th><strong>Category</strong></th>
@@ -633,16 +581,11 @@ div.tocify {
 <td>0</td>
 </tr>
 <tr class="even">
-<td>Insufficient</td>
-<td>Submission is very incomplete, major parts missing or not reproducible</td>
+<td>Not sufficient</td>
+<td>Submission is very incomplete, has major missing parts</td>
 <td>50</td>
 </tr>
 <tr class="odd">
-<td>Not fully sufficient</td>
-<td>Submission is somewhat incomplete, minor parts missing or not reproducible</td>
-<td>75</td>
-</tr>
-<tr class="even">
 <td>Sufficient</td>
 <td>Submission is complete or fairly complete</td>
 <td>100</td>
@@ -652,13 +595,12 @@ div.tocify {
 </div>
 <div id="part-3" class="section level1">
 <h1>Part 3</h1>
-<p><strong>The main objective for part 3 is to have started the analysis part of the project and continued to improve everything.</strong></p>
+<p><strong>The main objective for part 3 is to have a first draft of the full project and report.</strong></p>
 <p>To that end, provide the following pieces of information:</p>
 <ul>
-<li>All relevant files and documents needed to reproduce everything.</li>
-<li>Some documentation (e.g. a readme.md file) explaining how your project is set up and which scripts need to be run in what order to reproduce everyting.</li>
-<li>A main article/manuscript file which contains the most pertinent findings. You should include more figures/tables here than you would in a regular manuscript. However, it should still be nicely readable, so don’t produce page-long raw R output or similar things. Further figures and tables con go into supplementary document(s). The way you split content between main manuscript file and supplement is up to you.</li>
-<li>Files with code that are well documented, and that do all the previous tasks (cleaning/processing), as well as running a few analyses. You can start with simple bivariate ones, looking for patterns between your outcome(s) and individal predictors of interest. Those will likely take the form of scatterplots or boxplots or 2x2 tables, with accompanying statistical model analysis.</li>
+<li>A report that has all the needed components (in can be draft, doesn’t have to be polished yet).</li>
+<li>Any other relevant files or links to files that are part of the project, as a first draft.</li>
+<li>The whole project should essentially be there, at least as a first draft. It is understood that things can change, might not be polished, etc.</li>
 </ul>
 <p>Grading for this part will follow this rubric:</p>
 <table>
@@ -682,12 +624,12 @@ div.tocify {
 </tr>
 <tr class="even">
 <td>Insufficient</td>
-<td>Submission is very incomplete, major parts missing or not reproducible</td>
+<td>Submission is very incomplete, major parts missing</td>
 <td>50</td>
 </tr>
 <tr class="odd">
 <td>Not fully sufficient</td>
-<td>Submission is somewhat incomplete, minor parts missing or not reproducible</td>
+<td>Submission is somewhat incomplete, minor parts missing</td>
 <td>75</td>
 </tr>
 <tr class="even">
@@ -703,12 +645,9 @@ div.tocify {
 <p><strong>The main objective for part 4 is to have a fully completed project, ready for peer review.</strong></p>
 <p>To that end, provide the following pieces of information:</p>
 <ul>
-<li>Every file needed to reproduce your complete analysis and report in your project repository.</li>
-<li>Detailed instructions (e.g. as a <code>readme.md</code> file) explaining how to reproduce all your results.</li>
-<li>A complete, nicely readable and well formatted report, written in structure like a research paper (Abstract/Introduction/Methods/Results/Discussion/Citations).</li>
-<li>Well documented supplementary material/text, Rmd/R scripts, data, etc. as needed.</li>
-<li>bibtex file.</li>
-<li>Everything well documented.</li>
+<li>The fully completed report for your project.</li>
+<li>Any other materials that are part of your project either as supplementary files or links.</li>
+<li>Everything should be well written and polished.</li>
 </ul>
 <p>I will not grade this part but it will be assessed by your peers, as described in the <em>Project Review</em> document.</p>
 </div>
@@ -719,7 +658,7 @@ div.tocify {
 <ul>
 <li>Everything from part 4, with improvements based on peer review feedback.</li>
 </ul>
-<p>Grading for this part will follow the rubric provided in the <em>Project Review</em> document.</p>
+<p>Grading for this part will follow the same rubric used for peer review, provided in the <em>Project Review</em> document.</p>
 </div>
 
 
