@@ -1,14 +1,15 @@
 name: "IDEMAcourse"
-title: "IDEMA Course"
 output_dir: "docs"
 exclude: ["auxiliary", "media", "references", "*.csv"]
-favicon: media/IDEMAlogo.png
+favicon: IDEMAlogo.png
 base_url: https://andreashandel.github.io/IDEMAcourse/
 repository_url: https://github.com/andreashandel/IDEMAcourse
 navbar:
+  title: "IDEMA Course"
   logo:
     image: IDEMAlogo.png
     href: https://andreashandel.github.io/IDEMAcourse/
+  type: inverse
   left:
     - text: "General Information"
       menu:
