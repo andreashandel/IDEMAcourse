@@ -10,22 +10,16 @@ output:
 ---
 
 # Overview
-
-After the project has been completed, each of you will review the projects of several of your classmates, similar to peer-review of a manuscript submitted for publication. The goals for this project review are:
+After you finished version 1.0 of your project (part 4), each of you will review several projects, similar to peer-review of a manuscript submitted for publication. The goals for this project review are:
 
 * You get feedback that helps you improve your project.
 * You get experience with giving and receiving reviewer feedback, like you would when you submit a paper for publication or review someone's submitted paper.
 
 
 # Logistics
-* The last week of the class (after thanksgiving) is devoted to peer review of class projects.
 * By the __part 4 due date__ specified in the _Schedule_ document, everyone needs to have finished their project and posted either the project file or a link to the file on Slack. If your project consists of multiple files, I recommend either posting a zip file to Slack or a link to some online location where the files can be downloaded.
-* Check the Slack projects channel for information on the projects you are assigned to review. Obtain those projects (you are of course welcome to look at other projects too).
-
-
-* Follow their provided instructions to reproduce everything. Review the whole project using [this review template](./media/Project_Review_Template.Rmd).
-* Write up a detailed review using and filling out the template Markdown file. Once you are done, send a pull request for each project you review, containing your completed review document.
-
+* The last week of the class (after thanksgiving) is devoted to peer review of class projects. Check the Slack _Class Project_ channel for information on the projects you are assigned to review. Obtain those projects (you are of course welcome to look at other projects too).
+* Review the whole project using the review template. You can get and use the template either [as an RMarkdown document](../media/Project_Review_Template.Rmd) or a [Word document](../media/Project_Review_Template.Rmd). Write a detailed review using and filling the review template. Provide your review to the project team and myself (either through Slack or email).
 
 
 # Review Assessment Rubric
@@ -40,6 +34,6 @@ Ok, now it gets maybe a bit complicated. I will review and assess the quality of
 
 
 # Finals steps
-* Use the feedback/reviews you get to further improve your project.
-* Push your final project to your GitHub repository by the specified deadline for final grading.
-* I will assess your final project using the same categories in the template used during peer review.
+* Use the feedback/reviews you get to further improve your projects.
+* submit your finial project by the due data for final grading.
+* I will assess your final project using the same categories as shown in the template used for peer review.

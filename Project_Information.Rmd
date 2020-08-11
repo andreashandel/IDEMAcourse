@@ -23,7 +23,7 @@ Broadly speaking, anything that falls within the overall infectious disease topi
 
 One of the most important components of any project is to find a topic and question that is is new and hasn't been done yet, is interesting and thus worth doing, and is of the right size: not too small to be uninteresting, but prescribed enough enough to be feasible withing the given constraints (i.e. here doable as a class project in one semester). 
 
-_Done well, your project could potentially lead to a product that can go beyond satisfying the course requirement (e.g. a published paper, a new DSAIDE app, a published Ted Ed lesson). Getting to that stage is not required for the class, but being able to turn the project into something that 'counts in the real world' (i.e. something you can add to your CV/portfolio) might be motivating and thus worth pursuing. If you are motivated to pursue it, I'm happy to provide help beyond the class if needed._
+__Done well, your project could potentially lead to a product that can go beyond satisfying the course requirement (e.g. a published paper, a new DSAIDE app, a published Ted Ed lesson). Getting to that stage is not required for the class, but being able to turn the project into something that 'counts in the real world' (i.e. something you can add to your CV/portfolio) might be motivating and thus worth pursuing. If you want to pursue this, I'm happy to provide help beyond the class if needed.__
 
 
 # Project Ideas
@@ -32,7 +32,7 @@ The following are some ideas for projects I was able to come up with. You don't 
 
 ## Research type projects
 
-_A project of this type should lead to a - possibly publishable - manuscript-type report. Structure and formatting should follow general manuscript style, the specifics are flexible._
+_A project of this type should lead to a - possibly publishable - manuscript-type report. Structure and formatting should follow general manuscript style, the details are up to you._
 
 * Pick an ID epi topic and write a paper on it. This could take the form of a review or opinion paper. You'll see several of those types of papers throughout the course. Here are a few examples some of which we'll be reading at some point during the course: [Martinez 2018 PLoS Pathogens](https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1007327), [Alizon and Methot 2018 PLoS Bio](https://doi.org/10.1371/journal.pbio.2003815), [Beldomenico and Begon 2009 TREE](../references/beldomenico09tree.pdf), [Simonsen et al 2007 Lancet ID](../references/simonsen07lancetid.pdf). 
 
