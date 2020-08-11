@@ -21,7 +21,9 @@ Welcome to **Infectious Disease Epidemiology - a Model-based Approach**. This is
 
 
 # Module Overview
-The course is divided into modules. Each module consists of one or several units. This first module provides a brief introduction to the course, followed by discussing and setting up our various tools. 
+The course is divided into modules. Each module consists of one or several units. 
+
+This first module provides a brief introduction to the course, followed by discussing and setting up our various tools and an introduction to the topic. 
 
 # Module Learning Objectives
 The specific learning objectives for this module are:
@@ -38,9 +40,7 @@ The main goal for this course is for you to learn different concepts of infectio
 
 I hope that this course will provide you with a view of infectious diseases at the population level (i.e. infectious disease epidemiology), which complements both a clinical perspective based on individual patients, and a classical epidemiological perspective based on specific study groups and designs (e.g. case-control, cohort and similar studies). 
 
-Throughout this course, We will take a systems perspective to understand spread and control of infectious diseases. 
-
-To give an example: We know that many infectious diseases have temporal patterns. E.g. influenza outbreaks usually occur annually, while measles outbreaks -- before widespread vaccination -- often occurred in multi-year cycles. What determines such patterns? The classical medical and epidemiological approaches are not well suited to answer this question, but - as we will see in this course - a systems perspective using models as tools for inquiry can answer this and other questions related to population level disease patterns.
+Throughout this course, we will take a systems perspective to understand spread and control of infectious diseases. To give an example: We know that many infectious diseases have temporal patterns. E.g. influenza outbreaks usually occur annually, while measles outbreaks -- before widespread vaccination -- often occurred in multi-year cycles. What determines such patterns? The classical medical and epidemiological approaches are not well suited to answer this question, but - as we will see in this course - a systems perspective using models as tools for inquiry can answer this and other questions related to population level disease patterns.
 
 The learning objectives listed here are not complete, but cover the significant aspects of the course. By the end of the course, you will be able to:
 
@@ -59,9 +59,9 @@ The learning objectives listed here are not complete, but cover the significant 
 
 # Course Prerequisites
 
-While the course is all about infectious diseases (ID), we will not spend much time discussing different diseases in detail. Instead, the focus is on overall patterns we see among different types of ID. We will of course often use specific ID as an example. In that case, I assume you know some basics of the disease or if you do not, that you will be reading up on it. Knowledge about a specific ID at the level provided by sources such as Wikipedia or CDC is usually enough.
+While the course is all about infectious diseases (ID), we will not spend much time discussing different diseases in detail. Instead, the focus is on overall features and patterns we see among different types of ID. We will of course often use specific ID as examples. In that case, I assume you know some basics of the disease or if you do not, that you will be reading up on it. Knowledge about a specific ID at the level provided by sources such as Wikipedia or CDC is usually enough.
 
-I also assume that you are familiar with public health/epidemiology concepts and terminology at a basic level. If you come across concepts or terms that you are unfamiliar with, a quick online search should help fill any gaps.
+I also assume that you are familiar with public health/epidemiology concepts and terminology at a basic level (incidence, prevalence, different types of study designs, etc.). If you come across concepts or terms that you are unfamiliar with, a quick online search should help fill any gaps.
 
 Since this course takes a model-based approach, you will encounter mathematical and computer models. You will see equations describing specific ID systems, and you will see some R code. However, this course does not cover building and implementing models and how to write code. Instead, you will be interactively exploring already developed computer simulations of infectious disease systems, without the need to write code. You will occasionally have to perform some mathematical manipulations, but those won't go beyond basic algebra.
 
@@ -86,13 +86,13 @@ __Overall, I hope this course is going to be useful, interesting, challenging an
 
 # Course Setup
 * The course is taught in an **asynchronous** and **cohort** style. **Asynchronous** means that you can do each part of the course at times that are convenient for you -- **as long as you complete all the assessments by the specified deadlines.** **Cohort style** means that everyone taking the class starts and ends at the same dates, corresponding to the start and end of the semester. 
-* The course is split into modules. Each module will usually be covered in a week. The _Schedule_ document provides more details. The schedule is not fully finalized and will change, so check frequently. Each module will be covered during a specific time frame and has assignments which you need to complete by the specified deadline.
-* Each module consists of one or several units/documents containing a mix of things I wrote, writings or videos by others, computer based exercises, discussions, etc. Content for a specific module is listed in the order you should go through things. It should always be clear what is required for a given module. If anything is ever unclear, please ask (see _Communications_ section on course website).
+* The course is split into modules. Each module will usually be covered in a week. The _Schedule_ document provides more details. The schedule will likely change as the semester progresses, so check frequently. Each module will be covered during a specific time frame and has assignments which you need to complete by the specified deadline.
+* Each module consists of one or several units/documents containing a mix of things I wrote, writings or videos by others, computer based exercises, discussions, etc. Content for a specific module is listed in the order you should go through things. It should always be clear what is required for a given module. If anything is ever unclear, please ask (see _Communication_ section on course website).
 * All material for the course can be accessed through this course website. The main page of the course describes the different sections and documents. Most material is not yet available. It will be added/unlocked as the course proceeds. Once material is added, it will remain on the site. I might update materials occasionally.
 * We will have a few synchronous Zoom meetings, those are entirely optional. See the _Communication_ section of the course website.
 
 # Course Tools
-This is a brief overview of the tools we will be using for this class. The next module, which you can and should start right after finishing this one, describes all these tools in more detail and gives instructions on how to set them all up.
+This is a brief overview of the tools we will be using for this class. They are described in more detail in further documents. 
 
 * We will use the DSAIDE software package in this course. This software is written for R. Therefore, you will also need to install R, which is very easy. Further instructions on this are provided.
 * We will also use RStudio (a graphical frontend to R).
@@ -109,9 +109,9 @@ The grade will be made up as follows:
 * 10% general participation
 * 30% a course long project, broken up into pieces. 
 
-The following grading scale will be used, final grades might be curved (upward): A 93-100, A- 90-93, B+ 87-90, B 83-87, B- 80-83, C+ 77-80, C 73-77, C- 70-73, D 60-70, F < 60
+The following grading scale will be used, final grades might be curved (only upward): A 93-100, A- 90-93, B+ 87-90, B 83-87, B- 80-83, C+ 77-80, C 73-77, C- 70-73, D 60-70, F < 60
 
-Most modules have assessments (these are graded). Due dates are usually Friday 5 pm the week of the module. Some might be at other times, e.g., the beginning or middle of the week. You are responsible for keeping up with the due dates. If in doubt, ask.
+**Most modules have assessments (these are graded). Due dates are usually Friday 5 pm the week of the module. Some might be at other times, e.g., the beginning or middle of the week. You are responsible for keeping up with the due dates. If in doubt, ask.**
 
 Every module will have an _Assessment_ document, which describes what work you need to do for that module that will be graded. The following types of assessments are part of the course.
 

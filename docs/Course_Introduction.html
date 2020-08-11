@@ -10,7 +10,7 @@
 
 
 
-<meta name="date" content="2020-08-04" />
+<meta name="date" content="2020-08-10" />
 
 <title>IDEMA Fall 2020 - Course Introduction</title>
 
@@ -509,7 +509,7 @@ div.tocify {
 <h1 class="title toc-ignore">IDEMA Fall 2020 - Course Introduction</h1>
 <h4 class="author">Andreas Handel</h4>
 <address class="author_afil">
-University of Georgia<br><h4 class="date">2020-08-04</h4>
+University of Georgia<br><h4 class="date">2020-08-10</h4>
 
 </div>
 
@@ -520,7 +520,8 @@ University of Georgia<br><h4 class="date">2020-08-04</h4>
 </div>
 <div id="module-overview" class="section level1">
 <h1>Module Overview</h1>
-<p>The course is divided into modules. Each module consists of one or several units. This first module provides a brief introduction to the course, followed by discussing and setting up our various tools.</p>
+<p>The course is divided into modules. Each module consists of one or several units.</p>
+<p>This first module provides a brief introduction to the course, followed by discussing and setting up our various tools and an introduction to the topic.</p>
 </div>
 <div id="module-learning-objectives" class="section level1">
 <h1>Module Learning Objectives</h1>
@@ -536,8 +537,7 @@ University of Georgia<br><h4 class="date">2020-08-04</h4>
 <h1>Course Learning Objectives</h1>
 <p>The main goal for this course is for you to learn different concepts of infectious disease (ID) epidemiology from a model-based perspective.</p>
 <p>I hope that this course will provide you with a view of infectious diseases at the population level (i.e. infectious disease epidemiology), which complements both a clinical perspective based on individual patients, and a classical epidemiological perspective based on specific study groups and designs (e.g. case-control, cohort and similar studies).</p>
-<p>Throughout this course, We will take a systems perspective to understand spread and control of infectious diseases.</p>
-<p>To give an example: We know that many infectious diseases have temporal patterns. E.g. influenza outbreaks usually occur annually, while measles outbreaks – before widespread vaccination – often occurred in multi-year cycles. What determines such patterns? The classical medical and epidemiological approaches are not well suited to answer this question, but - as we will see in this course - a systems perspective using models as tools for inquiry can answer this and other questions related to population level disease patterns.</p>
+<p>Throughout this course, we will take a systems perspective to understand spread and control of infectious diseases. To give an example: We know that many infectious diseases have temporal patterns. E.g. influenza outbreaks usually occur annually, while measles outbreaks – before widespread vaccination – often occurred in multi-year cycles. What determines such patterns? The classical medical and epidemiological approaches are not well suited to answer this question, but - as we will see in this course - a systems perspective using models as tools for inquiry can answer this and other questions related to population level disease patterns.</p>
 <p>The learning objectives listed here are not complete, but cover the significant aspects of the course. By the end of the course, you will be able to:</p>
 <ul>
 <li>Explain and compute important epidemiological measures, such as reproductive number and level of herd immunity</li>
@@ -554,8 +554,8 @@ University of Georgia<br><h4 class="date">2020-08-04</h4>
 </div>
 <div id="course-prerequisites" class="section level1">
 <h1>Course Prerequisites</h1>
-<p>While the course is all about infectious diseases (ID), we will not spend much time discussing different diseases in detail. Instead, the focus is on overall patterns we see among different types of ID. We will of course often use specific ID as an example. In that case, I assume you know some basics of the disease or if you do not, that you will be reading up on it. Knowledge about a specific ID at the level provided by sources such as Wikipedia or CDC is usually enough.</p>
-<p>I also assume that you are familiar with public health/epidemiology concepts and terminology at a basic level. If you come across concepts or terms that you are unfamiliar with, a quick online search should help fill any gaps.</p>
+<p>While the course is all about infectious diseases (ID), we will not spend much time discussing different diseases in detail. Instead, the focus is on overall features and patterns we see among different types of ID. We will of course often use specific ID as examples. In that case, I assume you know some basics of the disease or if you do not, that you will be reading up on it. Knowledge about a specific ID at the level provided by sources such as Wikipedia or CDC is usually enough.</p>
+<p>I also assume that you are familiar with public health/epidemiology concepts and terminology at a basic level (incidence, prevalence, different types of study designs, etc.). If you come across concepts or terms that you are unfamiliar with, a quick online search should help fill any gaps.</p>
 <p>Since this course takes a model-based approach, you will encounter mathematical and computer models. You will see equations describing specific ID systems, and you will see some R code. However, this course does not cover building and implementing models and how to write code. Instead, you will be interactively exploring already developed computer simulations of infectious disease systems, without the need to write code. You will occasionally have to perform some mathematical manipulations, but those won’t go beyond basic algebra.</p>
 </div>
 <div id="course-philosophy" class="section level1">
@@ -574,15 +574,15 @@ University of Georgia<br><h4 class="date">2020-08-04</h4>
 <h1>Course Setup</h1>
 <ul>
 <li>The course is taught in an <strong>asynchronous</strong> and <strong>cohort</strong> style. <strong>Asynchronous</strong> means that you can do each part of the course at times that are convenient for you – <strong>as long as you complete all the assessments by the specified deadlines.</strong> <strong>Cohort style</strong> means that everyone taking the class starts and ends at the same dates, corresponding to the start and end of the semester.</li>
-<li>The course is split into modules. Each module will usually be covered in a week. The <em>Schedule</em> document provides more details. The schedule is not fully finalized and will change, so check frequently. Each module will be covered during a specific time frame and has assignments which you need to complete by the specified deadline.</li>
-<li>Each module consists of one or several units/documents containing a mix of things I wrote, writings or videos by others, computer based exercises, discussions, etc. Content for a specific module is listed in the order you should go through things. It should always be clear what is required for a given module. If anything is ever unclear, please ask (see <em>Communications</em> section on course website).</li>
+<li>The course is split into modules. Each module will usually be covered in a week. The <em>Schedule</em> document provides more details. The schedule will likely change as the semester progresses, so check frequently. Each module will be covered during a specific time frame and has assignments which you need to complete by the specified deadline.</li>
+<li>Each module consists of one or several units/documents containing a mix of things I wrote, writings or videos by others, computer based exercises, discussions, etc. Content for a specific module is listed in the order you should go through things. It should always be clear what is required for a given module. If anything is ever unclear, please ask (see <em>Communication</em> section on course website).</li>
 <li>All material for the course can be accessed through this course website. The main page of the course describes the different sections and documents. Most material is not yet available. It will be added/unlocked as the course proceeds. Once material is added, it will remain on the site. I might update materials occasionally.</li>
 <li>We will have a few synchronous Zoom meetings, those are entirely optional. See the <em>Communication</em> section of the course website.</li>
 </ul>
 </div>
 <div id="course-tools" class="section level1">
 <h1>Course Tools</h1>
-<p>This is a brief overview of the tools we will be using for this class. The next module, which you can and should start right after finishing this one, describes all these tools in more detail and gives instructions on how to set them all up.</p>
+<p>This is a brief overview of the tools we will be using for this class. They are described in more detail in further documents.</p>
 <ul>
 <li>We will use the DSAIDE software package in this course. This software is written for R. Therefore, you will also need to install R, which is very easy. Further instructions on this are provided.</li>
 <li>We will also use RStudio (a graphical frontend to R).</li>
@@ -599,8 +599,8 @@ University of Georgia<br><h4 class="date">2020-08-04</h4>
 <li>10% general participation</li>
 <li>30% a course long project, broken up into pieces.</li>
 </ul>
-<p>The following grading scale will be used, final grades might be curved (upward): A 93-100, A- 90-93, B+ 87-90, B 83-87, B- 80-83, C+ 77-80, C 73-77, C- 70-73, D 60-70, F &lt; 60</p>
-<p>Most modules have assessments (these are graded). Due dates are usually Friday 5 pm the week of the module. Some might be at other times, e.g., the beginning or middle of the week. You are responsible for keeping up with the due dates. If in doubt, ask.</p>
+<p>The following grading scale will be used, final grades might be curved (only upward): A 93-100, A- 90-93, B+ 87-90, B 83-87, B- 80-83, C+ 77-80, C 73-77, C- 70-73, D 60-70, F &lt; 60</p>
+<p><strong>Most modules have assessments (these are graded). Due dates are usually Friday 5 pm the week of the module. Some might be at other times, e.g., the beginning or middle of the week. You are responsible for keeping up with the due dates. If in doubt, ask.</strong></p>
 <p>Every module will have an <em>Assessment</em> document, which describes what work you need to do for that module that will be graded. The following types of assessments are part of the course.</p>
 <div id="online-quizzes" class="section level2">
 <h2>Online quizzes</h2>

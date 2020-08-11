@@ -21,5 +21,5 @@ Fill out the quiz sheets for module 1 and submit. You can find the sheet(s) for 
 
 ## Exercises
 
-For this module, you are asked to do a small project which involves producing a short personal introduction of yourself. For a detailed description and instructions, see the [Introducing Ourselves](./Exercise_Introducing_Ourselves.html) document in the _Exercises_ section.
+For this module, you are asked to do a small project which involves producing a short personal introduction of yourself. For a detailed description and instructions, see the _Exercises_ document of this module.
 
