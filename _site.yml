@@ -7,7 +7,7 @@ base_url: https://andreashandel.github.io/IDEMAcourse/
 repository_url: https://github.com/andreashandel/IDEMAcourse
 navbar:
   logo:
-    image: media/IDEMAlogo.png
+    image: IDEMAlogo.png
     href: https://andreashandel.github.io/IDEMAcourse/
   left:
     - text: "General Information"
