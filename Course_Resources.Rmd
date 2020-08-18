@@ -64,8 +64,16 @@ _Quiz sheets are not quite ready yet, they will be by Monday._
 
 ## Module 1
 #* [_Basic SIR_ DSAIDE Quiz](./quizsheets/dsaide_basicsir.xlsx)
+#* [ Theory Quiz](./quizsheets/theory_module1.xlsx)
+
+
+## Module 2
+
 #_Further quizzes will show up here as the course progresses._
 
 ```
 
+#Quiz answers
+
+After the due date for each quiz, I will place solution files to the DSAIDE exercises [in this Dropbox folder](https://www.dropbox.com/sh/ud2n0crtao2rmlg/AABQ7MRiEyIap308GoHEYggSa?dl=0). They are fairly detailed and also show you how you can use `R` commands (instead of the graphical interface) to do all the Tasks. I highly recommend looking at them (even if you get all answers correct).
 

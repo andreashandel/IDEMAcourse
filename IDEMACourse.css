@@ -1,16 +1,56 @@
 
-
 .thumbnail .caption {
   padding: 0;
   padding-top: 4px;
   padding-left: 3px;
   font-size: 0.9em;
-  color: gray;
 }
 
-a.thumbnail:hover {
-  text-decoration: none;
+p {
+  /* Visual */
+	color: black;   /* black text */
 }
+
+body {
+ 	color: black;   /* black text */
+}
+
+
+
+/* Image
+---------------*/
+img {
+	max-width: 100%;
+	max-height: 80%;
+	padding: 3px;
+	border: 2px solid #ccc;  /* light grey */
+	
+}
+
+.image {
+	display: inline-block;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0;  
+	text-align: center;
+  
+  /* Visual */
+	border-radius: 1px;
+	border: 2px solid #ccc;  /* light grey */
+}
+
+.figure {
+	margin-left:  0;
+	margin-right: 0;
+	padding: 0;  
+	text-align: center;
+  
+  /* Visual */
+	border-radius: 1px;
+	border: 2px solid #ccc;  /* light grey */
+}
+
+
 
 /* -----------div tips------------- */
 /* adapted from  */
@@ -43,9 +83,6 @@ div.demo {
   background-image: url("./media/livecode.png");
 }
 
-div.note {
-  background-image: url("./media/lightbulb.png");
-}
 
 
 
@@ -71,22 +108,5 @@ div.note {
  background-image: url("./media/note.png");
 }
 
-.tip {
- background-image: url("./media/fyi.png");
-}
 
-.warning {
- background-image: url("./media/warning.png");
-}
 
-.question {
- background-image: url("./media/fyi.png");
-}
-
-.exercise {
- background-image: url("./media/fyi.png");
-}
-
-.yourturn {
- background-image: url("./media/fyi.png");
-}

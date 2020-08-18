@@ -75,8 +75,11 @@ library('deSolve')
 You should see a short message on the screen. Some packages show messages when you load them, and others don't. In this case, there is no message. No error or warning message is a good sign. You rarely have to see if a package is loaded, you generally find out by getting an error message when you want to use a function from that package. But if you want to see what's installed, you can type this command into the `R` console
 
 ```{r, eval=FALSE}
-`(.packages())`
+(.packages())
 ```
+
+# Learning R 
+As mentioned, we'll be using `R` in this class to run the software which contains the ID models. There is no requirement for writing code in this class. Of course, if you want to try some `R` coding as part of the class, you are welcome to do so. I'll often give pointers explaining how you could do that. If you want to learn more `R` there are lots of resources available online. The tricky bit is finding some that you like. [This short write-up](https://andreashandel.github.io/MADAcourse/3a_RBasics.html) might offer some pointers. This [list of resources](https://andreashandel.github.io/MADAcourse/General_Resources.html) might also be useful. In general, the RStudio folks often produce very high quality content, and there are many good online courses as well. Search around a bit until you find something that fits your level and style of learning. The good thing is that pretty much all those resources are free.
 
 
 # Learning R Studio

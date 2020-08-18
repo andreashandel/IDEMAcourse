@@ -10,7 +10,7 @@ output:
     toc_depth: 3
 ---
 
-**Note: Unfortunately, the latest version of the DSAIDE package didn't make it to CRAN in time (they are on vacation). Therefore, you need to install DSAIDE from Github with the `remotes` package. [See the _Installation_ section here](https://ahgroup.github.io/DSAIDE/articles/DSAIDE.html). Make sure you have version 0.8.6.**
+**Note: Unfortunately, the latest version of the DSAIDE package didn't make it to CRAN in time (they are on vacation). Therefore, you need to install DSAIDE from Github with the `remotes` package. Follow the 2nd option (installing from GitHub) as described in the [_Installation_ section here](https://ahgroup.github.io/DSAIDE/articles/DSAIDE.html). Make sure you have version 0.8.6.**
 
 
 # Overview
