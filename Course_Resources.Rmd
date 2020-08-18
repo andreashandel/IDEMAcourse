@@ -59,15 +59,8 @@ __Please do not make any other changes to the sheets apart from filling the "Ans
 
 
 ## Module 1
-* [Module 1 Theory Quiz]()
-* [Module 1 DSAIDE Quiz]()
+* [_Basic SIR_ DSAIDE Quiz](./quizsheets/dsaide_basicsir.xlsx)
 
-## Module 2
-* [Module 2 Theory Quiz]()
-* [Module 2 DSAIDE Quiz]()
 
-## Module 3
-* [Module 3 Theory Quiz]()
-* [Module 3 DSAIDE Quiz]()
-
+_Further quizzes will show up here as the course progresses._
 
