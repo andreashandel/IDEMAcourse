@@ -71,7 +71,7 @@ For this module, please work through the _Basic SIR Model_ in DSAIDE. Read throu
 
 # 3. Topic discussion
 
-Read the paper “Systems Science Methods in Public Health: Dynamics, Networks, and Agents” by Luke & Stamatakis, which you can get [here](./references/luke12arph.pdf).  Come up with 2 systems that you consider complex in the realm of public health or biomedicine (other than those mentioned in the paper). Explain what makes them complex. Also, come up with 2 systems that you consider not complex and explain why you think of them as not complex. Post your thoughts to the _discussions_ channel. Then post at least 3 replies.
+Read the paper “Systems Science Methods in Public Health: Dynamics, Networks, and Agents” by Luke & Stamatakis, which you can get [here](./media/luke12arph.pdf).  Come up with 2 systems that you consider complex in the realm of public health or biomedicine (other than those mentioned in the paper). Explain what makes them complex. Also, come up with 2 systems that you consider not complex and explain why you think of them as not complex. Post your thoughts to the _discussions_ channel. Then post at least 3 replies.
 
 _You need to have your discussion posted by Wednesday of the week. Your responses to others should be posted by the end of the week._
 
