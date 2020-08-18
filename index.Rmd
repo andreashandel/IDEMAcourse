@@ -13,6 +13,10 @@ library(emo)
 
 **This website is under construction for a course I'll be teaching in Fall 2020. As long as you see this message, expect things to not really work `r emo::ji('smiley')`.**
 
+**Unfortunately, the latest version of the DSAIDE package didn't make it on CRAN in time (they are on vacation). Therefore, you need to install it using Github. Make sure you have version 0.8.6.**
+
+
+
 
 Welcome to the website for the course **Infectious Disease Epidemiology - A model-based approach (IDEMA).** 
 
@@ -54,18 +58,19 @@ I suggest you start by looking over the __Syllabus__ and __Schedule__ documents,
 
 This course was developed and is maintained by [Andreas Handel](https://www.andreashandel.com/).
 
-```{r, results = "asis", echo = FALSE, message = FALSE}
+```{r, results = "asis", echo = FALSE, message = FALSE, warning=FALSE}
 #the following code snipped is taken from Hadley's R4DS intro page
 library(dplyr)
 contributors <- readr::read_csv("IDEMACoursecontributors.csv", col_types = list())
 contributors <- contributors %>% 
   mutate(
-    link = glue::glue("[\\@{login}](https://github.com/{login})"),
-    desc = ifelse(is.na(name), link, glue::glue("{name} ({link})"))
+    link = glue::glue("[\\@{GithubID}](https://github.com/{GithubID})"),
+    desc = ifelse(is.na(LastName), link, glue::glue("{FirstName} {LastName} ({link})"))
   )
 cat("The following individuals have contributed to improving the course:\n")
 cat(paste0(contributors$desc, collapse = ", "))
 ```
+
 
 The materials are licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.](http://creativecommons.org/licenses/by-nc-sa/4.0/) Linked and embedded materials are governed by their own licenses. I assume that all external materials used or embedded here are covered under the educational fair use policy. If this is not the case and any material displayed here violates copyright, please let me know and I will remove it. 
 

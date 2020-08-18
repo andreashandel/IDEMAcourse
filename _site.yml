@@ -1,6 +1,6 @@
 name: "IDEMAcourse"
 output_dir: "docs"
-exclude: ["auxiliary", "media", "references", "*.csv"]
+exclude: ["auxiliary", "media", "references", "quizsheets", "*.csv"]
 favicon: IDEMAlogo.png
 base_url: https://andreashandel.github.io/IDEMAcourse/
 repository_url: https://github.com/andreashandel/IDEMAcourse
@@ -53,22 +53,22 @@ navbar:
               href: ./3_Exercises.html
             - text: "3. Assessments"
               href: ./3_Assessments.html
-        - text: "4. Reproductive Number 1"
-          menu:
-            - text: "4a. Reproductive Number"
-              href: ./Reproductive_Number_1.html
-            - text: "4b. Exercises"
-              href: ./4_Exercises.html
-            - text: "4c. Assessments"
-              href: ./4c_Assessments.html
-        - text: "5. Reproductive Number 2"
-          menu:
-            - text: "5a. Reproductive Number"
-              href: ./Reproductive_Number_2.html
-            - text: "5b. Exercises"
-              href: ./5_Exercises.html
-            - text: "5c. Assessments"
-              href: ./5_Assessments.html
+        # - text: "4. Reproductive Number 1"
+        #   menu:
+        #     - text: "4a. Reproductive Number"
+        #       href: ./Reproductive_Number_1.html
+        #     - text: "4b. Exercises"
+        #       href: ./4_Exercises.html
+        #     - text: "4c. Assessments"
+        #       href: ./4c_Assessments.html
+        # - text: "5. Reproductive Number 2"
+        #   menu:
+        #     - text: "5a. Reproductive Number"
+        #       href: ./Reproductive_Number_2.html
+        #     - text: "5b. Exercises"
+        #       href: ./5_Exercises.html
+        #     - text: "5c. Assessments"
+        #       href: ./5_Assessments.html
         # - text: "6. Direct Transmission"
         #   menu:
         #     - text: "6a. Direct Transmission"
