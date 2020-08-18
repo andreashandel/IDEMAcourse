@@ -11,6 +11,9 @@ output:
 library(emo)
 ```
 
+Last update/recompile: `r Sys.time()`
+
+
 Welcome to the website for the course **Infectious Disease Epidemiology - A model-based approach (IDEMA).** 
 
 This website contains content for an online course taught in Fall 2020 at the University of Georgia by [Andreas Handel.](https://www.andreashandel.com/) Most materials are hosted here, some are on external sites and either linked or embedded from here.
