@@ -3,7 +3,6 @@ title: General Infectious Disease Epidemiology and Modeling Resources
 author:
   - name: "Andreas Handel"
     url: https://www.andreashandel.com/
-    affiliation: "University of Georgia"
 date: "`r as.Date(file.mtime(knitr::current_input()))`"
 bibliography: ./media/references.bib
 output: 
@@ -18,9 +17,9 @@ output:
 library(emo)
 ```
 
-To distinguish between resources that are used in the course, and others that are related but not directly used, I decided to have two resource pages. The _Course Resources_ page lists materials we'll be (partially) using in the course. This page lists a lot of other resources that might not be used or mentioned explicitly in the course, but that might be useful and interesting. Everything listed here is of course related to the course topic, i.e. infectious disease epidemiology (and related areas, e.g. ecology/evolution), with a focus on a model-based perspective. For even more materials, see the links to various lists by others at the end of this document.
+To distinguish between resources that are used in the course, and others that are related but not directly used, I decided to have two resource pages. The _Course Resources_ page lists materials we'll be (partially) using in the course. This page lists a lot of other resources that might not be used or mentioned explicitly in the course, but that might be useful and interesting. For even more materials, see the links to various lists by others at the end of this document.
 
-Apart from the books, most other materials described below are (should be) freely available online. For better or for worse, a lot of the resources I list below are dynamic and ever changing. That means occasionally links might not work, sites go offline, chapters in online books get re-arranged, etc. If any link does not work and you can't access the materials for some reason, let me know so I can update this document.
+Apart from the books, most other materials described below are (should be) freely available online. Some of the resources I list are dynamic and ever changing. That means occasionally links might not work, sites go offline, chapters in online books get re-arranged, etc. If any link does not work and you can't access the materials for some reason, let me know so I can update this document.
 
 _Obviously, there is no way my list is exhaustive. Let me know if you find other relevant and good sources._
 
@@ -74,7 +73,7 @@ math topics, explanations on how to model, not much infectious disease specific 
 
 # ID modeling websites
 
-[epirecipes](http://epirecip.es/) - a cookbook of ID epi models.
+* [epirecipes](http://epirecip.es/) - a cookbook of ID epi models.
 
 
 

@@ -63,7 +63,7 @@ Please see the _Course Introduction_ document for details regarding grading.
 
 ## Class Attendance, Make-up Policy
 
-This class is online. You are expected to submit all assignments by their due dates. Excused misses of due dates are only provided by prior agreement with the instructor or for special reasons (e.g. medical emergency).
+This class is online. There are no synchronous events you are required to attend. You are expected to submit all assignments by their due dates. Excused misses of due dates are only provided by prior agreement with the instructor or for special reasons (e.g. medical emergency).
 
 
 ## Prerequisites
@@ -74,7 +74,7 @@ _Formal requirement for the course is BIOS 7010. If you didn't take this course,
 
 ## Getting Help
 
-If you have questions about any aspect of the course, please do not hesitate to ask for help. The course materials describe in detail the ways you can ask for help. See the _Communications_ section for more details.
+If you have questions about any aspect of the course, please do not hesitate to ask for help. The course materials describe in detail the ways you can ask for help. See the _Communication_ section for more details.
 
 
 ## University Honor Code and Academic Honesty Policy
@@ -102,6 +102,8 @@ The introductory unit of this course contains all the logistic details you need 
 
 ## COVID-19 information
 
-Since this is an online course, the hope is that COVID-19 will not affect things too much. If you have any COVID-19 related circumstances that might affect your ability to do the assigned work by the provided due dates, contact me. I consider this the same as any other possible medical emergency that could arise.  You are expected to follow all UGA rules regarding COVID-19. 
-See UGA's COVID-19 resource page for all relevant information: https://coronavirus.uga.edu/
+Since this is an online course, the hope is that COVID-19 will not affect things too much. I consider any COVID-19 related issues that might prevent you from submitting your work by the indicated deadlines to be the same as any other possible medical emergency. Just let me know and we'll work things out.
+
+In general, you are expected to follow all UGA rules regarding COVID-19. See UGA's COVID-19 resource page for all relevant information: https://coronavirus.uga.edu/
+
 

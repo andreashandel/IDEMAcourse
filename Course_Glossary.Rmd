@@ -22,7 +22,7 @@ As in any field, there are lots of technical terms related to Infectious Disease
 
 Note that in general, there is no regulatory terminology agency, so everyone can use these words to mean whatever they want. While some are fairly well defined, other terms are often used and abused in ways outside the definitions I provide. Always look carefully at what is described to decide what exactly is going on.
 
-__This page is work in progress.__ This list is and will likely forever remain incomplete. If you think there is a specific term missing that should be listed and explained here, please let me know or contribute via a [Github pull request](https://github.com/andreashandel/IDEMAcourse).
+__This page is work in progress.__ This list is and will likely forever remain incomplete. Currently, especially the ID Epi part is short, I plan to add to it as the course progresses. If you think there is a specific term missing that should be listed and explained here, please let me know or contribute via a [Github pull request](https://github.com/andreashandel/IDEMAcourse).
 
 
 --- 

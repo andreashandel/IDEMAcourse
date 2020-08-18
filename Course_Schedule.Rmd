@@ -19,7 +19,7 @@ The _External Sources_ column only lists major external sources. Material provid
 Abbreviations used are: 
 
 * [IDEMAB = Infectious Disease Epidemiology - A model-based approach book](https://andreashandel.github.io/IDEMAbook/). Numbers refer to the chapter. 
-* [DSAIDE = Dyanamical Systems Approach to Infectious Disease Epidemiology - R package](https://ahgroup.github.io/DSAIDE/). Numbers refer to the number of the app. 
+* [DSAIDE = Dyanamical Systems Approach to Infectious Disease Epidemiology - R package](https://ahgroup.github.io/DSAIDE/).
 
 The _Assessments_ column lists items that need to be submitted and that will be graded. Those are described in detail in the assessment document for each module. __Unless otherwise specified, submission deadline is the module end date (Friday) 5pm.__
 
@@ -27,7 +27,7 @@ The _Assessments_ column lists items that need to be submitted and that will be 
 
 | **Module Topic**   | **Start and end dates** | **External Sources** | **Assessments** |
 | --- | --- | --- | --- |
-| Module 1 – Introduction to the course | 8/20 – 8/28 | IDEMAB 1-2, DSAIDE | quiz, introducing ourselves exercise |
+| Module 1 – Introduction to the course | 8/20 – 8/28 | IDEMAB 1-2, DSAIDE | quiz, introducing ourselves exercise, discussion |
 | Module 2 –  Characterizing Infection states  | 8/31 – 9/4 | IDEMAB 3, DSAIDE   | quiz, discussion|
 | Module 3 -  ID Patterns - Outbreaks, cycles and endemic states | 9/7 – 9/11 | IDEMAB 4, DSAIDE | quiz, discussion |
 | Module 4 - Reproductive Number 1 | 9/14 – 9/18 | IDEMAB 5, DSAIDE | quiz, discussion, project part 1 due 9/18 |
