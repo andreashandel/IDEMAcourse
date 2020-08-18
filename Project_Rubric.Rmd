@@ -20,17 +20,15 @@ This document provides more detailed instructions and grading rubrics for each p
 **The main objective for part 1 is to describe your planned project in enough detail that I can assess if is suitable and feasible.** 
 
 To that end, provide any information you think is necessary for me to judge the chances for your project to be doable and result in a good quality project.
-For instance you can describe why it's an interesting question, if anyone else has done similar things, how your project is going to be new, what your project will entail, how you plan on going about doing it. 
-
-You are allowed, but not yet required, to start include citations, provide background information, etc. This document can be fairly short, a page might be enough. Of course if you already have details, provide them. 
+For instance you can describe why it's an interesting question, if anyone else has done similar things, how your project is going to be new, what your project will entail, how you plan on going about doing it. You are allowed, but not yet required, to start including citations, providing background information, etc. This document can be fairly short, a page might be enough. Of course if you already have details, provide them. 
 
 Grading for this part will follow the following simple rubric: 
 
 | **Category** | **Description**  | **Score** |
 | --- | --- | --- |
 | Absent | Everything or majority of submission is missing | 0 |
-| Not sufficient | Submission is very incomplete, has major missing parts which does not allow assessment of feasibility of proposed project | 50 |
-| Sufficient | Submission is complete or fairly complete, contains enough information to allow assessment of feasibility of proposed project | 100 |
+| Not sufficient | Submission is very incomplete, has major missing parts which does not allow me to assess if project is suitable and feasible | 50 |
+| Sufficient | Submission is complete or fairly complete, contains enough information for assessment | 100 |
 
 
 # Part 2
