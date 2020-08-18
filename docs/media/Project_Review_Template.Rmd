@@ -1,12 +1,10 @@
 ---
-title: Project Review Template 
-author: YOURNAME
+title: "Project Review Template"
+author: "YOURNAME"
 date: "`r file.mtime(knitr::current_input())`"
-#bibliography: ../media/references.bib
-output: 
-  html_document:
+output:
+  word_document:
     toc_depth: 3
-    number_sections: true
 ---
 
 # Overview
@@ -27,7 +25,7 @@ For each component, pick one summary statement by deleting the ones that do not 
 Delete any sections/text of this template that are not part of your final review document. 
 
 
-# Specific project content evaluation
+# Project Evaluation
 Evaluate the different parts of the project by filling in the sections below.
 
 
@@ -61,7 +59,6 @@ WRITE YOUR FEEDBACK HERE
 ## Methodology
 How clearly and completely are the approaches underlying the project described?
 
-
 ### Feedback and Comments
 
 WRITE YOUR FEEDBACK HERE
@@ -72,58 +69,8 @@ WRITE YOUR FEEDBACK HERE
 * question/hypotheses/goals fully clear
 
 
-
-
-## Appropriateness of Analysis
-Were the analysis methods appropriate for the data? Was the analysis done properly? Were different components of the analysis (e.g. performance measure, variable selection, data pre-processing, model evaluation) done in the best way possible and explained well?
-
-### Feedback and Comments
-
-WRITE YOUR FEEDBACK HERE
-
-### Summary assessment
-* wrong/inadequate analysis
-* defensible but not optimal analysis 
-* strong and reasonable analysis
-
-## Presentation
-How well are results presented? Are tables and figures easy to read and understand? Are the main figures/tables publication level quality? 
-
-### Feedback and Comments
-
-WRITE YOUR FEEDBACK HERE
-
-### Summary assessment
-* results are poorly presented, hard to understand, poor quality
-* results are presented ok, with room for improvement
-* results are very well presented
-
-
-## Discussion/Conclusions
-Are the study findings properly discussed? Are strengths and limitations acknowledged? Are findings interpreted properly?
-
-### Feedback and Comments
-
-WRITE YOUR FEEDBACK HERE
-
-### Summary assessment
-* major parts of discussion missing or wrong 
-* minor parts wrong, missing or unclear
-* strong, complete and clear discussion
-
-
-## Further comments
-
-_Add any other comments regarding the different aspects of the project here. Write anything you think can help your classmate improve their project._
-
-
-
-# Overall project content evaluation
-Evaluate overall features of the project  by filling in the sections below.
-
-
 ## Structure
-Is the project well structured? Are files in well labeled folders? Do files have reasonable names? Are all "junk" files not needed for analysis/reproduction removed? By just looking at files and folders, can you get an idea of how things fit together?
+Is the project well structured? Are all project components easy to follow. If there are supplementary files, are they well labeled and easy to access?
 
 ### Feedback and Comments
 
@@ -135,50 +82,51 @@ WRITE YOUR FEEDBACK HERE
 * well structured
 
 
-## Documentation 
-How well is the project documented? Are you able to understand each step of the whole analysis, each decision that was made, and each line of code? Is enough information provided as comments in code or as part of Rmd files? 
+
+## Results/Outcomes
+How interesting and complete are the results/products/outcomes of this project? How thorough was the overall study? What level of quality is the work? 
 
 ### Feedback and Comments
 
 WRITE YOUR FEEDBACK HERE
 
 ### Summary assessment
-* poorly documented
-* decently documented with some gaps
-* fully and well documented
+* boring/weak/incomplete results 
+* solid/ fairly complete results 
+* interesting/strong/complete results 
 
 
 
-## Reproducibility
-Are all results fully reproducible? Is documentation provided which clearly explains how to reproduce things, and does it work without the need for any manual intervention?
-
-### Feedback and Comments
-
-WRITE YOUR FEEDBACK HERE
-
-
-### Summary assessment
-* major parts not reproducible 
-* small parts not reproducible or required manual intervention 
-* fully reproducible without issues
-
-
-## Thoroughness
-How thorough was the overall study? Were alternatives (e.g. different ways of processing the data or different models) considered? Were alternatives discussed? Were the questions/hypotheses fully and thoroughly addressed?
+## Presentation
+How well are results/outcomes presented? For figures and tables and figures, are they easy to read and understand? For other materials (e.g. videos, websites), are they of of high level quality? 
 
 ### Feedback and Comments
 
 WRITE YOUR FEEDBACK HERE
 
 ### Summary assessment
-* weak level of thoroughness
-* decent level of thoroughness
-* strong level of thorougness
+* results are poorly presented, hard to understand, poor quality
+* results are presented ok, with room for improvement
+* results are very well presented
+
+
+## Discussion/Conclusions/Summary
+Are the project results/outcomes well discussed and placed in context? If there are new findings, are they interpreted properly? 
+
+### Feedback and Comments
+
+WRITE YOUR FEEDBACK HERE
+
+### Summary assessment
+* major parts of discussion missing or wrong 
+* minor parts wrong, missing or unclear
+* strong, complete and clear discussion
+
 
 
 ## Further comments
 
-_Add any other comments regarding the overall project here. Write anything you think can help your classmate improve their project._
+_Add any other comments regarding the project here. Write anything you think can help your classmate improve their project._
 
 
 

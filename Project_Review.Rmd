@@ -19,7 +19,7 @@ After you finished version 1.0 of your project (part 4), each of you will review
 # Logistics
 * By the __part 4 due date__ specified in the _Schedule_ document, everyone needs to have finished their project and posted either the project file or a link to the file on Slack. If your project consists of multiple files, I recommend either posting a zip file to Slack or a link to some online location where the files can be downloaded.
 * The last week of the class (after thanksgiving) is devoted to peer review of class projects. Check the Slack _Class Project_ channel for information on the projects you are assigned to review. Obtain those projects (you are of course welcome to look at other projects too).
-* Review the whole project using the review template. You can get and use the template either [as an RMarkdown document](./media/Project_Review_Template.Rmd) or a [Word document](./media/Project_Review_Template.doc). Write a detailed review using and filling the review template. Provide your review to the project team and myself (either through Slack or email).
+* Review the whole project using the review template. You can get and use the template either [as an RMarkdown document](./media/Project_Review_Template.Rmd) or a [Word document](./media/Project_Review_Template.docx). Write a detailed review using and filling the review template. Provide your review to the project team and myself (either through Slack or email).
 
 
 # Review Assessment Rubric

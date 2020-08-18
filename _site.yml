@@ -3,7 +3,7 @@ output_dir: "docs"
 exclude: ["auxiliary", "*.csv"]
 favicon: IDEMAlogo.png
 base_url: https://andreashandel.github.io/IDEMAcourse/
-repository_url: https://github.com/andreashandel/IDEMAcourse
+repository_url: https://github.com/andreashandel/IDEMAcourse/
 navbar:
   title: "IDEMA Course"
   logo:
@@ -37,23 +37,23 @@ navbar:
               href: ./1_Exercises.html
             - text: "1h. Assessments"
               href: ./1_Assessments.html
-        - text: "2. Characterizing infection states"
-          menu:
-            - text: "2a. Characteristics of ID"
-              href: ./Characteristics_of_ID.html
-            - text: "2b. Exercises"
-              href: ./2_Exercises.html
-            - text: "2c. Assessments"
-              href: ./2_Assessments.html
-        - text: "3. Patterns of ID"
-          menu:
-            - text: "3a. Patterns of ID"
-              href: ./Patterns_of_ID.html
-            - text: "3b. Exercises"
-              href: ./3_Exercises.html
-            - text: "3. Assessments"
-              href: ./3_Assessments.html
-        # - text: "4. Reproductive Number 1"
+        # - text: "2. Characterizing infection states"
+        #   menu:
+        #     - text: "2a. Characteristics of ID"
+        #       href: ./Characteristics_of_ID.html
+        #     - text: "2b. Exercises"
+        #       href: ./2_Exercises.html
+        #     - text: "2c. Assessments"
+        #       href: ./2_Assessments.html
+        # - text: "3. Patterns of ID"
+        #   menu:
+        #     - text: "3a. Patterns of ID"
+        #       href: ./Patterns_of_ID.html
+        #     - text: "3b. Exercises"
+        #       href: ./3_Exercises.html
+        #     - text: "3. Assessments"
+        #       href: ./3_Assessments.html
+        # # - text: "4. Reproductive Number 1"
         #   menu:
         #     - text: "4a. Reproductive Number"
         #       href: ./Reproductive_Number_1.html
