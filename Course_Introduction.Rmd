@@ -121,10 +121,10 @@ Every module will have an _Assessment_ document, which describes what work you n
 * For each quiz, there is a quiz sheet, available in the _Course Resources_ section. Quiz sheets are Excel files. Each Excel file contains quiz questions covering either the DSAIDE software or the other course material (or both). You can fill in the answers on the quiz sheet at any time. Once finished, you need to upload it [to this website](https://shiny.ovpr.uga.edu/gradingapp/) by the due date for a given week. **You can only submit your answers once for each quiz, and you will not be able to submit your quiz after the due date.** 
 
 ## Exercises
-Most course modules have one or more exercises, usually based on the DSAIDE package. Do the exercises at any time, and as you go, fill in the answers to the quiz sheet for that exercise. The _Assessment_ document for each module will tell you which exercise to do.
+Most course modules have one or more exercises, usually based on the DSAIDE package. Do the exercises at any time, and as you go, fill in the answers to the quiz sheet for that exercise. The _Exercises_ document for each module will provide more details
 
 ## Discussion and Participation
-You will be asked regularly to post discussions to Slack, and respond to posts by others. **Those often have Wednesday deadlines.** I also encourage general, continued participation on the discussion boards. Participation can take any form, such as asking questions, answering questions, posting links to interesting content, providing feedback, etc. The more, the better `r emo::ji('smile')`. Both quality and quantity will affect your participation grade. 
+You will be asked regularly to post discussions to Slack, and respond to posts by others. **Those often have Wednesday deadlines.** I also encourage general, continued participation on the discussion boards. Participation can take any form, such as asking questions, answering questions, posting links to interesting content, providing feedback, etc. The more, the better `r emo::ji('smile')`. Both quality and quantity will affect your participation grade. More details are given in either the _Exercises_ or _Assessment_ document for each module.
 
 ## Class project
 The project is a semester-long project broken into pieces with several deadlines. The _Projects_ section provides more details.
