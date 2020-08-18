@@ -13,7 +13,7 @@ library(emo)
 
 **This website is under construction for a course I'll be teaching in Fall 2020. As long as you see this message, expect things to not really work `r emo::ji('smiley')`.**
 
-**Unfortunately, the latest version of the DSAIDE package didn't make it on CRAN in time (they are on vacation). Therefore, you need to install it using Github. Make sure you have version 0.8.6.**
+**Unfortunately, the latest version of the DSAIDE package didn't make it to CRAN in time (they are on vacation). Therefore, you need to install DSAIDE from Github with the `remotes` package. [See the _Installation_ section here](https://ahgroup.github.io/DSAIDE/articles/DSAIDE.html). Make sure you have version 0.8.6.**
 
 
 
