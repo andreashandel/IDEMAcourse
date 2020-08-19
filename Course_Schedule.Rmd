@@ -45,5 +45,9 @@ The _Assessments_ column lists items that need to be submitted and that will be 
 | Final project submission  | 12/9 | none | project part 5 due |
 
 ## Synchronous Zoom meetings
-The current plan is to have _weekly_, **completely optional** Zoom meetings. Those are currently scheduled for Wednesdays, alternating between 11am and 3pm each week. Week one (on 8/26) will be 11am, after that each even module will have a 3pm time, each odd module an 11am time. This schedule is tentative and might change based on your feedback. See the _Communication_ section for some more details.
+The current plan is to have _weekly_, **completely optional** Zoom meetings. See the _Communication_ section for some more details. You can find the Zoom link on Slack.
+
+I'll use Slack to see what days and times work best. I'll probably alternate between weeks to ensure everyone can join if they want to at least every 2 weeks.
+
+**The first zoom session will be on Monday, 8/24 at 4pm ET.**
 
