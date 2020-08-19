@@ -1,0 +1,29 @@
+---
+title: ID Patterns - Exercises 
+subtitle: ""
+author: Andreas Handel
+date: "`r as.Date(file.mtime(knitr::current_input()))`"
+output: 
+  html_document:
+    toc_depth: 3
+---
+
+
+```{r, include = FALSE}
+#just so I can use emoticons
+#devtools::install_github("hadley/emo")
+library(emo)
+```
+
+# Hands-on computer exercise
+
+For this module, work through the _ID patterns_ app. Fill and submit the corresponding quiz sheet.
+
+
+
+# Topic discussion 
+
+Find a scientific article/paper that investigates the incidence/prevalence pattern of some infectious disease (it doesn't have to be a human disease). Summarize the article. Discuss why one sees the observed pattern. Speculate what kind of change to the system could change the observed pattern (even if that change is not biologically realistic).
+
+Post your thoughts to the discussion channel, then respond to posts by others. The general rules for discussion and assessment apply.
+

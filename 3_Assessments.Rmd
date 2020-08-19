@@ -1,5 +1,5 @@
 ---
-title: Module 3 Assessment 
+title: ID Patterns - Assessment 
 subtitle: ""
 author: Andreas Handel
 institute: "University of Georgia"
@@ -10,20 +10,23 @@ output:
     toc_depth: 3
 ---
 
+
 # Module Assessments
 
+For this module, complete and submit the following items for assessment.
 
-Make sure you've gone through all the content for this module. 
+## Quizzes
 
-
-## Exercise
-
-For this module, you are asked to do a small project which involves producing a short personal introduction of yourself. For a detailed description and instructions, see the [Introducing Ourselves](./Exercise_Introducing_Ourselves.html) document in the _Exercises_ section.
+Obtain the quiz sheets for this module, fill them out and submit them before the due date. You can find the sheet(s) for this module and submission instructions in the _Course Resources_ section.
 
 
-## Quiz
+## Discussions 
 
-Fill out the quiz sheet for module 3 and submit it. You can find the sheet(s) for this module and submission instructions in the _Course Resources_ section.
+Contribute to our weekly discussion as described in the  _Exercises_ document of this module. Post your own and reply to others' posts.
 
+
+## Project
+
+Submit part 1 of your project by this week's deadline. See the _Project_ section for details.
 
 

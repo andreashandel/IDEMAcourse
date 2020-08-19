@@ -17,11 +17,9 @@ In this module, we will discuss how to characterize the infection states of diff
 
 # Assignments
 
-Start by reading the ["Characterizing Infectious Disease States" chapter of IDEMAB](https://andreashandel.github.io/IDEMAbook/characterizing-infectious-disease-states.html). 
+Start by reading the ["Characterizing Infectious Disease States" chapter of IDEMAB](https://andreashandel.github.io/IDEMAbook/idstates.html). 
 
-The book chapter gives you one view .
-
-For some further discussions, check out the following videos. 
+The book chapter gives you one introduction to a way of classification individuals with regard to infection and disease states. For some further discussions, watch the following videos. 
 
 The first video is from the ["Epidemics"](https://www.coursera.org/learn/epidemics) online course. Mary Poss, one of the course instructors, talks about the difference between infection and disease.
 
@@ -31,18 +29,5 @@ The second video is from the HKU Epidemics course sequence. In that video, Josep
 
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/z9EItIxkaVs" frameborder="0" allowfullscreen></iframe></p>
 
-
-
-###Videos to watch
-* See Videos document
-
-###Computer Exercises to do
-* Work through the Shiny App listed at the end of the assigned DSAIDE book chapter.  
-
-###Discussions to participate in
-* From the exercise section of the DSAIDE chapter for this module, answer the question that refers to the assigned paper by Kajita et al.
-* Post to the discussion forum for this module. The general rules for discussion and assessment apply.
-
-* The Paper by Kajita et al, Nat Rev Mic 2007. When reading the paper, focus on understanding their model and assumptions. You can skim or skip anything related to the reproductive number, R~0~, for now. We'll discuss that quantity soon.
 
 
