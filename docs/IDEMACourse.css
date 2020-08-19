@@ -13,6 +13,7 @@ p {
 
 body {
  	color: black;   /* black text */
+ 	font-family: "Oswald", Helvetica, Arial, sans-serif; /* change default font */
 }
 
 
