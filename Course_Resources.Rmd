@@ -60,7 +60,7 @@ __Please do not make any other changes to the sheets apart from filling the "Ans
 
 ## Module 1
 * [_Basic SIR_ DSAIDE Quiz](./quizsheets/dsaide_basicsir.xlsx)
-* [ Theory Quiz](./quizsheets/theory_module1.xlsx)
+* [ Theory Quiz](./quizsheets/theory_basicsir.xlsx)
 
 
 ## Module 2
