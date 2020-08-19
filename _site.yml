@@ -9,7 +9,6 @@ navbar:
   logo:
     image: IDEMAlogo.png
     href: https://andreashandel.github.io/IDEMAcourse/
-  type: inverse
   left:
     - text: "General Information"
       menu:
@@ -116,7 +115,7 @@ navbar:
       href: https://github.com/andreashandel/IDEMAcourse
 output:
   html_document:
-    theme: cosmo
+    theme: cerulean
     highlight: espresso
     toc: true
     toc_depth: 2
