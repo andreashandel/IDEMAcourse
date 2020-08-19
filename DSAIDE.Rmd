@@ -44,6 +44,6 @@ You can explore DSAIDE now as much as you want, but you can also close it for no
 
 # Further materials
 
-_This source cover more or less the same material that you just read, so checking it out is optional._
+_This source covers more or less the same material that you just read, so checking it out is optional._
 
 [I published a paper describing the package](https://doi.org/10.1371/journal.pcbi.1005642). The paper is by now somewhat outdated with regards to the details of the package, but it describes the overall idea and context well.

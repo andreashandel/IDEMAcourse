@@ -72,7 +72,7 @@ You only need to install a package once, unless you upgrade/re-install R. Once i
 library('deSolve')
 ```
 
-You should see a short message on the screen. Some packages show messages when you load them, and others don't. In this case, there is no message. No error or warning message is a good sign. You rarely have to see if a package is loaded, you generally find out by getting an error message when you want to use a function from that package. But if you want to see what's installed, you can type this command into the `R` console
+You should see a short message on the screen. Some packages show messages when you load them, and others don't. In this case, there is no message. No error or warning message is a good sign. You rarely have to see if a package is loaded, you generally find out by getting an error message when you want to use a function from that package. But if you want to see what's loaded, you can type this command into the `R` console
 
 ```{r, eval=FALSE}
 (.packages())

@@ -3,7 +3,6 @@ title: "Infectious Disease Epidemiology - A model-based approach (IDEMA) – Syl
 author:
 - name: Andreas Handel
   url: https://www.andreashandel.com/
-  affiliation: University of Georgia
 date: "`r as.Date(file.mtime(knitr::current_input()))`"
 output:
   html_document:

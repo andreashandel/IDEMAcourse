@@ -17,12 +17,12 @@ This is a very short unit with a few pointers to other tools that we won't reall
 
 All these readings are from another online course I teach, so there might be some comments that are specific to that course. You can ignore those.
 
-# Github
-Git/Github (which are technically distinct, but are often used interchangeably) is a tool that allows you to work on projects in a nice, reproducible manner. A lot of projects use GitHub. DSAIDE and this course live on GitHub. As a topical example, the [COVID 19 data from Johns Hopkins is on GitHub](https://github.com/CSSEGISandData/COVID-19). It is an overall very useful tool to learn. You are not required but welcome to use GitHub for this course (e.g. for your project). It has a bit of a steep learning curve. For more, see [this write-up with pointers to other sources.](https://andreashandel.github.io/MADAcourse/1d_Github.html)
+# GitHub
+Git/GitHub (which are technically distinct, but are often used interchangeably) is a tool that allows you to work on projects in a nice, reproducible manner. A lot of projects use GitHub. DSAIDE and this course live on GitHub. As a topical example, the [COVID-19 data from Johns Hopkins is on GitHub](https://github.com/CSSEGISandData/COVID-19). It is an overall very useful tool to learn. You are not required but welcome to use GitHub for this course (e.g. for your project). It has a bit of a steep learning curve. For more, see [this write-up with pointers to other sources.](https://andreashandel.github.io/MADAcourse/1d_Github.html)
 
-# Rmarkdown
-Markdown and Rmarkdown are formats that allow you to write documents quickly as more or less text files, and turn them into good-looking html or word or pdf files. This whole course website is written as RMarkdown. I write all my papers in Rmarkdown (bookdown) these days. If you want to learn more, [this write-up provides pointers to get you started](https://andreashandel.github.io/MADAcourse/1e_ToolsforReproducibility.html). Or just search online, you'll find plenty of good resources.
+# R Markdown
+Markdown and R Markdown are formats that allow you to write documents quickly as more or less text files, and turn them into good-looking html or word or pdf files. This whole course website is written as R Markdown. I write all my papers in R Markdown (bookdown) these days. If you want to learn more, [this write-up provides pointers to get you started](https://andreashandel.github.io/MADAcourse/1e_ToolsforReproducibility.html). Or just search online, you'll find plenty of good resources.
 
 # Reference management
-I hope you are already using a reference manager for your academic work. If not, you should. It makes things much easier. While there are lots of reference managers out there, some work better with tools such as RMarkdown. To read a bit more about this, [see here](https://andreashandel.github.io/MADAcourse/1f_Reference_Management.html).
+I hope you are already using a reference manager for your academic work. If not, you should. It makes things much easier. While there are lots of reference managers out there, some work better with tools such as R Markdown. To read a bit more about this, [see here](https://andreashandel.github.io/MADAcourse/1f_Reference_Management.html).
 

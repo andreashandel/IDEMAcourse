@@ -11,7 +11,7 @@
 
 <meta name="author" content="Andreas Handel" />
 
-<meta name="date" content="2020-08-18" />
+<meta name="date" content="2020-08-19" />
 
 <title>R and RStudio</title>
 
@@ -546,7 +546,7 @@ div.tocify {
 
 <h1 class="title toc-ignore">R and RStudio</h1>
 <h4 class="author">Andreas Handel</h4>
-<h4 class="date">2020-08-18</h4>
+<h4 class="date">2020-08-19</h4>
 
 </div>
 
@@ -605,7 +605,7 @@ Installing an R package. Right-click on the image to enlarge it.
 <p>It is very common these days for packages to be developed on GitHub. It is possible to install packages from Github directly. Those usually contain the latest version of the package, with features that might not be available yet on the CRAN website. Sometimes, in early development stages, a package is only on Github until the developer(s) feel it’s good enough for CRAN submission. So installing from Github gives you the latest. The downside is that packages under development can often be buggy and not working right. To install packages from Github, you need to install the <code>remotes</code> package and then use the <code>install_github</code> function.</p>
 <p>You only need to install a package once, unless you upgrade/re-install R. Once installed, you still need to load the package before you can use it. That has to happen every time you start a new R session. You do that using the <code>library()</code> command (an alternative is <code>require()</code> but I recommend <code>library()</code>). For instance to load the <code>deSolve</code> package, type</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a><span class="kw">library</span>(<span class="st">&#39;deSolve&#39;</span>)</span></code></pre></div>
-<p>You should see a short message on the screen. Some packages show messages when you load them, and others don’t. In this case, there is no message. No error or warning message is a good sign. You rarely have to see if a package is loaded, you generally find out by getting an error message when you want to use a function from that package. But if you want to see what’s installed, you can type this command into the <code>R</code> console</p>
+<p>You should see a short message on the screen. Some packages show messages when you load them, and others don’t. In this case, there is no message. No error or warning message is a good sign. You rarely have to see if a package is loaded, you generally find out by getting an error message when you want to use a function from that package. But if you want to see what’s loaded, you can type this command into the <code>R</code> console</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a>(<span class="kw">.packages</span>())</span></code></pre></div>
 </div>
 <div id="learning-r" class="section level1">
