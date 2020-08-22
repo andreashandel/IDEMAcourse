@@ -21,11 +21,15 @@ Start by reading the ["Characterizing Infectious Disease States" chapter of IDEM
 
 The book chapter gives you one introduction to a way of classification individuals with regard to infection and disease states. For some further discussions, watch the following videos. 
 
-The first video is from the ["Epidemics"](https://www.coursera.org/learn/epidemics) online course. Mary Poss, one of the course instructors, talks about the difference between infection and disease.
+The first video is from the ["Epidemics"](https://www.coursera.org/learn/epidemics) online course. 
+
+[Mary Poss](https://science.psu.edu/bio/people/mup14), one of the course instructors, talks about the difference between infection and disease.
 
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/feurlFtWIsM" frameborder="0" allowfullscreen></iframe></p>
 
-The second video is from the HKU Epidemics course sequence. In that video, Joseph Wu from the University of Hong Kong discusses some quantities relating to infection and disease state and duration and their importance for public health. Again, ignore anything we haven't covered yet.
+The second video is from the [HKU Epidemics course sequence](https://www.edx.org/search?q=epidemics). 
+
+[Joseph Wu](https://sph.hku.hk/en/about-us/faculty-and-staff/academic-staff/wu,-tsz-kei-joseph) from the University of Hong Kong discusses some quantities relating to infection and disease state and duration and their importance for public health. Ignore anything we haven't covered yet.
 
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/z9EItIxkaVs" frameborder="0" allowfullscreen></iframe></p>
 

@@ -1,0 +1,33 @@
+---
+title: Environmental Transmission - Exercises 
+subtitle: ""
+author: Andreas Handel
+date: "`r as.Date(file.mtime(knitr::current_input()))`"
+output: 
+  html_document:
+    toc_depth: 3
+---
+
+
+```{r, include = FALSE}
+#just so I can use emoticons
+#devtools::install_github("hadley/emo")
+library(emo)
+```
+
+# Hands-on computer exercise
+
+For this module, work through the _Environmental Transmission_ app. Fill and submit the corresponding quiz sheet.
+
+
+
+# Topic discussion 
+
+Read the paper "Routes of influenza transmission" by Killingley and Nguyen-Van-Tam (2013), which you can get [here](./media/killingley13iorv.pdf).
+
+The paper describes modes of transmission for influenza. Pick another pathogen and compare and contrast what is known about similarities and differences in transmission between flu and the pathogen you pick. Also briefly discuss implications for control.
+
+Post your thoughts to the discussion channel, then respond to posts by others. The general rules for discussion and assessment apply.
+
+
+

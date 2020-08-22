@@ -1,0 +1,31 @@
+---
+title: Direct Transmission - Exercises 
+subtitle: ""
+author: Andreas Handel
+date: "`r as.Date(file.mtime(knitr::current_input()))`"
+output: 
+  html_document:
+    toc_depth: 3
+---
+
+
+```{r, include = FALSE}
+#just so I can use emoticons
+#devtools::install_github("hadley/emo")
+library(emo)
+```
+
+# Hands-on computer exercise
+
+For this module, work through the _Direct Transmission_ app. Fill and submit the corresponding quiz sheet.
+
+
+
+# Topic discussion 
+
+Read the paper "How should pathogen transmission be modelled?" by McCallum et al. (2001) which you can get [here](./media/mccallum01tree.pdf). The authors discuss different models for (direct) transmission. They claim that it matters in a practical setting to get the transmission term right. Pick some ID and explain how different assumptions about transmission might lead to different conclusions concerning possible control strategies.
+
+Post your thoughts to the discussion channel, then respond to posts by others. The general rules for discussion and assessment apply.
+
+
+

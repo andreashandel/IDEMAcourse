@@ -1,0 +1,32 @@
+---
+title:  Infectious Disease Control 2 - Assessment 
+author: Andreas Handel
+date: "`r as.Date(file.mtime(knitr::current_input()))`"
+output: 
+  html_document:
+    toc_depth: 3
+---
+
+# Module Assessments
+
+For this module, complete and submit the following items for assessment.
+
+
+## Quizzes
+
+Obtain the quiz sheets for this module, fill them out and submit them before the due date. You can find the sheet(s) for this module and submission instructions in the _Course Resources_ section.
+
+**Note that there are 3, two for the DSAIDE apps and 1 for the theory part.**
+
+## Discussions 
+
+Contribute to our weekly discussion as described in the  _Exercises_ document of this module. Post your own and reply to others' posts.
+
+
+
+
+
+
+
+
+

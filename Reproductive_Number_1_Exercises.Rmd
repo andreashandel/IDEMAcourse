@@ -1,0 +1,31 @@
+---
+title: Reproductive Number 1 - Exercises 
+author: Andreas Handel
+date: "`r as.Date(file.mtime(knitr::current_input()))`"
+output: 
+  html_document:
+    toc_depth: 3
+---
+
+
+```{r, include = FALSE}
+#just so I can use emoticons
+#devtools::install_github("hadley/emo")
+library(emo)
+#`r emo::ji("smiley")`
+```
+
+# Hands-on computer exercise
+
+For this module, work through the _Reproductive Number 1_ app. Fill and submit the corresponding quiz sheet.
+
+
+
+# Topic discussion 
+
+In the paper by Sarah Cobey you read for this module, she states "It is most accurate to describe $R_0$ in reference
+to a pathogen and host population, because the number is partially under host control." 
+
+Find examples of this statement by looking through the literature to find - for some pathogen of your choice - at least 2 different estimates for $R_0$. Discuss what factors might affect the differences in reported values. Note that both methodological and biological components can affect $R_0$ estimates.
+
+Report your findings in the Slack _discussion_ channel.

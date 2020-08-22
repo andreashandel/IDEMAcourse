@@ -1,0 +1,58 @@
+---
+title: Infectious Disease Control 1 
+author: Andreas Handel
+date: "`r as.Date(file.mtime(knitr::current_input()))`"
+#bibliography: ../media/references.bib
+output: 
+  html_document:
+    toc_depth: 3
+---
+
+
+# Overview
+
+Various control strategies, such as vaccination, have already made an appearance throughout the course. In this module, we will take a focused look at infectious disease control strategies and investigate some further topics related to control.
+
+
+# Reading
+
+Start by reading the ["Infectious Disease Control" chapter of IDEMAB](https://andreashandel.github.io/IDEMAbook/infectious-disease-control.html).
+
+
+# Videos
+
+## Introduction Video
+
+[Rachel Smith](https://cas.la.psu.edu/people/ras57) provides an overview and introduction to the topic of ID control.
+
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3cqItrRu5D0" frameborder="0" allowfullscreen></iframe>
+</p>
+
+## Impact of ID control
+In these 2 videos, [Matt Ferrari](https://theferrarilab.squarespace.com/)  discusses the impact of vaccines and general ID control.
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5myy2Hh4dFs" frameborder="0" allowfullscreen></iframe>
+</p>
+
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0oXsxeEaL6Y" frameborder="0" allowfullscreen></iframe>
+</p>
+
+
+## The anti-vaccination movement
+
+While the whole issue of getting people to go along with ID control measures, such as vaccination (or wearing masks), is an important problem, it is somewhat outside the scope of this course. We'll therefore not go much deeper into issues surrounding human behavior related to ID control. But for some - fairly lighthearted - content regarding vaccination, check out these two short videos. 
+
+A funny video clip about anti-vaccine proponents made by [Girl Pants Productions](https://www.youtube.com/channel/UC6pjGVe5KP9t_EIKhrjbGIA) (who/whatever they are). 
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/B_hCLWtEHL8" frameborder="0" allowfullscreen></iframe>
+</p>
+
+A short outreach video from [PhD Comics](http://phdcomics.com/tv/) describing vaccines and the problem with vaccine refusal.
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/s_6QW9sNPEY" frameborder="0" allowfullscreen></iframe>
+</p>
+
+
+

@@ -11,9 +11,9 @@
 
 <meta name="author" content="Andreas Handel" />
 
-<meta name="date" content="2020-08-03" />
+<meta name="date" content="2020-08-21" />
 
-<title>Reproductive Number</title>
+<title>Reproductive Number 1</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -387,10 +387,10 @@ div.tocify {
           <a href="./ID_Dynamics_Introduction.html">1f. Topic introduction</a>
         </li>
         <li>
-          <a href="./1_Exercises.html">1g. Exercises</a>
+          <a href="./Course_Introduction_Exercises.html">1g. Exercises</a>
         </li>
         <li>
-          <a href="./1_Assessments.html">1h. Assessments</a>
+          <a href="./Course_Introduction_Assessments.html">1h. Assessments</a>
         </li>
       </ul>
     </li>
@@ -452,34 +452,52 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Reproductive Number</h1>
+<h1 class="title toc-ignore">Reproductive Number 1</h1>
 <h4 class="author">Andreas Handel</h4>
-<h4 class="date">2020-08-03</h4>
+<h4 class="date">2020-08-21</h4>
 
 </div>
 
 
 <div id="overview" class="section level1">
 <h1>Overview</h1>
-<p>In this module, we will discuss an important concept in infectious disease epidemiology, the reproductive number. We will define it and discuss why it is a very important quantity in infectious disease epidemiology. We will discuss what the reproductive number does and does not tell us about the dynamics of an outbreak, and how to estimate it for a given disease.</p>
+<p>In this module, we will start our discussion of an important concept in infectious disease epidemiology, the reproductive number. We will define it and discuss why it is a very important quantity in infectious disease epidemiology. We will discuss what the reproductive number does and does not tell us about the dynamics of an outbreak, and how to estimate it for a given disease.</p>
 </div>
-<div id="assignments" class="section level1">
-<h1>Assignments</h1>
-<p>Start by reading the <a href="https://andreashandel.github.io/IDEMAbook/R0.html">“Reproductive Number” chapter of IDEMAB</a>.</p>
-<p>The book chapter gives you one view .</p>
-<p>An important concept related to the reproductive number is the idea of <em>Herd or Population Immunity</em>. To</p>
-<p>For some further discussions, check out the following videos.</p>
-<p>The first video is from a MOOC (Massive Open Online Course) called <a href="https://www.coursera.org/learn/epidemics">“Epidemics”</a>, developed by several infectious disease faculty at Penn State and offered through the MOOC provider Coursera. Mary Poss, one of the course instructors, talks about the difference between infection and disease.</p>
+<div id="reading" class="section level1">
+<h1>Reading</h1>
+<p>Start by reading the <a href="https://andreashandel.github.io/IDEMAbook/R0.html">“Reproductive Number” chapter of IDEMAB</a>. We’ll cover the material in two sessions, but I suggest you read the whole chapter this week, and then once more next week, after you’ve worked through the first DSAIDE exercise.</p>
+</div>
+<div id="videos" class="section level1">
+<h1>Videos</h1>
+<p>For some complementary discussions of the reproductive number, check out the following videos.</p>
+<div id="contagion-video-clip" class="section level2">
+<h2>Contagion Video Clip</h2>
+<p>The reproductive number is such an important concept in infectious disease epidemiology. It has even found its way into mainstream media. The following video is a short clip from the 2011 movie <a href="http://en.wikipedia.org/wiki/Contagion_%28film%29">“Contagion”</a>. In the movie, Kate Winslet plays an Epidemic Intelligence Service (EIS) officer, who is sent to help the local state health department study the spread of a new, somewhat deadly disease. In this short excerpt, she meets with the leaders of the state health department for an initial discussion. The reproductive number is part of the discussion.</p>
 <p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/feurlFtWIsM" frameborder="0" allowfullscreen>
+<iframe id="kaltura_player" src="https://cdnapisec.kaltura.com/p/1727411/sp/172741100/embedIframeJs/uiconf_id/23856721/partner_id/1727411?iframeembed=true&amp;playerId=kaltura_player&amp;entry_id=1_ifdbz5n7&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;&amp;wid=1_c2h6vrdc" allowfullscreen webkitallowfullscreen mozallowfullscreen frameborder="0" height="285" width="400">
 </iframe>
 </p>
-<p>The second video is also from a MOOC, this one developed by the University of Hong Kong. This used to be a single course, also called “Epidemics”. It’s now a multi-course sequence, here are the links to the <a href="https://www.edx.org/course/epidemics-i">Epidemics I</a> and <a href="https://www.edx.org/course/epidemics-ii">Epidemics II</a> courses.</p>
-<p>In that video, Joseph Wu from the University of Hong Kong discusses some quantities relating to infection and disease state and duration and their importance for public health. Again, ignore anything we haven’t covered yet.</p>
+<p>Note that she gets some details wrong. Pay close attention. (Whoever advised on the Science was apparently not an Infectious Disease Epidemiologist.)</p>
+<p>The outbreak in the <em>Contagion</em> movie has a lot of similarities to COVID-19! Fortunately, COVID-19 is not as deadly. Unfortunately, politicians and the overall leadership seem more competent in the movie than in real life.</p>
+</div>
+<div id="a-more-detailed-explanation-of-the-reproductive-number" class="section level2">
+<h2>A more detailed explanation of the reproductive number</h2>
+<p>This video is from a MOOC (Massive Open Online Course) called <a href="https://www.coursera.org/learn/epidemics">“Epidemics”</a>, developed by several infectious disease faculty at Penn State and offered through the MOOC provider Coursera.</p>
+<p><a href="https://theferrarilab.squarespace.com/">Matt Ferrari</a> provides a very good explanation of the reproductive number concept.</p>
 <p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/z9EItIxkaVs" frameborder="0" allowfullscreen>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ju26rvzfFg4" frameborder="0" allowfullscreen>
 </iframe>
 </p>
+</div>
+<div id="reproductive-number-and-epidemic-curve" class="section level2">
+<h2>Reproductive number and epidemic curve</h2>
+<p>This is another video from the <a href="https://www.coursera.org/learn/epidemics">“Epidemics MOOC”</a>.</p>
+<p><a href="https://ento.psu.edu/directory/onb1">Ottar Bjornstad</a>, one of the course instructors, discusses the shape of an individual outbreak curve and how it relates to the reproductive number.</p>
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sSLfrSSmJZM" frameborder="0" allowfullscreen>
+</iframe>
+</p>
+</div>
 </div>
 
 

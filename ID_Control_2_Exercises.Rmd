@@ -1,0 +1,29 @@
+---
+title: Infectious Disease Control 1 - Exercises 
+author: Andreas Handel
+date: "`r as.Date(file.mtime(knitr::current_input()))`"
+output: 
+  html_document:
+    toc_depth: 3
+---
+
+
+```{r, include = FALSE}
+#just so I can use emoticons
+#devtools::install_github("hadley/emo")
+library(emo)
+#`r emo::ji("smiley")`
+```
+
+# Hands-on computer exercise
+
+For this module, work through **two** DSAIDE apps, namely _Basics of ID Control_ and _ID control for multiple outbreaks_. Fill and submit the corresponding quiz sheets.
+
+
+# Topic discussion 
+
+Read the article “Towards the endgame and beyond: complexities and challenges for the elimination of infectious diseases” by Klepac et al. (2013) which you can get [here](.media/klepac13ptrsb.pdf). 
+
+Choose some ID - either one listed in box 1 of the paper or a different one - and discuss the current plans for elimination/eradication. What features of the ID will likely be helpful or unhelpful with regard to eradication/elimination? Reference the different areas the paper discusses. What is your overall assessment of feasibility?
+
+Report your findings in the Slack _discussion_ channel.

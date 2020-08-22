@@ -1,0 +1,30 @@
+---
+title: Reproductive Number 2 - Exercises 
+subtitle: ""
+author: Andreas Handel
+date: "`r as.Date(file.mtime(knitr::current_input()))`"
+output: 
+  html_document:
+    toc_depth: 3
+---
+
+
+```{r, include = FALSE}
+#just so I can use emoticons
+#devtools::install_github("hadley/emo")
+library(emo)
+#`r emo::ji("smiley")`
+```
+
+# Hands-on computer exercise
+
+For this module, work through the _Reproductive Number 2_ app. Fill and submit the corresponding quiz sheet.
+
+
+
+
+# Topic discussion 
+
+Read the paper _Herd Immunity: A Rough Guide_ by Fine et al. (2011), which you can get [here](./media/fine11cid.pdf). In this paper, the authors mention "...the complexities of imperfect immunity, heterogeneous populations, nonrandom vaccination, and freeloaders...". Choose one of those complexities and find an infectious disease for which this topic has been discussed in the scientific literature and - if applicable - other media. Choose examples/papers other than those already cited by Fine et al. Summarize and report what you found.
+
+Especially for the first 2 complexities, there is a lot of topical discussion related to COVID-19. You are welcome - but not required `r emo::ji("grin")` - to use COVID-19 as an example.

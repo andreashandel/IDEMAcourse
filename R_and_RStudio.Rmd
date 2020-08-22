@@ -35,8 +35,11 @@ While we use R in this course, it is not the only option for building and explor
 
   
 # Installing R and RStudio 
-* If you haven't already, [install R first](https://www.r-project.org/). You can pick any mirror you like. If you already have R installed, make sure it is a fairly recent version, version 3.5 or newer. If yours is older, I suggest you update (install a new R version).
-* Once you have R installed, install the free version of [RStudio Desktop](https://www.rstudio.com/products/rstudio/download/). Again, make sure it's a recent version.
+If you haven't already, [install R first](https://www.r-project.org/). You can pick any mirror you like. If you already have R installed, make sure it is a fairly recent version, otherwise upgrade to a current version.
+
+**For this course, you should have 4.0 or newer for things to work.**
+
+Once you have R installed, install the free version of [RStudio Desktop](https://www.rstudio.com/products/rstudio/download/). Again, make sure it's a recent version.
 
 Installing R and RStudio should be fairly straightforward. If you want detailed instructions [this reading provides more detailed steps](https://rafalab.github.io/dsbook/installing-r-rstudio.html). If things don't work, ask for help in the _R/DSAIDE_ channel.
 
