@@ -1,0 +1,49 @@
+---
+title: Environmental Transmission 
+subtitle: ""
+author: Andreas Handel
+institute: "University of Georgia"
+date: "`r as.Date(file.mtime(knitr::current_input()))`"
+#bibliography: ../media/references.bib
+output: 
+  html_document:
+    toc_depth: 3
+---
+
+# Overview
+
+In this module, we will discuss environmental transmission and how it affects ID dynamics. 
+
+
+# Learning Outcomes
+
+In this module, you will learn to:
+
+* Contrast the difference between direct and environmental transmission.
+
+* Assess how indirect transmission processes affect ID dynamics.
+
+
+
+# Reading
+
+Read the [_Environmental Transmission_](https://andreashandel.github.io/IDEMAbook/environmental-transmission-1.html) chapter in IDEMAB.
+
+
+# Videos 
+
+## Different ID with environmental transmission
+In this video from the ["Epidemics MOOC from the University of Hong Kong"](https://www.edx.org/course/epidemics-hkux-hku01x-0), [Marc Lipsitch](https://www.hsph.harvard.edu/marc-lipsitch/) discusses several examples of IDs that have (at least partially) environmental transmission modes and what that means for ID dynamics and control.
+
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RK7t2jJEwjU" frameborder="0" allowfullscreen></iframe>
+</p>
+
+
+## Cholera - an important example of indirect transmission
+This video from the ["TED Education Initiative"](http://ed.ted.com/), shows a nice example of an educational/outreach video to illustrate the different ways one can transmit Cholera.
+
+<p>
+<iframe width="730" height="445" src="https://www.youtube.com/embed/jG1VNSCsP5Q" frameborder="0" allowfullscreen></iframe>
+</p>
+

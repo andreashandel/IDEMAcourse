@@ -15,21 +15,19 @@ output:
 In this module, we will discuss different patterns of ID dynamics, such as single outbreaks, recurrent cycles, and steady endemic states. 
 
 
-## Reading
+# Reading
 
 Read ["Patterns of ID dynamcis"](https://andreashandel.github.io/IDEMAbook/patterns-of-infectious-disease-dynamics.html) of IDEMAB.
 
 
-## Videos
+# Videos
 
 The following videos provide complementary material and cover some aspects concerning different general patterns of ID dynamics, and what conditions can lead to different outcomes, such as single outbreaks, repeated outbreaks/cycles, and steady endemic states.
 
-In the first video from the ["Epidemics MOOC"](https://www.coursera.org/learn/epidemics), Ottar Bjornstad discusses cycles of ID dynamics and what leads to such patterns.
+In these two videos from the ["Epidemics MOOC"](https://www.coursera.org/learn/epidemics), 
+[Ottar Bjornstad](https://ento.psu.edu/directory/onb1) discusses cycles of ID dynamics and the impact of seasonality.
 
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/Mf_EZm5amxI" frameborder="0" allowfullscreen></iframe></p>
-
-
-In this video from the ["Epidemics MOOC"](https://www.coursera.org/learn/epidemics), Ottar Bjornstad discusses the impact of seasonality on ID dynamics.
 
 <p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TDuuM-wm6nw" frameborder="0" allowfullscreen></iframe>

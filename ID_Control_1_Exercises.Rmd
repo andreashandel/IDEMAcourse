@@ -1,0 +1,36 @@
+---
+title: Infectious Disease Control 1 - Exercises 
+author: Andreas Handel
+date: "`r as.Date(file.mtime(knitr::current_input()))`"
+output: 
+  html_document:
+    toc_depth: 3
+---
+
+
+```{r, include = FALSE}
+#just so I can use emoticons
+#devtools::install_github("hadley/emo")
+library(emo)
+#`r emo::ji("smiley")`
+```
+
+# Hands-on computer exercise
+
+For this module, work through **two** DSAIDE apps, namely _Basics of ID Control_ and _ID control for multiple outbreaks_. Fill and submit the corresponding quiz sheets.
+
+# Topic discussion 
+
+We are currently in a world where infectious disease (COVID-19) interventions impact all of us. We are frantically trying to develop or discover pharmaceutical interventions (drugs, vaccines) while relying on non-pharmaceutical interventions in the meantime. Find a paper that discusses ID control related to COVID-19. This could but does not have to be a paper that uses a model. Read the paper, summarize/discuss/critique it and post your findings to the Slack _discussion_ channel (including a link to the paper).
+
+
+# Fun activity
+
+Well, I hope the other exercise activities are somewhat fun, too `r emo::ji("grin")`. But this one is really fun (at least I think so). 
+
+Play the game [VAX](http://vax.herokuapp.com/). In this game, you get to vaccinate individuals to try and minimize outbreaks. Individuals are connected on a network, which is a different from the models we are using in class, but the general ideas on spread and control apply to either type of setting. Post a screenshot of your score for all 3 levels of difficulty to the _Games and Fun_ Slack channel for bragging rights.
+
+If you want to play some more, you can try [Vaxpackhero](http://vaxpackhero.com/). In this game, you are fighting germs inside an infected person. For more bragging rights, take a screenshot of your score or highest achievement and post it to Slack. 
+
+
+

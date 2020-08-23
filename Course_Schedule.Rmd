@@ -32,14 +32,14 @@ The _Assessments_ column lists items that need to be submitted and that will be 
 | Module 3 -  ID Patterns - Outbreaks, cycles and endemic states | 9/7 – 9/11 | IDEMAB 4, DSAIDE | quizzes, discussion, project part 1 due 9/11 |
 | Module 4 - Reproductive Number 1 | 9/14 – 9/18 | IDEMAB 5, DSAIDE | quizzes, discussion |
 | Module 5 - Reproductive Number 2| 9/21 – 9/25 | IDEMAB 5, DSAIDE | quizzes, discussion |
-| Module 6 - Modes of direct transmission  | 9/28 – 10/2 | IDEMAB 6+7, DSAIDE  | quizzes, discussion, project part 2 due 10/2 |
-| Module 7 - Environmentally transmitted ID  | 10/5 – 10/9 | IDEMAB 8, DSAIDE | quizzes, discussion |
-| Module 8 - Vector-borne ID  | 10/12 – 10/16 | IDEMAB 9, DSAIDE  | quizzes, discussion |
-| Module 9  - Host Heterogeneity | 10/19 – 10/23 | IDEMAB 10, DSAIDE  | quizzes, discussion |
-| Module 10 - ID Control 1 | 10/26 – 10/30 | IDEMAB 11, DSAIDE  | quizzes, discussion, project part 3 due 10/30 |
+| Module 6 - ID Control 1 | 9/28 – 10/2 | IDEMAB 11, DSAIDE  | quizzes, discussion, project part 2 due 10/2 |
+| Module 7 - Modes of direct transmission | 10/5 – 10/9 | IDEMAB 6+7, DSAIDE | quizzes, discussion |
+| Module 8 - Environmentally transmitted ID | 10/12 – 10/16 | IDEMAB 8, DSAIDE  | quizzes, discussion |
+| Module 9  - Vector-borne ID | 10/19 – 10/23 | IDEMAB 9, DSAIDE  | quizzes, discussion |
+| Module 10 - Host Heterogeneity | 10/26 – 10/30 | IDEMAB 10, DSAIDE  | quizzes, discussion, project part 3 due 10/30 |
 | Module 11 - ID Control 2 | 11/2 – 11/6 | IDEMAB 11, DSAIDE  | quizzes, discussion |
 | Module 12 - Stochasticity and Extinctions | 11/9 – 11/13 | IDEMAB 14, DSAIDE  |  quizzes, discussion |
-| Module 13 - Evolutionary Dynamics and EID | 11/16 – 11/20 | IDEMAB 15-17 , DSAIDE | quizzes, discussion |
+| Module 13 - Evolutionary Dynamics and Emerging Infectious Diseases | 11/16 – 11/20 | IDEMAB 15-17 , DSAIDE | quizzes, discussion |
 | Finishing Project | 11/23 – 11/27 (fall break part of the week) | none | project part 4 due 11/27 |
 | Project Reviews | 11/30 – 12/4 | none | project reviews due 12/4 |
 | Final project submission  | 12/9 | none | project part 5 due |

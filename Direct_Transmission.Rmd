@@ -26,33 +26,15 @@ In this module, you will learn to:
 * Predict how population size impacts ID dynamics for different types of transmission. 
 
 
+# Reading
 
-# Assignments
+Read the chapters ["Types of infectious disease transmission"](https://andreashandel.github.io/IDEMAbook/types-of-infectious-disease-transmission.html) 
+and ["Modes of Direct Transmission"](https://andreashandel.github.io/IDEMAbook/modes-of-direct-transmission.html) in IDEMAB.
 
-* [The "Types of infectious disease transmission" chapter of the DSAIDE book](https://ahgroup.github.io/DSAIDEbook/types-of-infectious-disease-transmission.html). 
-* [The "Modes of Direct Transmission" chapter of the DSAIDE book](https://ahgroup.github.io/DSAIDEbook/modes-of-direct-transmission.html). 
-* The paper "How should pathogen transmission be modelled?" by McCallum et al. 2001 Trends in Ecology and Evolution 
 
-##Videos to watch
+# Videos 
 In this video from the ["Epidemics MOOC"](https://www.coursera.org/learn/epidemics), [Marcel Salathe](http://www.digitalepidemiologylab.org/) provides an overview of different types of ID transmission.
 
 <p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Pxowv0Lr6tY" frameborder="0" allowfullscreen></iframe>
 </p>
-
-
-
-##Computer Exercises to do
-* Work through the Shiny App listed at the end of the assigned DSAIDE book chapter (only the direct transmission chapter has an App associated with it).  
-
-##Discussions to participate in
-* From the exercise section of the DSAIDE "direct transmission" chapter for this module, answer the question that refers to the assigned paper by McCallum et al.
-* Post to the discussion forum for this module. The general rules for discussion and assessment apply.
-
-
-##Assessments
-* Quiz 1 - Theory, which covers the videos and readings
-* Quiz 2 - Practice, which covers the R exercises
-* Discussion contributions  
-
-

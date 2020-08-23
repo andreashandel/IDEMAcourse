@@ -1,0 +1,85 @@
+---
+title: IDEMA Fall 2020 - Introducing Ourselves 
+subtitle: ""
+author: Andreas Handel
+institute: "University of Georgia"
+date: "`r as.Date(file.mtime(knitr::current_input()))`"
+#bibliography: ../media/references.bib
+output: 
+  html_document:
+    toc_depth: 3
+---
+
+
+```{r, echo = FALSE}
+#just so I can use emoticons
+#devtools::install_github("hadley/emo")
+library(emo)
+```
+
+
+# Overview
+
+There are three exercises for this module. 
+
+* #1 is to produce an introduction and to get to know your classmates. 
+* #2 is to work through the first DSAIDE app. 
+* #3 is to read a paper and post a discussion on Slack.
+
+
+
+
+# 1. Introducing Ourselves
+
+The idea is that everyone posts something about themselves that allows us to get to know each other. No matter how you deliver your introduction (see below), it should have at the minimum the following bits of information:
+
+* Talk a bit about yourself, your background, training, research interests. 
+* I'd be curious to know the main reason you signed up for this course and what you most hope to learn in this course. 
+* Mention (at least) one interesting/curious/noteworthy personal fact about you.
+* Include a picture of yourself, either in your post or as a link. 
+* Let us know one thing/question you'd like to know about your classmates (or instructor). 
+* Finally, include a link to a picture/video/website/etc. that has to do with an infectious disease topic that you find cool/interesting/weird/etc. Explain why you picked that link.
+
+
+You can make and deliver the introduction in multiple ways. No matter what method you choose, post a message into the `introductions` Slack channel with information on how people can find your introduction.
+
+**The simple (lazy `r emo::ji("smiley")`) way:** Answer the questions above and send it all as a post straight to the `introductions` Slack channel.
+
+**The multimedia way:** Record a video of yourself talking about the topics mentioned above, and post the video or a link to it to the Slack channel.
+
+**The geeky way:** Create a quick personal website by following the workflow of the introduction exercise from my Modern Applied Data Analysis class, [described here.](https://andreashandel.github.io/MADAcourse/Exercise_Introducing_Ourselves.html) This requires the use of Github. Note that for our class, there is no Github organization. Instead, create the repository in your own Github account. Everything else should work the same. 
+
+**The inventive way:** Find another way to produce an introduction of yourself and share it with the class.
+
+Please engage with and respond to the introductions posted by your classmates, using Slack. 
+
+_You need to have your introduction posted by Wednesday at the latest, but do it as soon as possible. Your responses to others should be posted by the end of the week._
+
+
+### Make Slack and Zoom personal
+
+Instead of seeing an empty cutout of a person, it's much nicer if your Slack persona features your picture. To that end, in Slack click on your name/profile, go to _Edit Profile_ and upload an image of yourself. Further adjust your profile as suitable. Note that this only applies to our class workspace. If you use other Slack workspaces, your profile on those won't be affected.
+
+In a similar fashion, you can add a picture to your Zoom account. Hopefully we can use video turned on for most Zoom sessions. But it's nice to show a picture even if you turn off video and only use audio. Instruction on how to do this [can be found here.](https://support.zoom.us/hc/en-us/articles/201363203-Customizing-your-Profile)
+
+
+
+# 2. Hands-on computer exercise
+For this module, please work through the _Basic SIR Model_ in DSAIDE. Read through all the documentation material (the tabs below the inputs and outputs. Then work through all the tasks. As you do so, record your answers to the questions in the quiz spreadsheet for this app, which you can get download from the [Course Resources](https://andreashandel.github.io/IDEMAcourse/Course_Resources.html) page. Once you are done, upload your quiz for grading [to this website.](https://shiny.ovpr.uga.edu/gradingapp/)
+
+**Note: This grading app is new and not too well tested. I expect things to not work 100% at least for the first few submissions. So if you notice anything that doesn't work right, please let me know.**
+
+
+
+
+# 3. Topic discussion
+
+Read the paper “Systems Science Methods in Public Health: Dynamics, Networks, and Agents” by Luke & Stamatakis, which you can get [here](./media/luke12arph.pdf).  Come up with a system that you consider complex in the realm of public health or biomedicine (other than those mentioned in the paper). Explain what makes it complex. Also, come up with a system that you consider not complex and explain why you think so. Post your thoughts to the _discussions_ channel. Then post at least 3 replies (that can be to 3 separate posts, or a back and forth on a single thread).
+
+_You need to have your discussion posted by Wednesday. Your responses to others should be posted by the end of the week._
+
+**For this and all discussions, the point is not _to get it right (whatever that means)_. The idea is to think about topics, discuss your ideas, and engage with each other in thoughtful conversations/discussions that enhance learning. So don't be shy to post your thoughts, even if you think they are "half-baked" or "out there". As long as you did put some thought into it, any contribution is welcome!**
+
+
+
+

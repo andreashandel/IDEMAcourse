@@ -1,0 +1,48 @@
+---
+title: Infectious Disease Control 2 
+author: Andreas Handel
+date: "`r as.Date(file.mtime(knitr::current_input()))`"
+#bibliography: ../media/references.bib
+output: 
+  html_document:
+    toc_depth: 3
+---
+
+
+# Overview
+
+In this module, we revisit infectious disease control and apply it to some more complex scenarios/models, as well as revisit the topic in general.
+
+
+# Reading
+
+You might still remember most of what you read, but it won't hurt to do another skim-through of the ["Infectious Disease Control" chapter of IDEMAB](https://andreashandel.github.io/IDEMAbook/infectious-disease-control.html).
+
+
+# Videos
+
+Here are a few more videos that cover various aspects of ID control. 
+
+## Non-pharmaceutical ID control
+
+In the following video from the ["Epidemics MOOC"](https://www.coursera.org/learn/epidemics), 
+[Marcel Salathe](https://www.epfl.ch/labs/salathelab/) describes non-pharmaceutical ID control interventions applied to prevent healthy individuals from becoming infected.
+
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/admya5k0wmg" frameborder="0" allowfullscreen></iframe>
+</p>
+
+[Rachel Smith](https://cas.la.psu.edu/people/ras57) discusses what one needs to consider to implement good (non-pharmaceutical) intervention campaigns.
+
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vAP_AwQni3c" frameborder="0" allowfullscreen></iframe>
+</p>
+
+## Eradication of ID
+A short TED video talking about the eradication of smallpox
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oBSandHijDc" frameborder="0" allowfullscreen></iframe>
+</p>
+This is part of a full [TEDEd lesson](http://ed.ted.com/lessons/learning-from-smallpox-how-to-eradicate-a-disease-julie-garon-and-walter-a-orenstein).
+
+

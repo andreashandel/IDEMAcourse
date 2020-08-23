@@ -1,0 +1,52 @@
+---
+title: Reproductive Number 2 
+author: Andreas Handel
+date: "`r as.Date(file.mtime(knitr::current_input()))`"
+#bibliography: ../media/references.bib
+output: 
+  html_document:
+    toc_depth: 3
+---
+
+
+# Overview
+In this module, we will continue the discussion of the reproductive number. 
+
+
+# Reading
+
+I suggest that after having worked through the material from the previous module, you do another read-through of the ["Reproductive Number" chapter of IDEMAB](https://andreashandel.github.io/IDEMAbook/R0.html). Some of that material might require more than one reading for it to sink in.
+
+Next, for something topical, read [this paper by Sarah Cobey](./media/cobey20science.pdf) in which she provides a brief discussion of infectious disease modeling and the role the reproductive number plays related to COVID-19. She also touches on topics we covered in previous modules (e.g. seasonality).
+
+
+# Videos
+
+The following videos discuss some further aspects of the reproductive number.
+
+## Another explanation of the reproductive number 
+
+[Joseph Wu](https://sph.hku.hk/en/about-us/faculty-and-staff/academic-staff/wu,-tsz-kei-joseph) explains the reproductive number. He also briefly explains another important quantity to characterize transmission, the secondary attack ratio (it's not a rate and should therefore not be called that, but often it is, like in this video). 
+
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NI8IuF7QJy4" frameborder="0" allowfullscreen></iframe>
+</p>
+
+
+## Reproductive number and vaccination
+In this video from the ["Epidemics MOOC"](https://www.coursera.org/learn/epidemics), [Matt Ferrari](https://theferrarilab.squarespace.com/) discusses the relation between the reproductive number and vaccination. We will discuss vaccination and other control strategies soon.
+
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EzShDUWww9A" frameborder="0" allowfullscreen></iframe>
+</p>
+
+
+## Reproductive number and force/age of infection
+In this video, again from the ["Epidemics MOOC"](https://www.coursera.org/learn/epidemics), [Matt Ferrari](https://theferrarilab.squarespace.com/) discusses the connection between the reproductive number and the force and age of infection.
+
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dj1DiqA4Lvg" frameborder="0" allowfullscreen></iframe>
+</p>
+
+
+
