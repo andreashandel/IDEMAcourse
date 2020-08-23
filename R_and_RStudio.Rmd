@@ -10,6 +10,14 @@ output:
     toc_depth: 3
 ---
 
+**Note: Unfortunately, the latest version of the DSAIDE package didn't make it to CRAN in time (they are on vacation). Thus you need to install it from GitHub and also need a recent version of R for things to work. Here's a quick overview of what you need.**
+
+* Install R version 4.0 or later.
+* Install a recent version of RStudio.
+* Install the `remotes` R package. Use the remotes package command `install_github('ahgroup/DSAIDE')` to install the latest version of DSAIDE (see more details in the DSAIDE _Get Started_ tutorial). Make sure you have version 0.8.6 or newer (I'll be releasing new versions as the course goes on).
+
+**If you are new to R, please go through all the documents of this module, as well as those linked from there in the indicated order. Otherwise you will likely miss things.**
+
 
 # Overview
 This is a very quick introduction to R and RStudio, to get you set up and running. We won't do any coding in this class, but we need R to use the DSAIDE package. R is a very useful tool to be familiar with if you want to get into ID modeling, or if you want to do data analysis. As such, having a bit of familiarity is good.

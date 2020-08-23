@@ -10,8 +10,13 @@ output:
     toc_depth: 3
 ---
 
-**Note: Unfortunately, the latest version of the DSAIDE package didn't make it to CRAN in time (they are on vacation). Therefore, you need to install DSAIDE from Github with the `remotes` package. Follow the 2nd option (installing from GitHub) as described in the [_Installation_ section here](https://ahgroup.github.io/DSAIDE/articles/DSAIDE.html). Make sure you have version 0.8.6.**
+**Note: Unfortunately, the latest version of the DSAIDE package didn't make it to CRAN in time (they are on vacation). Thus you need to install it from GitHub and also need a recent version of R for things to work. Here's a quick overview of what you need.**
 
+* Install R version 4.0 or later.
+* Install a recent version of RStudio.
+* Install the `remotes` R package. Use the remotes package command `install_github('ahgroup/DSAIDE')` to install the latest version of DSAIDE (see more details in the DSAIDE _Get Started_ tutorial). Make sure you have version 0.8.6 or newer (I'll be releasing new versions as the course goes on).
+
+**If you are new to R, please go through all the documents of this module, as well as those linked from there in the indicated order. Otherwise you will likely miss things.**
 
 # Overview
 This document provides a brief introduction to the `DSAIDE` package, which we will use a lot in this course. 
@@ -37,7 +42,7 @@ If you haven't done already, load DSAIDE. You should see a short message on the 
 dsaidemenu()
 ```
 
-A menu should open in your browser, from which you can explore different models/apps. **Make sure the version and date shown at the top is recent and corresponds to the version you are asked to have. Right now this is version 0.8.6.**
+A menu should open in your browser, from which you can explore different models/apps. **Make sure the version and date shown at the top is recent and corresponds to the version you are asked to have. Right now this is version 0.8.6. I'll be releasing new versions as the course goes on.**
 
 You can explore DSAIDE now as much as you want, but you can also close it for now, as we'll be coming back to it and working through most of the apps as part of the course.
 

@@ -11,7 +11,7 @@
 
 <meta name="author" content="Andreas Handel" />
 
-<meta name="date" content="2020-08-19" />
+<meta name="date" content="2020-08-23" />
 
 <title>DSAIDE</title>
 
@@ -546,12 +546,18 @@ div.tocify {
 
 <h1 class="title toc-ignore">DSAIDE</h1>
 <h4 class="author">Andreas Handel</h4>
-<h4 class="date">2020-08-19</h4>
+<h4 class="date">2020-08-23</h4>
 
 </div>
 
 
-<p><strong>Note: Unfortunately, the latest version of the DSAIDE package didn’t make it to CRAN in time (they are on vacation). Therefore, you need to install DSAIDE from Github with the <code>remotes</code> package. Follow the 2nd option (installing from GitHub) as described in the <a href="https://ahgroup.github.io/DSAIDE/articles/DSAIDE.html"><em>Installation</em> section here</a>. Make sure you have version 0.8.6.</strong></p>
+<p><strong>Note: Unfortunately, the latest version of the DSAIDE package didn’t make it to CRAN in time (they are on vacation). Thus you need to install it from GitHub and also need a recent version of R for things to work. Here’s a quick overview of what you need.</strong></p>
+<ul>
+<li>Install R version 4.0 or later.</li>
+<li>Install a recent version of RStudio.</li>
+<li>Install the <code>remotes</code> R package. Use the remotes package command <code>install_github('ahgroup/DSAIDE')</code> to install the latest version of DSAIDE (see more details in the DSAIDE <em>Get Started</em> tutorial). Make sure you have version 0.8.6 or newer (I’ll be releasing new versions as the course goes on).</li>
+</ul>
+<p><strong>If you are new to R, please go through all the documents of this module, as well as those linked from there in the indicated order. Otherwise you will likely miss things.</strong></p>
 <div id="overview" class="section level1">
 <h1>Overview</h1>
 <p>This document provides a brief introduction to the <code>DSAIDE</code> package, which we will use a lot in this course.</p>
@@ -572,7 +578,7 @@ div.tocify {
 <h1>DSAIDE hands-on</h1>
 <p>If you haven’t done already, load DSAIDE. You should see a short message on the screen. Some packages show messages when you load them, and others don’t. In this case, the package tells you that you can start using it by typing <code>dsaidemenu()</code> into the R console. Do that to start it</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="kw">dsaidemenu</span>()</span></code></pre></div>
-<p>A menu should open in your browser, from which you can explore different models/apps. <strong>Make sure the version and date shown at the top is recent and corresponds to the version you are asked to have. Right now this is version 0.8.6.</strong></p>
+<p>A menu should open in your browser, from which you can explore different models/apps. <strong>Make sure the version and date shown at the top is recent and corresponds to the version you are asked to have. Right now this is version 0.8.6. I’ll be releasing new versions as the course goes on.</strong></p>
 <p>You can explore DSAIDE now as much as you want, but you can also close it for now, as we’ll be coming back to it and working through most of the apps as part of the course.</p>
 </div>
 <div id="further-materials" class="section level1">
