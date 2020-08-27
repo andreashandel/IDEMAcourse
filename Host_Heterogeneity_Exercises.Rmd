@@ -1,0 +1,33 @@
+---
+title: Host Heterogeneity - Exercises 
+subtitle: ""
+author: Andreas Handel
+date: "`r as.Date(file.mtime(knitr::current_input()))`"
+output: 
+  html_document:
+    toc_depth: 3
+---
+
+
+```{r, include = FALSE}
+#just so I can use emoticons
+#devtools::install_github("hadley/emo")
+library(emo)
+```
+
+# Hands-on computer exercise
+
+For this module, work through the _Host Heterogeneity_ app. Fill and submit the corresponding quiz sheet.
+
+
+
+# Topic discussion 
+
+* The paper "Disease spread, susceptibility, and infection intensity: vicious circles?" by Beldomenico and Begon
+Red the paper “Disease spread, susceptibility, and infection intensity: vicious circles?” by Beldomenico and Begon (2010), which you can get [here](./media/beldomenico10tree.pdf). The paper mostly discusses non-human infectious diseases. For some human infectious disease, discuss (with references) the components they list in their paper (variable host susceptibility, variable infection intensity, feedback circles in the individual/population level) and how they apply (or not) for the disease you picked.
+
+
+Post your thoughts to the discussion channel, then respond to posts by others. The general rules for discussion and assessment apply.
+
+
+

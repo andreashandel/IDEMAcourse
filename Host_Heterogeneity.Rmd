@@ -1,0 +1,57 @@
+---
+title: Host Heterogeneity
+subtitle: ""
+author: Andreas Handel
+date: "`r as.Date(file.mtime(knitr::current_input()))`"
+#bibliography: ../media/references.bib
+output: 
+  html_document:
+    toc_depth: 3
+---
+
+
+# Overview
+
+In this module, we will take a look at situations and models that account for the fact that hosts often differ in characteristics that are important for ID dynamics.
+
+
+# Learning Outcomes
+
+* Know the most common host characteristics that lead to heterogeneity
+* Understand how heterogeneity might impact ID dynamics
+* Evaluate the need to account for heterogeneity depending on setting
+* Understand how different types of heterogeneity affect ID control
+
+
+# Reading
+
+Read the chapter ["Host Heterogeneity"](https://andreashandel.github.io/IDEMAbook/heterogeneity.html) in IDEMAB.
+
+
+# Videos 
+
+The following videos discuss how the differences between individuals (host heterogeneity) impact spread and control of infectious diseases.
+
+## Heterogeneities due to age
+In this video from the [University of Hong Kong Epidemics course](https://www.edx.org/course/epidemics-hkux-hku01x-0), [Marc Lipsitch](https://www.hsph.harvard.edu/marc-lipsitch/) explains how age is a major factor impacting ID spread and infection outcomes.
+
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hN5FGU2hCPA" frameborder="0" allowfullscreen></iframe>
+</p>
+
+
+## Heterogeneities in host behavior
+In this video from the [University of Hong Kong Epidemics course](https://www.edx.org/course/epidemics-hkux-hku01x-0), [Marc Lipsitch](https://www.hsph.harvard.edu/marc-lipsitch/) explains - using sexually transmitted infections as an example - how heterogeneities in contact behavior affects the observed ID dynamics. 
+
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Nah5BGv2WkY" frameborder="0" allowfullscreen></iframe>
+</p>
+
+
+## Superspreaders
+In this video from the [Epidemics MOOC](https://www.coursera.org/learn/epidemics), [Peter Hudson](https://www.huck.psu.edu/people/peter-hudson) discusses the concept of superspreaders.
+
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3H1tG4uz9uk" frameborder="0" allowfullscreen></iframe>
+</p>
+

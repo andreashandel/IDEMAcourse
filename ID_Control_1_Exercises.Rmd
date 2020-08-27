@@ -32,5 +32,6 @@ Play the game [VAX](http://vax.herokuapp.com/). In this game, you get to vaccina
 
 If you want to play some more, you can try [Vaxpackhero](http://vaxpackhero.com/). In this game, you are fighting germs inside an infected person. For more bragging rights, take a screenshot of your score or highest achievement and post it to Slack. 
 
+No deadline for this, you can try to top each others scores until the end of the semester.
 
 

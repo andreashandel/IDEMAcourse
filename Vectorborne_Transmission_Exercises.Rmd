@@ -1,0 +1,32 @@
+---
+title: Vectorborne Transmission - Exercises 
+subtitle: ""
+author: Andreas Handel
+date: "`r as.Date(file.mtime(knitr::current_input()))`"
+output: 
+  html_document:
+    toc_depth: 3
+---
+
+
+```{r, include = FALSE}
+#just so I can use emoticons
+#devtools::install_github("hadley/emo")
+library(emo)
+```
+
+# Hands-on computer exercise
+
+For this module, work through the _Vectorborne Transmission_ app. Fill and submit the corresponding quiz sheet.
+
+
+
+# Topic discussion 
+
+
+Read the paper "What is a vector?" by Wilson et al. (2017), which you can get [here](./media/wilson17ptb.pdf). In this paper, the authors suggest that for a population dynamics perspective - which we take in this course - the _sequential_ vector definition is best. Find a paper in the literature (other than any cited by the authors) that talks about a vector-borne disease to which the sequential rule applies. Describe why/how. Also find a paper in the literature that discusses a vector-borne disease which does **not** follow the sequential rule and explain why/how. If either paper you choose talks about the reproductive number, discuss how it relates to the reproductive number discussion in the paper by Wilson et al.
+
+Post your thoughts to the discussion channel, then respond to posts by others. The general rules for discussion and assessment apply.
+
+
+

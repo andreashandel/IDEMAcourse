@@ -1,5 +1,5 @@
 ---
-title:  Infectious Disease Control 1 - Assessment 
+title:  Host Heterogeneity - Assessment 
 author: Andreas Handel
 date: "`r as.Date(file.mtime(knitr::current_input()))`"
 output: 
@@ -16,17 +16,10 @@ For this module, complete and submit the following items for assessment.
 
 Obtain the quiz sheets for this module, fill them out and submit them before the due date. You can find the sheet(s) for this module and submission instructions in the _Course Resources_ section.
 
-**Note that there are 3, two for the DSAIDE apps and 1 for the theory part.**
-
 
 ## Discussions 
 
 Contribute to our weekly discussion as described in the  _Exercises_ document of this module. Post your own and reply to others' posts.
-
-
-## Project
-
-Submit part 2 of your project by this week's deadline. See the _Project_ section for details.
 
 
 

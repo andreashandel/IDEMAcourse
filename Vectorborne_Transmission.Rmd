@@ -1,0 +1,52 @@
+---
+title: Vectorborne Transmission 
+subtitle: ""
+author: Andreas Handel
+date: "`r as.Date(file.mtime(knitr::current_input()))`"
+#bibliography: ../media/references.bib
+output: 
+  html_document:
+    toc_depth: 3
+---
+
+
+# Overview
+
+In this module, we will discuss vector-borne transmission and how it affects ID dynamics and control. 
+
+# Learning Objectives
+
+* Know about important IDs that are vector-borne
+* Understand the implications of vector-borne transmission on ID dynamics
+* Understand how vector-borne transmission influences potential ID control strategies.
+
+
+# Reading
+
+Read the chapter ["Vector Borne ID Transmission"](https://andreashandel.github.io/IDEMAbook/types-of-infectious-disease-transmission.html) in IDEMAB.
+
+
+# Videos 
+
+
+## Vector borne transmission and control
+
+In this video from the ["Epidemics"](https://www.coursera.org/learn/epidemics) course, [Andrew Read](http://www.thereadgroup.net/) discusses vector control.
+
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HS_bhjhX8dU" frameborder="0" allowfullscreen></iframe>
+</p>
+
+
+This TED talk video discusses some of the new control strategies tried against mosquitoes
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iVcJmZcxlIY" frameborder="0" allowfullscreen></iframe>
+</p>
+
+
+## Zika virus
+
+This _Motherboard_ video discusses the role of mosquito vectors for the transmission of Zika and similar vector borne viruses that are on the rise.
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/s2gQ_Y30EaM" frameborder="0" allowfullscreen></iframe>
+</p>
