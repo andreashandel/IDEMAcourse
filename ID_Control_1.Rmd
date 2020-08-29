@@ -13,6 +13,13 @@ output:
 
 Various control strategies, such as vaccination, have already made an appearance throughout the course. In this module, we will take a focused look at infectious disease control strategies and investigate some further topics related to control.
 
+# Learning Objectives
+
+
+* Know the major types of ID control strategies
+* Evaluate the use of different ID control strategies
+* Understand how different pathogens require different types of control
+
 
 # Reading
 

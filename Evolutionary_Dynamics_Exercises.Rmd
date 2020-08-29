@@ -1,0 +1,30 @@
+---
+title: Emerging Infectious Diseases - Exercises 
+subtitle: ""
+author: Andreas Handel
+date: "`r as.Date(file.mtime(knitr::current_input()))`"
+output: 
+  html_document:
+    toc_depth: 3
+---
+
+
+```{r, include = FALSE}
+#just so I can use emoticons
+#devtools::install_github("hadley/emo")
+library(emo)
+```
+
+# Hands-on computer exercise
+
+For this module, work through the _Evolution of Drug Resistance_ app. Fill and submit the corresponding quiz sheet.
+
+
+# Topic discussion 
+
+Read the paper _Evolutionary epidemiology 20 years on: Challenges and prospects_ by Restif (2009), which you can get [here](./media/restif09infgenevo.pdf). The paper talks about 3 evolutionary patterns that are important to ID control. Find one or several papers that have been published in the last 5 years which address ID control from an evolutionary perspective of one or more of those topics mentioned in the Restif paper. Summarize and discuss the paper(s) you found. Critically assess the feasibility of the ideas put forward.
+
+Post your thoughts to the discussion channel, then respond to posts by others. The general rules for discussion and assessment apply.
+
+
+

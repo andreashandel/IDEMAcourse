@@ -36,102 +36,102 @@ navbar:
               href: ./Course_Introduction_Exercises.html
             - text: "1h. Assessments"
               href: ./Course_Introduction_Assessments.html
-    #     - text: "2. Characterizing infection states"
-    #       menu:
-    #         - text: "2a. Characteristics of ID"
-    #           href: ./Characteristics_of_ID.html
-    #         - text: "2b. Exercises"
-    #           href: ./Characteristics_of_ID_Exercises.html
-    #         - text: "2c. Assessments"
-    #           href: ./Characteristics_of_ID_Assessments.html
-    #     - text: "3. Patterns of ID"
-    #       menu:
-    #         - text: "3a. Patterns of ID"
-    #           href: ./Patterns_of_ID.html
-    #         - text: "3b. Exercises"
-    #           href: ./Patterns_of_ID_Exercises.html
-    #         - text: "3c. Assessments"
-    #           href: ./Patterns_of_ID_Assessments.html
-    #     - text: "4. Reproductive Number 1"
-    #       menu:
-    #         - text: "4a. Reproductive Number 1"
-    #           href: ./Reproductive_Number_1.html
-    #         - text: "4b. Exercises"
-    #           href: ./Reproductive_Number_1_Exercises.html
-    #         - text: "4c. Assessments"
-    #           href: ./Reproductive_Number_1_Assessments.html
-    #     - text: "5. Reproductive Number 2"
-    #       menu:
-    #         - text: "5a. Reproductive Number 2"
-    #           href: ./Reproductive_Number_2.html
-    #         - text: "5b. Exercises"
-    #           href: ./Reproductive_Number_2_Exercises.html
-    #         - text: "5c. Assessments"
-    #           href: ./Reproductive_Number_2_Assessments.html
-    #     - text: "6. Infectious Disease Control 1"
-    #       menu:
-    #         - text: "6a. ID Control 1"
-    #           href: ./ID_Control_1.html
-    #         - text: "6b. Exercises"
-    #           href: ./ID_Control_1_Exercises.html
-    #         - text: "6c. Assessments"
-    #           href: ./ID_Control_1_Assessments.html
-    #     - text: "7. Direct Transmission"
-    #       menu:
-    #         - text: "7a. Direct Transmission"
-    #           href: ./Direct_Transmission.html
-    #         - text: "7b. Exercises"
-    #           href: ./Direct_Transmission_Exercises.html
-    #         - text: "7c. Assessments"
-    #           href: ./Direct_Transmission_Assessments.html
-    #     - text: "8. Environmental Transmission"
-    #       menu:
-    #         - text: "8a. Environmental Transmission"
-    #           href: ./Environmental_Transmission.html
-    #         - text: "8b. Exercises"
-    #           href: ./Environmental_Transmission_Exercises.html
-    #         - text: "8c. Assessments"
-    #           href: ./Environmental_Transmission_Assessments.html
-    #     - text: "9. Vector-borne infectious diseases"
-    #       menu:
-    #         - text: "9a. Vector-borne ID"
-    #           href: ./Vector_Transmission.html
-    #         - text: "9b. Exercises"
-    #           href: ./Vector_Transmission_Exercises.html
-    #         - text: "9c. Assessments"
-    #           href: ./Vector_Transmission_Assessments.html
-    #     - text: "10. Host heterogeneity"
-    #       menu:
-    #         - text: "10a. Host heterogeneity"
-    #           href: ./Host_Heterogeneity.html
-    #         - text: "10b. Exercises"
-    #           href: ./Host_Heterogeneity_Exercises.html
-    #         - text: "10c. Assessments"
-    #           href: ./Host_Heterogeneity_Assessments.html
-    #     - text: "11. Infectious Disease Control 2"
-    #       menu:
-    #         - text: "11a. ID Control 2"
-    #           href: ./ID_Control_2.html
-    #         - text: "11b. Exercises"
-    #           href: ./ID_Control_2_Exercises.html
-    #         - text: "11c. Assessments"
-    #           href: ./ID_Control_2_Assessments.html
-    #     - text: "12. Stochasticity and Extinctions"
-    #       menu:
-    #         - text: "12a. Stochasticity and Extinctions"
-    #           href: ./Stochasticity_and_Extinctions.html
-    #         - text: "12b. Exercises"
-    #           href: ./Stochasticity_and_Extinctions_Exercises.html
-    #         - text: "12c. Assessments"
-    #           href: ./Stochasticity_and_Extinctions_Assessments.html
-    #     - text: "13. Emerging Infectious Diseases"
-    #       menu:
-    #         - text: "13a. Emerging Infectious Diseases"
-    #           href: ./Emerging_Infectious_Diseases.html
-    #         - text: "13b. Exercises"
-    #           href: ./Emerging_Infectious_Diseases_Exercises.html
-    #         - text: "13c. Assessments"
-    #           href: ./Emerging_Infectious_Diseases_Assessments.html
+        - text: "2. Characterizing infection states"
+          menu:
+            - text: "2a. Characteristics of ID"
+              href: ./Characteristics_of_ID.html
+            - text: "2b. Exercises"
+              href: ./Characteristics_of_ID_Exercises.html
+            - text: "2c. Assessments"
+              href: ./Characteristics_of_ID_Assessments.html
+        - text: "3. Patterns of ID"
+          menu:
+            - text: "3a. Patterns of ID"
+              href: ./Patterns_of_ID.html
+            - text: "3b. Exercises"
+              href: ./Patterns_of_ID_Exercises.html
+            - text: "3c. Assessments"
+              href: ./Patterns_of_ID_Assessments.html
+        # - text: "4. Reproductive Number 1"
+        #   menu:
+        #     - text: "4a. Reproductive Number 1"
+        #       href: ./Reproductive_Number_1.html
+        #     - text: "4b. Exercises"
+        #       href: ./Reproductive_Number_1_Exercises.html
+        #     - text: "4c. Assessments"
+        #       href: ./Reproductive_Number_1_Assessments.html
+        # - text: "5. Reproductive Number 2"
+        #   menu:
+        #     - text: "5a. Reproductive Number 2"
+        #       href: ./Reproductive_Number_2.html
+        #     - text: "5b. Exercises"
+        #       href: ./Reproductive_Number_2_Exercises.html
+        #     - text: "5c. Assessments"
+        #       href: ./Reproductive_Number_2_Assessments.html
+        # - text: "6. Infectious Disease Control 1"
+        #   menu:
+        #     - text: "6a. ID Control 1"
+        #       href: ./ID_Control_1.html
+        #     - text: "6b. Exercises"
+        #       href: ./ID_Control_1_Exercises.html
+        #     - text: "6c. Assessments"
+        #       href: ./ID_Control_1_Assessments.html
+        # - text: "7. Direct Transmission"
+        #   menu:
+        #     - text: "7a. Direct Transmission"
+        #       href: ./Direct_Transmission.html
+        #     - text: "7b. Exercises"
+        #       href: ./Direct_Transmission_Exercises.html
+        #     - text: "7c. Assessments"
+        #       href: ./Direct_Transmission_Assessments.html
+        # - text: "8. Environmental Transmission"
+        #   menu:
+        #     - text: "8a. Environmental Transmission"
+        #       href: ./Environmental_Transmission.html
+        #     - text: "8b. Exercises"
+        #       href: ./Environmental_Transmission_Exercises.html
+        #     - text: "8c. Assessments"
+        #       href: ./Environmental_Transmission_Assessments.html
+        # - text: "9. Vector-borne infectious diseases"
+        #   menu:
+        #     - text: "9a. Vectorborne Transmission"
+        #       href: ./Vectorborne_Transmission.html
+        #     - text: "9b. Exercises"
+        #       href: ./Vectorborne_Transmission_Exercises.html
+        #     - text: "9c. Assessments"
+        #       href: ./Vectorborne_Transmission_Assessments.html
+        # - text: "10. Host heterogeneity"
+        #   menu:
+        #     - text: "10a. Host heterogeneity"
+        #       href: ./Host_Heterogeneity.html
+        #     - text: "10b. Exercises"
+        #       href: ./Host_Heterogeneity_Exercises.html
+        #     - text: "10c. Assessments"
+        #       href: ./Host_Heterogeneity_Assessments.html
+        # - text: "11. Infectious Disease Control 2"
+        #   menu:
+        #     - text: "11a. ID Control 2"
+        #       href: ./ID_Control_2.html
+        #     - text: "11b. Exercises"
+        #       href: ./ID_Control_2_Exercises.html
+        #     - text: "11c. Assessments"
+        #       href: ./ID_Control_2_Assessments.html
+        # - text: "12. Stochasticity and Extinctions"
+        #   menu:
+        #     - text: "12a. Stochasticity and Extinctions"
+        #       href: ./Stochasticity_and_Extinctions.html
+        #     - text: "12b. Exercises"
+        #       href: ./Stochasticity_and_Extinctions_Exercises.html
+        #     - text: "12c. Assessments"
+        #       href: ./Stochasticity_and_Extinctions_Assessments.html
+        # - text: "13. Evolutionary Dynamics"
+        #   menu:
+        #     - text: "13a. Evolutionary Dynamics"
+        #       href: ./Evolutionary_Dynamics.html
+        #     - text: "13b. Exercises"
+        #       href: ./Evolutionary_Dynamics_Exercises.html
+        #     - text: "13c. Assessments"
+        #       href: ./Evolutionary_Dynamics_Assessments.html
     - text: "Project"
       menu:
          - text: "Project information"

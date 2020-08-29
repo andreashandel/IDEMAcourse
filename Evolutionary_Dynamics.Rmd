@@ -1,0 +1,85 @@
+---
+title: Emerging Infectious Diseases
+subtitle: ""
+author: Andreas Handel
+date: "`r as.Date(file.mtime(knitr::current_input()))`"
+#bibliography: ../media/references.bib
+output: 
+  html_document:
+    toc_depth: 3
+---
+
+
+# Overview
+
+In this unit, we will take a look at infectious disease evolution, its relation to control measures and also take a quick glance at emerging infectious diseases and virulence evolution.
+
+# Learning Objectives
+
+* Understand the central mechanisms and drivers of infectious disease evolution
+* Be able to assess how different control strategies can affect infectious disease evolution
+* Understand how control measures affect pathogen fitness
+* Assess the impact of different control measures on potential for evolution
+
+
+
+# Reading
+
+Read the chapters _Evolutionary Dynamics Introduction_, _Evolution and Control_ and _Emerging Infectious Diseases_ in IDEMAB. They are not very long and some are still a bit rough, but hopefully readable (as always, contributions/improvements are welcome.)
+
+Optionally, also read the - currently very short - _Virulence_ chapter.
+
+
+# Videos 
+
+The following videos discuss some aspects of pathogen evolution.
+
+
+## Overview of ID evolution 
+
+As part of the [Epidemics MOOC](https://www.coursera.org/learn/epidemics), [Andrew Read](http://www.thereadgroup.net/) provides a general discussion of pathogen evolution  
+
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/65CjpOz7QNA" frameborder="0" allowfullscreen></iframe>
+</p>
+
+
+## Evolution of drug resistance
+
+The following video shows drug resistance evolution in action in a very clever experimental system. More details on the experiment can be found [in this article published in Science](http://science.sciencemag.org/content/353/6304/1147).
+
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yybsSqcB7mE" frameborder="0" allowfullscreen></iframe>
+</p>
+
+
+
+In this video, [Andrew Read](http://www.thereadgroup.net/) provides a more detailed discussion how drug treatment and evolution interact to lead to resistance, and what we can do to minimize the problem  
+
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cGsMCwajs7I" frameborder="0" allowfullscreen></iframe>
+</p>
+
+This short video, which is part of a [TEDEd lesson](http://ed.ted.com/lessons/how-antibiotics-become-resistant-over-time-kevin-wu), discusses evolution of drug resistance in a very easy to understand way.
+**This video is optional.**
+
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/znnp-Ivj2ek" frameborder="0" allowfullscreen></iframe>
+</p>
+
+
+## Evolution of Virulence
+
+In this video from the  [University of Hong Kong Epidemics course](https://www.edx.org/course/epidemics-hkux-hku01x-0), [Marc Lipsitch](https://www.hsph.harvard.edu/marc-lipsitch/) discusses the evolution of pathogens with a special focus on the evolution of virulence. 
+
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ERazkajbeWg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
+In this video, which is part of a [TEDEd lesson](http://ed.ted.com/lessons/how-do-germs-spread-and-why-do-they-make-us-sick-yannay-khaikin-and-nicole-mideo), [Nicole Mideo](http://mideo.eeb.utoronto.ca/) and colleagues provide an explanation of evolution of pathogen virulence.
+**This video is optional.**
+
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yxonJTWhBJQ" frameborder="0" allowfullscreen></iframe>
+</p>
+

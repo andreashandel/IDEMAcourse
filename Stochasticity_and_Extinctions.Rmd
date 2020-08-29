@@ -1,0 +1,57 @@
+---
+title: Stochasticity and Extinctions
+subtitle: ""
+author: Andreas Handel
+date: "`r as.Date(file.mtime(knitr::current_input()))`"
+#bibliography: ../media/references.bib
+output: 
+  html_document:
+    toc_depth: 3
+---
+
+
+# Overview
+
+In this module, we will discuss how one needs to account for stochasticity in models if one wants to study extinction. 
+
+# Learning Objectives
+
+* Understand the difference between stochastic and deterministic models
+* Know when one needs to make use of stochastic models
+* Understand the concept of critical community size
+* Understand how stochasticity affects ID dynamics and can lead to extinctions
+
+
+# Reading
+
+Read the chapter ["Stochastic Dynamics and Extinctions"](https://andreashandel.github.io/IDEMAbook/stochastic.html) in IDEMAB.
+
+# Videos 
+
+The following videos discuss some of the dynamics that can occur if one considers stochasticity and the fact that if a population drops below one infected, the pathogen goes (temporarily) extinct.
+
+
+## Extinction
+
+In this video from the ["Epidemics MOOC"](https://www.coursera.org/learn/epidemics), [Ottar Bjornstad](https://ento.psu.edu/directory/onb1) discusses extinctions of hosts due to ID.
+
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/v67gtiACBTY" frameborder="0" allowfullscreen></iframe>
+</p>
+
+## Critical Community Size
+
+In this video from the ["Epidemics MOOC"](https://www.coursera.org/learn/epidemics), [Matt Ferrari](https://theferrarilab.squarespace.com/) discusses the concept of critical community size.
+
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sycjw8aLbAU" frameborder="0" allowfullscreen></iframe>
+</p>
+
+
+## Spatial structure and extinctions
+
+In this video from the ["Epidemics MOOC"](https://www.coursera.org/learn/epidemics), [Ottar Bjornstad](https://ento.psu.edu/directory/onb1) discusses how the ecology of the host (e.g. population density and movement) affect dynamics and extinctions of ID.
+
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WPjsAdyD1Gg" frameborder="0" allowfullscreen></iframe>
+</p>

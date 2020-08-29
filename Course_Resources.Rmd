@@ -48,8 +48,6 @@ __Please do not make any other changes to the sheets apart from filling the "Ans
 * [Basic SIR DSAIDE Quiz](./quizsheets/dsaide_basicsir.xlsx)
 * [Theory Quiz](./quizsheets/theory_basicsir.xlsx)
 
-<!--
-
 ## Module 2 - Characterizing infection states
 * [ID Characteristics DSAIDE Quiz](./quizsheets/dsaide_idcharacteristics.xlsx)
 * [Theory Quiz](./quizsheets/theory_idcharacteristics.xlsx)
@@ -57,6 +55,8 @@ __Please do not make any other changes to the sheets apart from filling the "Ans
 ## Module 3 - Patterns of ID
 * [Patterns of ID DSAIDE Quiz](./quizsheets/dsaide_idpatterns.xlsx)
 * [Theory Quiz](./quizsheets/theory_idpatterns.xlsx)
+
+<!-- comment out quizzes that are not ready yet
 
 ## Module 4 - Reproductive Number 1
 * [Reproductive number 1 DSAIDE Quiz](./quizsheets/dsaide_reproductivenumber1.xlsx)
@@ -66,11 +66,47 @@ __Please do not make any other changes to the sheets apart from filling the "Ans
 * [Reproductive number 2 DSAIDE Quiz](./quizsheets/dsaide_reproductivenumber2.xlsx)
 * [Theory Quiz](./quizsheets/theory_reproductivenumber2.xlsx)
 
+## Module 6 - ID Control 1
+* [Basics of ID Control DSAIDE Quiz](./quizsheets/dsaide_idcontrolvaccine.xlsx)
+* [ID control for multiple outbreaks DSAIDE Quiz](./quizsheets/dsaide_idcontrolmultioutbreak.xlsx)
+* [Theory Quiz](./quizsheets/theory_idcontrol1.xlsx)
+
+## Module 7 - Direct Transmission
+* [Direct Transmission DSAIDE Quiz](./quizsheets/dsaide_directtransmission.xlsx)
+* [Theory Quiz](./quizsheets/theory_directtransmission.xlsx)
+
+## Module 8 - Environmental Transmission
+* [Environmental Transmission DSAIDE Quiz](./quizsheets/dsaide_environmentaltransmission.xlsx)
+* [Theory Quiz](./quizsheets/theory_environmentaltransmission.xlsx)
+
+## Module 9 - Vectorborne Transmission
+* [Vectorborne Transmission DSAIDE Quiz](./quizsheets/dsaide_vectortransmission.xlsx)
+* [Theory Quiz](./quizsheets/theory_vectortransmission.xlsx)
+
+## Module 10 - Host Heterogeneity
+* [ Host Heterogeneity DSAIDE Quiz](./quizsheets/dsaide_hostheterogeneity.xlsx)
+* [Theory Quiz](./quizsheets/theory_hostheterogeneity.xlsx)
+
+## Module 11 - ID Control 2
+* [ID Control of different populations DSAIDE Quiz](./quizsheets/dsaide_idcontrolmultigroup.xlsx)
+* [Complex ID control scenarios DSAIDE Quiz](./quizsheets/dsaide_idcontrolcomplex.xlsx)
+* [Theory Quiz](./quizsheets/theory_idcontrol2.xlsx)
+
+## Module 12 - Stochasticity
+* [Stochastic SIR Model DSAIDE Quiz](./quizsheets/dsaide_stochasticsir.xlsx)
+* [Stochastic SEIR Model DSAIDE Quiz](./quizsheets/dsaide_stochasticseir.xlsx)
+* [Theory Quiz](./quizsheets/theory_evolution.xlsx)
+
+## Module 13 - Evolutionary Dynamics
+* [Evolution of Drug Resistance DSAIDE Quiz](./quizsheets/dsaide_evolutionarydynamics.xlsx)
+* [Theory Quiz](./quizsheets/theory_evolution.xlsx)
+
 -->
 
 _Further quizzes will show up here as the course progresses._
 
-# Exercise solutions
 
-After the due date for each quiz, I will place solution files to the DSAIDE exercises [in this Dropbox folder](https://www.dropbox.com/sh/ud2n0crtao2rmlg/AABQ7MRiEyIap308GoHEYggSa?dl=0). They are fairly detailed and also show you how you can use `R` commands (instead of the graphical interface) to do all the Tasks. I highly recommend looking at them (even if you get all answers correct).
+# DSAIDE Solutions
+
+After the due date for each quiz, I will place solution files to the DSAIDE exercises in a Dropbox folder. The solutions are fairly detailed and also show you how you can use `R` commands (instead of the graphical interface) to do all the tasks. I highly recommend checking out the solutions (even if you get all answers correct). The link to the dropbox folder is pinned in the _Announcement_ channel on Slack.
 

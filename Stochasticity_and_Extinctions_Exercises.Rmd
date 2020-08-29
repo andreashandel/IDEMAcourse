@@ -1,0 +1,29 @@
+---
+title: Stochasticity and Extinctions - Exercises 
+subtitle: ""
+author: Andreas Handel
+date: "`r as.Date(file.mtime(knitr::current_input()))`"
+output: 
+  html_document:
+    toc_depth: 3
+---
+
+
+```{r, include = FALSE}
+#just so I can use emoticons
+#devtools::install_github("hadley/emo")
+library(emo)
+```
+
+# Hands-on computer exercise
+
+
+For this module, work through **two** DSAIDE apps, namely _Stochastic SIR Model_ and _Stochastic SEIR Model_. Fill and submit the corresponding quiz sheets.
+
+
+# Topic discussion 
+
+Read the paper “Measles Endemicity in Insular Populations: Critical Community Size and Its Evolutionary Implication” by Black (1966), which you can get [here](./media/black66jtb.pdf). The paper discusses critical community size for measles. Find a paper that discusses the idea of critical community size for a different infectious disease. Read, summarize and critique the papers.
+
+Post your write-up to the discussion channel, then respond to posts by others. The general rules for discussion and assessment apply.
+
