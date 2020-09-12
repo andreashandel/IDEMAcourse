@@ -56,8 +56,6 @@ __Please do not make any other changes to the sheets apart from filling the "Ans
 * [Patterns of ID DSAIDE Quiz](./quizsheets/dsaide_idpatterns.xlsx)
 * [Theory Quiz](./quizsheets/theory_idpatterns.xlsx)
 
-<!-- comment out quizzes that are not ready yet
-
 ## Module 4 - Reproductive Number 1
 * [Reproductive number 1 DSAIDE Quiz](./quizsheets/dsaide_reproductivenumber1.xlsx)
 * [Theory Quiz](./quizsheets/theory_reproductivenumber1.xlsx)
@@ -70,6 +68,9 @@ __Please do not make any other changes to the sheets apart from filling the "Ans
 * [Basics of ID Control DSAIDE Quiz](./quizsheets/dsaide_idcontrolvaccine.xlsx)
 * [ID control for multiple outbreaks DSAIDE Quiz](./quizsheets/dsaide_idcontrolmultioutbreak.xlsx)
 * [Theory Quiz](./quizsheets/theory_idcontrol1.xlsx)
+
+<!-- comment out quizzes that are not ready yet
+
 
 ## Module 7 - Direct Transmission
 * [Direct Transmission DSAIDE Quiz](./quizsheets/dsaide_directtransmission.xlsx)
@@ -101,12 +102,12 @@ __Please do not make any other changes to the sheets apart from filling the "Ans
 * [Evolution of Drug Resistance DSAIDE Quiz](./quizsheets/dsaide_evolutionarydynamics.xlsx)
 * [Theory Quiz](./quizsheets/theory_evolution.xlsx)
 
+
 -->
 
 _Further quizzes will show up here as the course progresses._
 
+# Exercise solutions
 
-# DSAIDE Solutions
-
-After the due date for each quiz, I will place solution files to the DSAIDE exercises in a Dropbox folder. The solutions are fairly detailed and also show you how you can use `R` commands (instead of the graphical interface) to do all the tasks. I highly recommend checking out the solutions (even if you get all answers correct). The link to the dropbox folder is pinned in the _Announcement_ channel on Slack.
+After the due date for each quiz, I will place solution files to the DSAIDE exercises in a Dropbox folder. They are fairly detailed and also show you how you can use `R` commands (instead of the graphical interface) to do all the Tasks. I highly recommend looking at them (even if you get all answers correct). The link to the dropbox folder is pinned in the _Announcement_ channel on Slack.
 

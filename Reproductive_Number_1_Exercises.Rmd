@@ -23,8 +23,7 @@ For this module, work through the _Reproductive Number 1_ app. Fill and submit t
 
 # Topic discussion 
 
-In the paper by Sarah Cobey you read for this module, she states "It is most accurate to describe $R_0$ in reference
-to a pathogen and host population, because the number is partially under host control." 
+Read [this paper](./media/cobey20science.pdf) by [Sarah Cobey](https://cobeylab.uchicago.edu/) in which she provides a brief discussion of infectious disease modeling and the role the reproductive number plays related to COVID-19. She also touches on topics we covered in previous modules (e.g. seasonality). In the paper, she states "It is most accurate to describe $R_0$ in reference to a pathogen and host population, because the number is partially under host control." 
 
 Find examples of this statement by looking through the literature to find - for some pathogen of your choice - at least 2 different estimates for $R_0$. Discuss what factors might affect the differences in reported values. Note that both methodological and biological components can affect $R_0$ estimates.
 

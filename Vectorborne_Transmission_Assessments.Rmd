@@ -1,5 +1,5 @@
 ---
-title:  Vectorborne Transmission - Assessment 
+title:  Vector-borne Transmission - Assessment 
 author: Andreas Handel
 date: "`r as.Date(file.mtime(knitr::current_input()))`"
 output: 

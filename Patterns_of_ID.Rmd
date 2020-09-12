@@ -15,6 +15,17 @@ output:
 In this module, we will discuss different patterns of ID dynamics, such as single outbreaks, recurrent cycles, and steady endemic states. 
 
 
+
+# Learning Objectives
+
+* Understand the concept of resource replenishment
+* Know the different mechanisms that can lead to ID cycles
+* Understand the concept of endemic state
+* Understand what leads to different ID patterns
+* Understand the difference between intrinsic and extrinsic drivers of ID cycles
+
+
+
 # Reading
 
 Read ["Patterns of ID dynamcis"](https://andreashandel.github.io/IDEMAbook/patterns-of-infectious-disease-dynamics.html) of IDEMAB.

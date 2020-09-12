@@ -26,6 +26,8 @@ Various control strategies, such as vaccination, have already made an appearance
 Start by reading the ["Infectious Disease Control" chapter of IDEMAB](https://andreashandel.github.io/IDEMAbook/infectious-disease-control.html).
 
 
+A few weeks ago, you read the paper [_Modelling an outbreak of an emerging pathogen_ by Kajita et al (2007)](./media/kajita07natrevmic.pdf). Back then, we hadn't discussed some topics mentioned in the paper, e.g. the reproductive number and how it relates to infectious disease control. Now (or after you worked through the DSAIDE apps for this module) might be a good time to revisit the paper, give it another read-through and see how much more you can understand. There are still some parts, e.g. the somewhat complicated way to get the _reproductive number_, that are beyond what will cover in this course, but you will likely be able to understand several parts of the paper better now than a few weeks ago.
+
 # Videos
 
 ## Introduction Video

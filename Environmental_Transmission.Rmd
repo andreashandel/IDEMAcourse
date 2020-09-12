@@ -15,14 +15,10 @@ output:
 In this module, we will discuss environmental transmission and how it affects ID dynamics. 
 
 
-# Learning Outcomes
-
-In this module, you will learn to:
+# Learning Objectives
 
 * Contrast the difference between direct and environmental transmission.
-
 * Assess how indirect transmission processes affect ID dynamics.
-
 
 
 # Reading

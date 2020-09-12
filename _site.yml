@@ -52,30 +52,30 @@ navbar:
               href: ./Patterns_of_ID_Exercises.html
             - text: "3c. Assessments"
               href: ./Patterns_of_ID_Assessments.html
-        # - text: "4. Reproductive Number 1"
-        #   menu:
-        #     - text: "4a. Reproductive Number 1"
-        #       href: ./Reproductive_Number_1.html
-        #     - text: "4b. Exercises"
-        #       href: ./Reproductive_Number_1_Exercises.html
-        #     - text: "4c. Assessments"
-        #       href: ./Reproductive_Number_1_Assessments.html
-        # - text: "5. Reproductive Number 2"
-        #   menu:
-        #     - text: "5a. Reproductive Number 2"
-        #       href: ./Reproductive_Number_2.html
-        #     - text: "5b. Exercises"
-        #       href: ./Reproductive_Number_2_Exercises.html
-        #     - text: "5c. Assessments"
-        #       href: ./Reproductive_Number_2_Assessments.html
-        # - text: "6. Infectious Disease Control 1"
-        #   menu:
-        #     - text: "6a. ID Control 1"
-        #       href: ./ID_Control_1.html
-        #     - text: "6b. Exercises"
-        #       href: ./ID_Control_1_Exercises.html
-        #     - text: "6c. Assessments"
-        #       href: ./ID_Control_1_Assessments.html
+        - text: "4. Reproductive Number 1"
+          menu:
+            - text: "4a. Reproductive Number 1"
+              href: ./Reproductive_Number_1.html
+            - text: "4b. Exercises"
+              href: ./Reproductive_Number_1_Exercises.html
+            - text: "4c. Assessments"
+              href: ./Reproductive_Number_1_Assessments.html
+        - text: "5. Reproductive Number 2"
+          menu:
+            - text: "5a. Reproductive Number 2"
+              href: ./Reproductive_Number_2.html
+            - text: "5b. Exercises"
+              href: ./Reproductive_Number_2_Exercises.html
+            - text: "5c. Assessments"
+              href: ./Reproductive_Number_2_Assessments.html
+        - text: "6. Infectious Disease Control 1"
+          menu:
+            - text: "6a. ID Control 1"
+              href: ./ID_Control_1.html
+            - text: "6b. Exercises"
+              href: ./ID_Control_1_Exercises.html
+            - text: "6c. Assessments"
+              href: ./ID_Control_1_Assessments.html
         # - text: "7. Direct Transmission"
         #   menu:
         #     - text: "7a. Direct Transmission"
@@ -94,7 +94,7 @@ navbar:
         #       href: ./Environmental_Transmission_Assessments.html
         # - text: "9. Vector-borne infectious diseases"
         #   menu:
-        #     - text: "9a. Vectorborne Transmission"
+        #     - text: "9a. Vector-borne Transmission"
         #       href: ./Vectorborne_Transmission.html
         #     - text: "9b. Exercises"
         #       href: ./Vectorborne_Transmission_Exercises.html

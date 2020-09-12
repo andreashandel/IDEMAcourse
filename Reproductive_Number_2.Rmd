@@ -13,11 +13,15 @@ output:
 In this module, we will continue the discussion of the reproductive number. 
 
 
+# Learning Objectives
+
+* Be able to compute the reproductive number from steady state data
+* Apply the reproductive number concept to ID control
+
+
 # Reading
 
 I suggest that after having worked through the material from the previous module, you do another read-through of the ["Reproductive Number" chapter of IDEMAB](https://andreashandel.github.io/IDEMAbook/R0.html). Some of that material might require more than one reading for it to sink in.
-
-Next, for something topical, read [this paper by Sarah Cobey](./media/cobey20science.pdf) in which she provides a brief discussion of infectious disease modeling and the role the reproductive number plays related to COVID-19. She also touches on topics we covered in previous modules (e.g. seasonality).
 
 
 # Videos

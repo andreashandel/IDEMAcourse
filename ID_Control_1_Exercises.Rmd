@@ -21,7 +21,7 @@ For this module, work through **two** DSAIDE apps, namely _Basics of ID Control_
 
 # Topic discussion 
 
-We are currently in a world where infectious disease (COVID-19) interventions impact all of us. We are frantically trying to develop or discover pharmaceutical interventions (drugs, vaccines) while relying on non-pharmaceutical interventions in the meantime. Find a paper that discusses ID control related to COVID-19. This could but does not have to be a paper that uses a model. Read the paper, summarize/discuss/critique it and post your findings to the Slack _discussion_ channel (including a link to the paper).
+We are currently in a world where infectious disease (COVID-19) interventions impact all of us. We are frantically trying to develop or discover pharmaceutical interventions (drugs, vaccines) while relying on non-pharmaceutical interventions in the meantime. Find a paper that discusses ID control related to COVID-19 (pre-prints are ok too). This could but does not have to be a paper that uses a model. Read the paper, summarize/discuss/critique it and post your findings to the Slack _discussion_ channel (including a link to the paper).
 
 
 # Fun activity

@@ -11,6 +11,6 @@ library('here')
 
 
 img <- here('media',"IDEMAimage.png")
-sticker(img, package="IDEMA Course", p_size=20, p_y = 1.5, p_color ="#0000CD",
+sticker(img, package="IDEMA Course", p_size=20, p_y = 1.2, p_color ="#0000CD",
                                    s_x=1, s_y=.9, s_width=0.8, s_height=0.8, filename=here('media',"IDEMAlogo.png"), 
                                    h_fill = "#E0FFFF", h_color = "#00CED1")

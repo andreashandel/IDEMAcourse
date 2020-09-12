@@ -1,5 +1,5 @@
 ---
-title: Vectorborne Transmission - Exercises 
+title: Vector-borne Transmission - Exercises 
 subtitle: ""
 author: Andreas Handel
 date: "`r as.Date(file.mtime(knitr::current_input()))`"
@@ -17,7 +17,7 @@ library(emo)
 
 # Hands-on computer exercise
 
-For this module, work through the _Vectorborne Transmission_ app. Fill and submit the corresponding quiz sheet.
+For this module, work through the _Vector-borne Transmission_ app. Fill and submit the corresponding quiz sheet.
 
 
 

@@ -15,11 +15,23 @@ output:
 In this module, we will discuss how to characterize the infection states of different ID. We will look at this both from a medical perspective and from a public health perspective and discuss how these perspectives complement each other. 
 
 
-# Assignments
+# Learning Objectives
 
-Start by reading the ["Characterizing Infectious Disease States" chapter of IDEMAB](https://andreashandel.github.io/IDEMAbook/idstates.html). 
+* Accurately categorize infectious diseases according to medical and public health characteristics
+* Evaluate the impact of different infection states on medical outcomes and disease dynamics
+* Understand how _medical states_ (e.g. symptoms) and _public health states_ (e.g. infectiousness) do not always overlap.
+* Identify the features of infectious diseases that are most important to know for successful intervention planning
+* Understand how different infections states are represented in mathematical models
+
+
+# Reading
+
+Read the chapter ["Characterizing Infectious Disease States" of IDEMAB](https://andreashandel.github.io/IDEMAbook/idstates.html). 
 
 The book chapter gives you one introduction to a way of classification individuals with regard to infection and disease states. For some further discussions, watch the following videos. 
+
+
+# Videos
 
 The first video is from the ["Epidemics"](https://www.coursera.org/learn/epidemics) online course. 
 

@@ -13,11 +13,16 @@ output:
 In this module, we will start our discussion of an important concept in infectious disease epidemiology, the reproductive number. We will define it and discuss why it is a very important quantity in infectious disease epidemiology. We will discuss what the reproductive number does and does not tell us about the dynamics of an outbreak, and how to estimate it for a given disease.
 
 
+# Learning Objectives
+
+* Know how the reproductive number is defined
+* Be able to compute the reproductive number from outbreak data
+
+
 # Reading
 
 Start by reading the ["Reproductive Number" chapter of IDEMAB](https://andreashandel.github.io/IDEMAbook/R0.html). 
 We'll cover the material in two sessions, but I suggest you read the whole chapter this week, and then once more next week, after you've worked through the first DSAIDE exercise.
-
 
 # Videos
 
