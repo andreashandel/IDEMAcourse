@@ -76,30 +76,30 @@ navbar:
               href: ./ID_Control_1_Exercises.html
             - text: "6c. Assessments"
               href: ./ID_Control_1_Assessments.html
-        # - text: "7. Direct Transmission"
-        #   menu:
-        #     - text: "7a. Direct Transmission"
-        #       href: ./Direct_Transmission.html
-        #     - text: "7b. Exercises"
-        #       href: ./Direct_Transmission_Exercises.html
-        #     - text: "7c. Assessments"
-        #       href: ./Direct_Transmission_Assessments.html
-        # - text: "8. Environmental Transmission"
-        #   menu:
-        #     - text: "8a. Environmental Transmission"
-        #       href: ./Environmental_Transmission.html
-        #     - text: "8b. Exercises"
-        #       href: ./Environmental_Transmission_Exercises.html
-        #     - text: "8c. Assessments"
-        #       href: ./Environmental_Transmission_Assessments.html
-        # - text: "9. Vector-borne infectious diseases"
-        #   menu:
-        #     - text: "9a. Vector-borne Transmission"
-        #       href: ./Vectorborne_Transmission.html
-        #     - text: "9b. Exercises"
-        #       href: ./Vectorborne_Transmission_Exercises.html
-        #     - text: "9c. Assessments"
-        #       href: ./Vectorborne_Transmission_Assessments.html
+        - text: "7. Direct Transmission"
+          menu:
+            - text: "7a. Direct Transmission"
+              href: ./Direct_Transmission.html
+            - text: "7b. Exercises"
+              href: ./Direct_Transmission_Exercises.html
+            - text: "7c. Assessments"
+              href: ./Direct_Transmission_Assessments.html
+        - text: "8. Environmental Transmission"
+          menu:
+            - text: "8a. Environmental Transmission"
+              href: ./Environmental_Transmission.html
+            - text: "8b. Exercises"
+              href: ./Environmental_Transmission_Exercises.html
+            - text: "8c. Assessments"
+              href: ./Environmental_Transmission_Assessments.html
+        - text: "9. Vector-borne infectious diseases"
+          menu:
+            - text: "9a. Vector-borne Transmission"
+              href: ./Vectorborne_Transmission.html
+            - text: "9b. Exercises"
+              href: ./Vectorborne_Transmission_Exercises.html
+            - text: "9c. Assessments"
+              href: ./Vectorborne_Transmission_Assessments.html
         # - text: "10. Host heterogeneity"
         #   menu:
         #     - text: "10a. Host heterogeneity"

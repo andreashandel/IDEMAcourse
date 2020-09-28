@@ -56,6 +56,7 @@ __Please do not make any other changes to the sheets apart from filling the "Ans
 * [Patterns of ID DSAIDE Quiz](./quizsheets/dsaide_idpatterns.xlsx)
 * [Theory Quiz](./quizsheets/theory_idpatterns.xlsx)
 
+
 ## Module 4 - Reproductive Number 1
 * [Reproductive number 1 DSAIDE Quiz](./quizsheets/dsaide_reproductivenumber1.xlsx)
 * [Theory Quiz](./quizsheets/theory_reproductivenumber1.xlsx)
@@ -69,9 +70,6 @@ __Please do not make any other changes to the sheets apart from filling the "Ans
 * [ID control for multiple outbreaks DSAIDE Quiz](./quizsheets/dsaide_idcontrolmultioutbreak.xlsx)
 * [Theory Quiz](./quizsheets/theory_idcontrol1.xlsx)
 
-<!-- comment out quizzes that are not ready yet
-
-
 ## Module 7 - Direct Transmission
 * [Direct Transmission DSAIDE Quiz](./quizsheets/dsaide_directtransmission.xlsx)
 * [Theory Quiz](./quizsheets/theory_directtransmission.xlsx)
@@ -83,6 +81,9 @@ __Please do not make any other changes to the sheets apart from filling the "Ans
 ## Module 9 - Vectorborne Transmission
 * [Vectorborne Transmission DSAIDE Quiz](./quizsheets/dsaide_vectortransmission.xlsx)
 * [Theory Quiz](./quizsheets/theory_vectortransmission.xlsx)
+
+<!-- comment out quizzes that are not ready yet
+
 
 ## Module 10 - Host Heterogeneity
 * [ Host Heterogeneity DSAIDE Quiz](./quizsheets/dsaide_hostheterogeneity.xlsx)
