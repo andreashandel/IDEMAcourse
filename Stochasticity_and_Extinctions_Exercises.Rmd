@@ -18,7 +18,7 @@ library(emo)
 # Hands-on computer exercise
 
 
-For this module, work through **two** DSAIDE apps, namely _Stochastic SIR Model_ and _Stochastic SEIR Model_. Fill and submit the corresponding quiz sheets.
+For this module, work through **two** DSAIDE apps, namely _Stochastic SIRS Model_ and _Stochastic SEIR Model_. Fill and submit the corresponding quiz sheets.
 
 
 # Topic discussion 

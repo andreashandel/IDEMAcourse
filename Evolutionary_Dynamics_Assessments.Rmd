@@ -1,5 +1,5 @@
 ---
-title:  Emerging Infectious Diseases - Assessment 
+title:  Evolutionary Dynamics - Assessment 
 author: Andreas Handel
 date: "`r as.Date(file.mtime(knitr::current_input()))`"
 output: 

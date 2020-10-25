@@ -17,7 +17,7 @@ library(emo)
 
 # Hands-on computer exercise
 
-For this module, work through **two** DSAIDE apps, namely _ID Control of different populations_ and _Complex ID control scenarios_. Fill and submit the corresponding quiz sheets.
+For this module, work through **two** DSAIDE apps, namely _Control of Different Populations_ and _Complex Control Scenarios_. Fill and submit the corresponding quiz sheets.
 
 
 # Topic discussion 

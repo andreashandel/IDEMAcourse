@@ -100,38 +100,38 @@ navbar:
               href: ./Vectorborne_Transmission_Exercises.html
             - text: "9c. Assessments"
               href: ./Vectorborne_Transmission_Assessments.html
-        # - text: "10. Host heterogeneity"
-        #   menu:
-        #     - text: "10a. Host heterogeneity"
-        #       href: ./Host_Heterogeneity.html
-        #     - text: "10b. Exercises"
-        #       href: ./Host_Heterogeneity_Exercises.html
-        #     - text: "10c. Assessments"
-        #       href: ./Host_Heterogeneity_Assessments.html
-        # - text: "11. Infectious Disease Control 2"
-        #   menu:
-        #     - text: "11a. ID Control 2"
-        #       href: ./ID_Control_2.html
-        #     - text: "11b. Exercises"
-        #       href: ./ID_Control_2_Exercises.html
-        #     - text: "11c. Assessments"
-        #       href: ./ID_Control_2_Assessments.html
-        # - text: "12. Stochasticity and Extinctions"
-        #   menu:
-        #     - text: "12a. Stochasticity and Extinctions"
-        #       href: ./Stochasticity_and_Extinctions.html
-        #     - text: "12b. Exercises"
-        #       href: ./Stochasticity_and_Extinctions_Exercises.html
-        #     - text: "12c. Assessments"
-        #       href: ./Stochasticity_and_Extinctions_Assessments.html
-        # - text: "13. Evolutionary Dynamics"
-        #   menu:
-        #     - text: "13a. Evolutionary Dynamics"
-        #       href: ./Evolutionary_Dynamics.html
-        #     - text: "13b. Exercises"
-        #       href: ./Evolutionary_Dynamics_Exercises.html
-        #     - text: "13c. Assessments"
-        #       href: ./Evolutionary_Dynamics_Assessments.html
+        - text: "10. Host heterogeneity"
+          menu:
+            - text: "10a. Host heterogeneity"
+              href: ./Host_Heterogeneity.html
+            - text: "10b. Exercises"
+              href: ./Host_Heterogeneity_Exercises.html
+            - text: "10c. Assessments"
+              href: ./Host_Heterogeneity_Assessments.html
+        - text: "11. Infectious Disease Control 2"
+          menu:
+            - text: "11a. ID Control 2"
+              href: ./ID_Control_2.html
+            - text: "11b. Exercises"
+              href: ./ID_Control_2_Exercises.html
+            - text: "11c. Assessments"
+              href: ./ID_Control_2_Assessments.html
+        - text: "12. Stochasticity and Extinctions"
+          menu:
+            - text: "12a. Stochasticity and Extinctions"
+              href: ./Stochasticity_and_Extinctions.html
+            - text: "12b. Exercises"
+              href: ./Stochasticity_and_Extinctions_Exercises.html
+            - text: "12c. Assessments"
+              href: ./Stochasticity_and_Extinctions_Assessments.html
+        - text: "13. Evolutionary Dynamics"
+          menu:
+            - text: "13a. Evolutionary Dynamics"
+              href: ./Evolutionary_Dynamics.html
+            - text: "13b. Exercises"
+              href: ./Evolutionary_Dynamics_Exercises.html
+            - text: "13c. Assessments"
+              href: ./Evolutionary_Dynamics_Assessments.html
     - text: "Project"
       menu:
          - text: "Project information"

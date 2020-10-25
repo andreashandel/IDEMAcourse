@@ -14,9 +14,17 @@ output:
 In this module, we revisit infectious disease control and apply it to some more complex scenarios/models, as well as revisit the topic in general.
 
 
+# Learning Objectives
+
+
+* Understand the concept of interventions applied to specific population groups.
+* Explore how optimal control measures depend on characteristics and composition of a population.
+* Assess how control applied to different modes of transmission impacts outcomes.
+
+
 # Reading
 
-You might still remember most of what you read, but it won't hurt to do another skim-through of the ["Infectious Disease Control" chapter of IDEMAB](https://andreashandel.github.io/IDEMAbook/infectious-disease-control.html).
+You might still remember most of what you read, but it won't hurt to do another skim-through of the [_Infectious Disease Control_ chapter of IDEMAB](https://andreashandel.github.io/IDEMAbook/infectious-disease-control.html).
 
 
 # Videos
@@ -25,7 +33,7 @@ Here are a few more videos that cover various aspects of ID control.
 
 ## Non-pharmaceutical ID control
 
-In the following video from the ["Epidemics MOOC"](https://www.coursera.org/learn/epidemics), 
+In the following video from the [Epidemics MOOC](https://www.coursera.org/learn/epidemics), 
 [Marcel Salathe](https://www.epfl.ch/labs/salathelab/) describes non-pharmaceutical ID control interventions applied to prevent healthy individuals from becoming infected.
 
 <p>

@@ -1,5 +1,5 @@
 ---
-title: Emerging Infectious Diseases
+title: Evolutionary Dynamics
 subtitle: ""
 author: Andreas Handel
 date: "`r as.Date(file.mtime(knitr::current_input()))`"
@@ -25,9 +25,8 @@ In this unit, we will take a look at infectious disease evolution, its relation 
 
 # Reading
 
-Read the chapters _Evolutionary Dynamics Introduction_, _Evolution and Control_ and _Emerging Infectious Diseases_ in IDEMAB. They are not very long and some are still a bit rough, but hopefully readable (as always, contributions/improvements are welcome.)
-
-Optionally, also read the - currently very short - _Virulence_ chapter.
+Read the chapters _Evolutionary Dynamics Introduction_, _Evolution and Control_ and _Emerging Infectious Diseases_ in 
+[IDEMAB](https://andreashandel.github.io/IDEMAbook/). They are not very long and some are still a bit rough, but hopefully readable (as always, contributions/improvements are welcome.) Optionally, also read the (currently very short) _Virulence_ chapter.
 
 
 # Videos 

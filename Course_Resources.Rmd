@@ -82,9 +82,6 @@ __Please do not make any other changes to the sheets apart from filling the "Ans
 * [Vectorborne Transmission DSAIDE Quiz](./quizsheets/dsaide_vectortransmission.xlsx)
 * [Theory Quiz](./quizsheets/theory_vectortransmission.xlsx)
 
-<!-- comment out quizzes that are not ready yet
-
-
 ## Module 10 - Host Heterogeneity
 * [ Host Heterogeneity DSAIDE Quiz](./quizsheets/dsaide_hostheterogeneity.xlsx)
 * [Theory Quiz](./quizsheets/theory_hostheterogeneity.xlsx)
@@ -97,12 +94,13 @@ __Please do not make any other changes to the sheets apart from filling the "Ans
 ## Module 12 - Stochasticity
 * [Stochastic SIR Model DSAIDE Quiz](./quizsheets/dsaide_stochasticsir.xlsx)
 * [Stochastic SEIR Model DSAIDE Quiz](./quizsheets/dsaide_stochasticseir.xlsx)
-* [Theory Quiz](./quizsheets/theory_evolution.xlsx)
+* [Theory Quiz](./quizsheets/theory_stochasticity.xlsx)
 
 ## Module 13 - Evolutionary Dynamics
-* [Evolution of Drug Resistance DSAIDE Quiz](./quizsheets/dsaide_evolutionarydynamics.xlsx)
+* [Evolution of Drug Resistance DSAIDE Quiz](./quizsheets/dsaide_evolution.xlsx)
 * [Theory Quiz](./quizsheets/theory_evolution.xlsx)
 
+<!-- comment out quizzes that are not ready yet
 
 -->
 
