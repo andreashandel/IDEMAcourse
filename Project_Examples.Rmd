@@ -18,11 +18,11 @@ To showcase some of the work previous students have done, and as inspiration of 
 
 # 2020 Projects
 
-* [_The Little Things that Make Up Our World, How They Spread and How to Control Them_](https://ed.ted.com/on/3RcRFTdu) - A TedEd lesson by Kayla Adcock.
-* [_Pertussis Resurgence and Waning Immunity_](https://ed.ted.com/on/jQ8yORTf) - A TedEd lesson by Saige Armistead, Amanda Caulfield and Alexis Cheffen.
-* [_What is HIV and how can it spread in a population_](https://ed.ted.com/on/SB3Q6tMr) - A TedEd lesson by Danielle Armstrong, Morgan McMahan, and Rochelle Obiekwe.
-* [_A COVID-19 outbreak scenario case study_](https://outbreakscenario.wordpress.com/) - an interactive case study game by Rachel Baugh and Dionne Mitcham. 
-* [_COVID 19 - Escape Infection_](https://docs.google.com/presentation/d/1xoRyDp_kpG5Gp3gGzWI7q8P4vm2nFH8YXo6eDMaeZHY/preview#slide=id.g539b68e07a_1_31) - a choose your own adventure storybook by Charisma Atkins, Maureen Bartee, Zena Belay and George Vaughan. 
+* [The Little Things that Make Up Our World, How They Spread and How to Control Them](https://ed.ted.com/on/3RcRFTdu) - A TedEd lesson by Kayla Adcock.
+* [Pertussis Resurgence and Waning Immunity](https://ed.ted.com/on/jQ8yORTf) - A TedEd lesson by Saige Armistead, Amanda Caulfield and Alexis Cheffen.
+* [What is HIV and how can it spread in a population](https://ed.ted.com/on/SB3Q6tMr) - A TedEd lesson by Danielle Armstrong, Morgan McMahan, and Rochelle Obiekwe.
+* [A COVID-19 outbreak scenario case study](https://outbreakscenario.wordpress.com/) - an interactive case study game by Rachel Baugh and Dionne Mitcham. 
+* [COVID 19 - Escape Infection](https://docs.google.com/presentation/d/1xoRyDp_kpG5Gp3gGzWI7q8P4vm2nFH8YXo6eDMaeZHY/preview#slide=id.g539b68e07a_1_31) - a choose your own adventure storybook by Charisma Atkins, Maureen Bartee, Zena Belay and George Vaughan. 
 * [Time trends of COVID 19 cases and public interest](./media/Jennifer_Roberts_Class_Project_2020.pdf) - a data analysis by Jennifer Roberts.
 * [A Review of Hospital-Acquired Methicillin-resistant Staphylococcus aureus (HA-MRSA) and the Mathematical Models Estimating the Reproductive Number](./media/MRSA_and_R0_2020_Project.pdf) - a systematic review by Michelle Bentivegna and Cassie Hulme.
 
