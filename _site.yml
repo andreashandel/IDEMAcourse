@@ -140,6 +140,8 @@ navbar:
            href: ./Project_Rubric.html
          - text: "Project review"
            href: ./Project_Review.html
+         - text: "Project examples"
+           href: ./Project_Examples.html
     - text: "Communication"
       href: ./Course_Communication.html
     - text: "Glossary"

@@ -18,7 +18,7 @@ Welcome to the website for the course **Infectious Disease Epidemiology - A mode
 
 This website contains content for an online course taught in Fall 2020 at the University of Georgia by [Andreas Handel.](https://www.andreashandel.com/) Most materials are hosted here, some are on external sites and either linked or embedded from here.
 
-I plan to keep this website continuously online, with updates happening every time I teach the course again.
+The course has finished, but the website will remain continuously online, with likely larger updates happening every time I teach the course again and minor ones in between.
 
 
 # Website content
@@ -34,11 +34,11 @@ The __Communication__ section provides information on how course communications 
 The __Resources__ section contains a listing of external materials. Some of this material will be assigned as part of this course. You will be told what exactly to read or work through in the modules documents. Other resources are listed in case you might find them helpful. All materials are (should be) available freely online, unless otherwise stated.
 
 
-# Notes for UGA students
+<!-- # Notes for UGA students -->
 
-* The course's official title in the UGA system is _EPID 8510 - Dynamical Systems Approach to Infectious Disease Epidemiology_. Since I created the course, I decided that I don't like this title much anymore, it's a mouthful and too technical. I'll just be referring to the course as _IDEMA_. At some point, I'll get around to officially changing the title in the system (this is harder than you might expect). 
-* We will not be using eLC.
-* Announcements, discussions and all other communication will happen through Slack. You will get an invite to the class-specific Slack workspace by email. The email will come to your UGA account (the one that is listed in the class roster). If you can't join the Slack workspace for some reason, let me know.
+<!-- * The course's official title in the UGA system is _EPID 8510 - Dynamical Systems Approach to Infectious Disease Epidemiology_. Since I created the course, I decided that I don't like this title much anymore, it's a mouthful and too technical. I'll just be referring to the course as _IDEMA_. At some point, I'll get around to officially changing the title in the system (this is harder than you might expect).  -->
+<!-- * We will not be using eLC. -->
+<!-- * Announcements, discussions and all other communication will happen through Slack. You will get an invite to the class-specific Slack workspace by email. The email will come to your UGA account (the one that is listed in the class roster). If you can't join the Slack workspace for some reason, let me know. -->
 
 
 

@@ -14,6 +14,7 @@
 
 <title>IDEMA Fall 2020 - Course Introduction</title>
 
+<script src="site_libs/header-attrs-2.5/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
@@ -24,10 +25,20 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<script src="site_libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 <link rel="icon" type="image/png" href="media/IDEMAlogo.png" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 
 
@@ -579,6 +590,9 @@ div.tocify {
     <li>
       <a href="./Project_Review.html">Project review</a>
     </li>
+    <li>
+      <a href="./Project_Examples.html">Project examples</a>
+    </li>
   </ul>
 </li>
 <li>
@@ -719,7 +733,7 @@ University of Georgia<br><h4 class="date">2020-10-05</h4>
 <h2>Online quizzes</h2>
 <ul>
 <li>For each module, there will be (usually two) fairly short quizzes. One quiz covers the DSAIDE exercise, the other the reading material. The primary purpose of the quizzes is to ensure you worked through the assigned material.</li>
-<li>Each quiz will be scored ‘out of a 100%’, no matter how many questions there are for a given quiz (e.g. if there are 8 questions and you got 7 right, your score will be 7/8 * 100). Since there are often only few questions, if you say miss 1 out of 5, you get a score of 80%. Don’t think of this as a grade, it’s just a raw score. At the end, those will all get adjusted.</li>
+<li>Each quiz will be scored ‘out of a 100%,’ no matter how many questions there are for a given quiz (e.g. if there are 8 questions and you got 7 right, your score will be 7/8 * 100). Since there are often only few questions, if you say miss 1 out of 5, you get a score of 80%. Don’t think of this as a grade, it’s just a raw score. At the end, those will all get adjusted.</li>
 <li>For each quiz, there is a quiz sheet, available in the <em>Course Resources</em> section. Quiz sheets are Excel files. Each Excel file contains quiz questions covering either the DSAIDE software or the other course material (or both). You can fill in the answers on the quiz sheet at any time. Once finished, you need to upload it <a href="https://shiny.ovpr.uga.edu/gradingapp/">to this website</a> by the due date for a given week. <strong>You can only submit your answers once for each quiz, and you will not be able to submit your quiz after the due date.</strong></li>
 </ul>
 </div>
@@ -760,7 +774,7 @@ University of Georgia<br><h4 class="date">2020-10-05</h4>
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
