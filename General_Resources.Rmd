@@ -17,31 +17,26 @@ output:
 library(emo)
 ```
 
-To distinguish between resources that are used in the course, and others that are related but not directly used, I decided to have two resource pages. The _Course Resources_ page lists materials we'll be (partially) using in the course. This page lists a lot of other resources that might not be used or mentioned explicitly in the course, but that might be useful and interesting. For even more materials, see the links to various lists by others at the end of this document.
+To distinguish between resources that are used in the course, and others that are related but not directly used, I decided to have two resource pages. The _Course Resources_ page lists materials we'll be using in the course. This page tries to provide a fairly comprehensive list of resources related to the course topic.
 
-Apart from the books, most other materials described below are (should be) freely available online. Some of the resources I list are dynamic and ever changing. That means occasionally links might not work, sites go offline, chapters in online books get re-arranged, etc. If any link does not work and you can't access the materials for some reason, let me know so I can update this document.
+Apart from the books, most other materials described below are (should be) freely available online. Some of the resources I list are dynamic and ever changing. That means occasionally links might not work, sites go offline, chapters in online books get re-arranged, etc. If any link does not work and you can't access the materials for some reason, let me know.
 
 _Obviously, there is no way my list is exhaustive. Let me know if you find other relevant and good sources._
 
+
 # Books
 
-
-## Infectious Disease Epidemiology
+## Infectious disease epidemiology
 
 * Giesecke, Johan. 2017. Modern Infectious Disease Epidemiology. CRC Press.
 * Nelson, Kenrad E, and Carolyn Williams. 2013. Infectious Disease Epidemiology. Jones & Bartlett Publishers.
 
-## General modeling
-* Britton (2003) Essential mathematical biology. Springer: Relatively easy, not too math heavy.
-* Allman and Rhodes (2004) Mathematical Models in Biology: An Introduction. Cambridge U Press: Integrates MATLAB into the text/exercises.
-* Ellner and Guckenheimer (2006) Dynamic Models in Biology. Princeton University Press: Nice integration of mathematical analysis and computer modeling, topics very broad.
-* Otto and Day (2007) A Biologist's Guide to Mathematical Modeling in Ecology and Evolution. Princeton University Press: Some good background/primers on
-math topics, explanations on how to model, not much infectious disease specific material.
 
-## Infectious disease modeling books
+## Infectious disease modeling 
 
-__Approximately sorted in order of difficulty (according to my opinion)__
+_Approximately sorted in order of difficulty (my opinion)_
 
+* [Infectious Disease Epidemiology - a Model-based Approach](https://andreashandel.github.io/IDEMAbook/). The online book I wrote for the class. Freely available. Constantly under development and some sections are fairly undeveloped. Not thoroughly sourced or proof-read (though I hope most content is accurate).
 * [An introduction to infectious disease modeling by Emilia Vynnycky and Richard White](http://www.anintroductiontoinfectiousdiseasemodelling.com/). The most introductory level book.
 * [Modeling Infectious Diseases in Humans and Animals by Matt J. Keeling & Pejman Rohani](http://www.modelinginfectiousdiseases.org/). Introductory but at a higher level.  
 * Bjornstadt (2018) Epidemics - Models and Data using R. Shows how to do it in R. Some topics are basic, others fairly advanced and theoretical.
@@ -50,9 +45,22 @@ __Approximately sorted in order of difficulty (according to my opinion)__
 * Diekmann & Heesterbeek (2000) Mathematical Epidemiology of Infectious Diseases: Model Building, Analysis and Interpretation. Relatively advanced math level.
 
 
+## General modeling
+
+_Some of these books are useful for learning general modeling concepts. They do not exclusively focus on infectious diseases._
+
+* Britton (2003) Essential mathematical biology. Springer: Relatively easy, not too math heavy.
+* Allman and Rhodes (2004) Mathematical Models in Biology: An Introduction. Cambridge U Press: Integrates MATLAB into the text/exercises.
+* Ellner and Guckenheimer (2006) Dynamic Models in Biology. Princeton University Press: Nice integration of mathematical analysis and computer modeling, topics very broad.
+* Otto and Day (2007) A Biologist's Guide to Mathematical Modeling in Ecology and Evolution. Princeton University Press: Some good background/primers on
+math topics, explanations on how to model, not much infectious disease specific material.
+
+
+
 # Papers
 
-## Population level modeling papers
+_Currently just a copy & paste list from my former class slides. Needs to be updated/curated._
+
 * Ness et al. “Causal System Modeling in Chronic Disease Epidemiology: A Proposal” (2007) Ann Epidemiol
 * Sterman “Learning from Evidence in a Complex World” (2006) PHM
 * Kajita et al. (2007) Nature Reviews Microbiology
@@ -83,6 +91,8 @@ For this class, I will embed all relevant materials. You therefore don't need to
 
 # Software
 
+* [Dynamical Systems Approach to Infectious Disease Epidemiology (DSAIDE)](https://ahgroup.github.io/DSAIDE/). The R package that goes with this course.
+
 * [idmodelr](https://www.samabbott.co.uk/idmodelr/) by Sam Abbott. Many basic compartmental (SIR type) models, a little bit of coding is required. He also has [a list of related resources](https://www.samabbott.co.uk/idmodelr/articles/resources.html), which - not surprisingly - has a lot of overlap with the information on this page.
 
 * [shinySIR](https://github.com/SineadMorris/shinySIR) by Sinead Morris. Exploration of several SIR-type models through Shiny. It doesn't have the detailed documentation of [DSAIDE](https://ahgroup.github.io/DSAIDE/), but it includes some models not in DSAIDE.
@@ -99,6 +109,7 @@ For this class, I will embed all relevant materials. You therefore don't need to
 # ID epi and modeling websites
 
 * [NRICH project on infectious disease dynamics](https://nrich.maths.org/epidemic). A nice collection of resources and activities related to infectious disease epidemiology from a mathematical and modeling angle. The target age group are teenagers, but the material is likely suitable for older ages too. This is mainly meant for teachers to implement, but can also be useful for self-learning.
+
 * [The Epirecipes site](http://epirecip.es/) contains a _cookbook_ of many standard infectious disease models with code in several different programming languages (including R).
 
 

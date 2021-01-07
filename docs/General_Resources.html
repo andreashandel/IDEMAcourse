@@ -10,11 +10,11 @@
 
 
 
-<meta name="date" content="2020-10-05" />
+<meta name="date" content="2021-01-07" />
 
 <title>General Infectious Disease Epidemiology and Modeling Resources</title>
 
-<script src="site_libs/header-attrs-2.5/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
@@ -25,8 +25,6 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
-<script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 <link rel="icon" type="image/png" href="media/IDEMAlogo.png" />
@@ -69,6 +67,7 @@ h6 {
   text-align: left;
 }
 </style>
+
 
 <link rel="stylesheet" href="IDEMACourse.css" type="text/css" />
 
@@ -620,7 +619,7 @@ div.tocify {
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="https://github.com/andreashandel/IDEMAcourse">
-    <span class="fa fa-github fa-lg"></span>
+    <span class="fas fa-github fa-lg"></span>
      
   </a>
 </li>
@@ -635,37 +634,30 @@ div.tocify {
 
 <h1 class="title toc-ignore">General Infectious Disease Epidemiology and Modeling Resources</h1>
 <h4 class="author">Andreas Handel</h4>
-<h4 class="date">2020-10-05</h4>
+<h4 class="date">2021-01-07</h4>
 
 </div>
 
 
-<p>To distinguish between resources that are used in the course, and others that are related but not directly used, I decided to have two resource pages. The <em>Course Resources</em> page lists materials we’ll be (partially) using in the course. This page lists a lot of other resources that might not be used or mentioned explicitly in the course, but that might be useful and interesting. For even more materials, see the links to various lists by others at the end of this document.</p>
-<p>Apart from the books, most other materials described below are (should be) freely available online. Some of the resources I list are dynamic and ever changing. That means occasionally links might not work, sites go offline, chapters in online books get re-arranged, etc. If any link does not work and you can’t access the materials for some reason, let me know so I can update this document.</p>
+<p>To distinguish between resources that are used in the course, and others that are related but not directly used, I decided to have two resource pages. The <em>Course Resources</em> page lists materials we’ll be using in the course. This page tries to provide a fairly comprehensive list of resources related to the course topic.</p>
+<p>Apart from the books, most other materials described below are (should be) freely available online. Some of the resources I list are dynamic and ever changing. That means occasionally links might not work, sites go offline, chapters in online books get re-arranged, etc. If any link does not work and you can’t access the materials for some reason, let me know.</p>
 <p><em>Obviously, there is no way my list is exhaustive. Let me know if you find other relevant and good sources.</em></p>
 <div id="books" class="section level1">
 <h1>Books</h1>
 <div id="infectious-disease-epidemiology" class="section level2">
-<h2>Infectious Disease Epidemiology</h2>
+<h2>Infectious disease epidemiology</h2>
 <ul>
 <li>Giesecke, Johan. 2017. Modern Infectious Disease Epidemiology. CRC Press.</li>
 <li>Nelson, Kenrad E, and Carolyn Williams. 2013. Infectious Disease Epidemiology. Jones &amp; Bartlett Publishers.</li>
 </ul>
 </div>
-<div id="general-modeling" class="section level2">
-<h2>General modeling</h2>
+<div id="infectious-disease-modeling" class="section level2">
+<h2>Infectious disease modeling</h2>
+<p><em>Approximately sorted in order of difficulty (my opinion)</em></p>
 <ul>
-<li>Britton (2003) Essential mathematical biology. Springer: Relatively easy, not too math heavy.</li>
-<li>Allman and Rhodes (2004) Mathematical Models in Biology: An Introduction. Cambridge U Press: Integrates MATLAB into the text/exercises.</li>
-<li>Ellner and Guckenheimer (2006) Dynamic Models in Biology. Princeton University Press: Nice integration of mathematical analysis and computer modeling, topics very broad.</li>
-<li>Otto and Day (2007) A Biologist’s Guide to Mathematical Modeling in Ecology and Evolution. Princeton University Press: Some good background/primers on math topics, explanations on how to model, not much infectious disease specific material.</li>
-</ul>
-</div>
-<div id="infectious-disease-modeling-books" class="section level2">
-<h2>Infectious disease modeling books</h2>
-<ul>
-<li>Vynnycky and White (2010) An Introduction to Infectious Disease Modelling. The most introductory level book.</li>
-<li>Keeling and Rohani (2008) Modeling Infectious Diseases. Introductory but at a higher level.<br />
+<li><a href="https://andreashandel.github.io/IDEMAbook/">Infectious Disease Epidemiology - a Model-based Approach</a>. The online book I wrote for the class. Freely available. Constantly under development and some sections are fairly undeveloped. Not thoroughly sourced or proof-read (though I hope most content is accurate).</li>
+<li><a href="http://www.anintroductiontoinfectiousdiseasemodelling.com/">An introduction to infectious disease modeling by Emilia Vynnycky and Richard White</a>. The most introductory level book.</li>
+<li><a href="http://www.modelinginfectiousdiseases.org/">Modeling Infectious Diseases in Humans and Animals by Matt J. Keeling &amp; Pejman Rohani</a>. Introductory but at a higher level.<br />
 </li>
 <li>Bjornstadt (2018) Epidemics - Models and Data using R. Shows how to do it in R. Some topics are basic, others fairly advanced and theoretical.</li>
 <li>Anderson and May (1992) Infectious Diseases of Humans - Dynamics and ControL. The “classic.” Lots of material, but the math can be somewhat challenging.</li>
@@ -673,11 +665,20 @@ div.tocify {
 <li>Diekmann &amp; Heesterbeek (2000) Mathematical Epidemiology of Infectious Diseases: Model Building, Analysis and Interpretation. Relatively advanced math level.</li>
 </ul>
 </div>
+<div id="general-modeling" class="section level2">
+<h2>General modeling</h2>
+<p><em>Some of these books are useful for learning general modeling concepts. They do not exclusively focus on infectious diseases.</em></p>
+<ul>
+<li>Britton (2003) Essential mathematical biology. Springer: Relatively easy, not too math heavy.</li>
+<li>Allman and Rhodes (2004) Mathematical Models in Biology: An Introduction. Cambridge U Press: Integrates MATLAB into the text/exercises.</li>
+<li>Ellner and Guckenheimer (2006) Dynamic Models in Biology. Princeton University Press: Nice integration of mathematical analysis and computer modeling, topics very broad.</li>
+<li>Otto and Day (2007) A Biologist’s Guide to Mathematical Modeling in Ecology and Evolution. Princeton University Press: Some good background/primers on math topics, explanations on how to model, not much infectious disease specific material.</li>
+</ul>
+</div>
 </div>
 <div id="papers" class="section level1">
 <h1>Papers</h1>
-<div id="population-level-modeling-papers" class="section level2">
-<h2>Population level modeling papers</h2>
+<p><em>Currently just a copy &amp; paste list from my former class slides. Needs to be updated/curated.</em></p>
 <ul>
 <li>Ness et al. “Causal System Modeling in Chronic Disease Epidemiology: A Proposal” (2007) Ann Epidemiol</li>
 <li>Sterman “Learning from Evidence in a Complex World” (2006) PHM</li>
@@ -691,35 +692,35 @@ div.tocify {
 <li>May “Uses and Abuses of Mathematics in Biology” (2004) Science</li>
 </ul>
 </div>
-</div>
 <div id="online-courses" class="section level1">
 <h1>Online courses</h1>
 <p>Throughout this course, I link to videos from a few online courses that cover similar topics to this course. While the videos are embedded and you do not need to sign up for those online courses, if you are interested, you could. Signing up for those courses should be free. Coursera might want to talk you into getting a certificate (and paying), but you can skip that and get the whole course content for free (last time I checked, let me know if that has changed.)</p>
 <ul>
-<li><a href="https://www.coursera.org/learn/epidemics">Epidemics</a>. This course was developed by several infectious disease faculty at Penn State and is offered through the MOOC provider Coursera.</li>
+<li><a href="https://www.coursera.org/learn/epidemics">Epidemics</a>. This course was developed by several infectious disease faculty at Penn State and is offered through the MOOC provider Coursera. There is also <a href="http://epidemics.psu.edu/">an accompaning webpage with interesting ID related resources</a>.</li>
 <li><a href="https://www.coursera.org/learn/hkuepidemics/">Epidemics</a>. This course has the same name and lives on the same platform as the Penn State course, but it is offered by a team of instructors from the University of Hong Kong (HKU).</li>
 </ul>
 <p>Note that the HKU course started out as a course called “Epidemics” on the EdX platform. Now there is the above course on the Coursera platform. In addition, there is a sequence of courses, <a href="https://www.edx.org/search?q=epidemics">Epidemics I-IV on the EdX platform</a>. The Coursera and EdX offerings seem similar, I don’t know if/how they differ.</p>
 <p>For this class, I will embed all relevant materials. You therefore don’t need to further check out those courses if you don’t want to. However, if you are interested, I encourage you to give them a try. They have great content and cover some topics which we won’t cover in this course. Neither of these courses takes an explicit model-based perspective, but many topics are discussed with such a framework in mind (and several of the instructors for each course are infectious disease modelers).</p>
+<ul>
+<li><a href="http://sbfnk.github.io/mfiidd/index.html">Model fitting and inference for infectious disease dynamics</a>. Materials for an online course . This is rather advanced material.</li>
+</ul>
 </div>
 <div id="software" class="section level1">
 <h1>Software</h1>
 <ul>
+<li><p><a href="https://ahgroup.github.io/DSAIDE/">Dynamical Systems Approach to Infectious Disease Epidemiology (DSAIDE)</a>. The R package that goes with this course.</p></li>
 <li><p><a href="https://www.samabbott.co.uk/idmodelr/">idmodelr</a> by Sam Abbott. Many basic compartmental (SIR type) models, a little bit of coding is required. He also has <a href="https://www.samabbott.co.uk/idmodelr/articles/resources.html">a list of related resources</a>, which - not surprisingly - has a lot of overlap with the information on this page.</p></li>
-<li><p><a href="https://github.com/SineadMorris/shinySIR">shinySIR</a> by Sinead Morris. Exploration of several SIR-type models through Shiny. Doesn’t have the documentation of DSAIDE, but has some models not in DSAIDE.</p></li>
-<li><p><a href="https://www.epimodel.org/">Epimodel</a></p></li>
+<li><p><a href="https://github.com/SineadMorris/shinySIR">shinySIR</a> by Sinead Morris. Exploration of several SIR-type models through Shiny. It doesn’t have the detailed documentation of <a href="https://ahgroup.github.io/DSAIDE/">DSAIDE</a>, but it includes some models not in DSAIDE.</p></li>
+<li><p><a href="https://reconhub.github.io/">The R Epidemics Consortium</a> maintains several R packages related to infectious disease modeling. Most of the content is oriented toward researchers/practitioners, but there is also some teaching/learning material.</p></li>
+<li><p><a href="https://www.epimodel.org/">Epimodel</a> is a website for the R package(s) of the same name that allow fairly user-friendly building and exploring of ID Epi models. The strength of Epimodel and related packages (the <a href="http://statnet.org/">Statnet suite of R packages</a>) is in network based models.</p></li>
+<li><p><a href="http://kingaa.github.io/pomp/">The pomp R package to fit stochastic dynamic models (and more) to time-series data.</a> This is a powerful package and the package contains a good bit of tutorials and information. It is overall fairly advanced material.</p></li>
 </ul>
 </div>
-<div id="id-modeling-websites" class="section level1">
-<h1>ID modeling websites</h1>
+<div id="id-epi-and-modeling-websites" class="section level1">
+<h1>ID epi and modeling websites</h1>
 <ul>
-<li><a href="http://epirecip.es/">epirecipes</a> - a cookbook of ID epi models.</li>
-</ul>
-</div>
-<div id="lists-and-other-sources" class="section level1">
-<h1>Lists and other sources</h1>
-<ul>
-<li>I created lists related to various topics, including infectious disease modeling. <a href="https://andreashandel.github.io/research-and-teaching-resources/">You can find all resource lists here</a>. (These lists are works in progress, and some are better/more useful than others. There is also a lot of overlap with the resources listed above. Feel free to send me links/resources to include).</li>
+<li><p><a href="https://nrich.maths.org/epidemic">NRICH project on infectious disease dynamics</a>. A nice collection of resources and activities related to infectious disease epidemiology from a mathematical and modeling angle. The target age group are teenagers, but the material is likely suitable for older ages too. This is mainly meant for teachers to implement, but can also be useful for self-learning.</p></li>
+<li><p><a href="http://epirecip.es/">The Epirecipes site</a> contains a <em>cookbook</em> of many standard infectious disease models with code in several different programming languages (including R).</p></li>
 </ul>
 </div>
 
