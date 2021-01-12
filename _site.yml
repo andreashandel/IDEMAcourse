@@ -153,7 +153,7 @@ navbar:
          - text: "General Resources"
            href: ./General_Resources.html
   right:
-    - icon: fa-github fa-lg
+    - icon: fab fa-github
       href: https://github.com/andreashandel/IDEMAcourse
 output:
   html_document:
