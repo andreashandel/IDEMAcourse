@@ -14,7 +14,7 @@ output:
 
 To showcase some of the work previous students have done, and as inspiration of future projects, below you can find links to a selection of past projects. 
 
-<!-- (The reason not many projects for early years are shown is because I only post with student permission and I decided to post this in 2020 where it was hard to reach long-graduated students `r emo::ji('smile')`) -->
+(The reason not many projects for early years are shown is because I wanted to only post projects with student permission and I decided to post this in 2020 and it was hard to reach long-graduated students (and enrollment in previous years was smaller) `r emo::ji('smile')`). 
 
 # 2020 Projects
 
@@ -29,9 +29,12 @@ To showcase some of the work previous students have done, and as inspiration of 
 
 # 2017 Projects
 
-To be posted
+* [Using structured decision-making to manage an infectious disease outbreak: an influenza case study tutorial](./media/2017_Final_Project_Cheng.pdf) - a research and policy analysis project by Ellen Cheng. [R/Shiny code for the project.](./media/2017_Final_Project_Cheng_app.R)
+* [Spatial Metapopulation Modeling of Infectious Disease Dynamics](./media/2017_Final_Project_Dailey.html) - a project in the style of a potential DSAIDE app by Cody Dailey. [Project code files are in this zip folder.](./media/2017_Final_Project_Dailey.zip)
+* [Modelling the Prevalence of Infectious Diseases with Mosquito Vectors when Affected
+by Climate Change](./media/2017_Final_Project_Ali_Roles.pdf) - a research project and DSAIDE app by Eliza Ali and Lindsey Roles. [Project code files are in this zip folder.](./media/2017_Final_Project_Ali_Roles.zip)
+
 
 # 2016 Projects
 
-To be posted
-
+* [Assessment of Current Human Papillomavirus Dynamic Vaccination Modelling Strategies](./media/2016_Final_Project_McKay_Perry.pdf) - a research project by Brian McKay and Ariella Perry (now Dale).
