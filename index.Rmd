@@ -13,7 +13,6 @@ library(emo)
 
 
 <!-- Some trickery to get the logo to show -->
-
 <script>
    $(document).ready(function() {
      $head = $('#header');
