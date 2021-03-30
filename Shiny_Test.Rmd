@@ -34,6 +34,8 @@ knitr::include_url("https://shiny.ovpr.uga.edu/DSAIDE/")
 This embeds a learnR bit of code. Content not related to this course, just a test.
 
 ```{r echo=FALSE,  scrolling="no", width="100%"}
-knitr::include_url("https://tinystats.shinyapps.io/04-variance-ex2/")
+set.seed(12)
+heights_island1 <- rnorm(50,10,2)
+knitr::include_url("https://tinystats.shinyapps.io/06-standardError-ex5/")
 ```
 
