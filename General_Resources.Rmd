@@ -55,7 +55,9 @@ _Some of these books are useful for learning general modeling concepts. They do 
 * Otto and Day (2007) A Biologist's Guide to Mathematical Modeling in Ecology and Evolution. Princeton University Press: Some good background/primers on
 math topics, explanations on how to model, not much infectious disease specific material.
 
+## Other
 
+* [R for applied epidemiology and public health](https://epirhandbook.com/) - online book that focuses on using R for all kinds of epidemiological tasks, including infectious disease related topics.
 
 # Papers
 
