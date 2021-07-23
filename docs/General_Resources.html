@@ -10,11 +10,11 @@
 
 
 
-<meta name="date" content="2021-03-27" />
+<meta name="date" content="2021-06-30" />
 
 <title>General Infectious Disease Epidemiology and Modeling Resources</title>
 
-<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
@@ -294,12 +294,12 @@ div.tocify {
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
 <div class="row">
-<div class="col-sm-12 col-md-4 col-lg-3">
+<div class="col-xs-12 col-sm-4 col-md-3">
 <div id="TOC" class="tocify">
 </div>
 </div>
 
-<div class="toc-content col-sm-12 col-md-8 col-lg-9">
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -579,9 +579,6 @@ div.tocify {
     </li>
   </ul>
 </li>
-<li>
-  <a href="./Shiny_Test.html">Test</a>
-</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
@@ -601,7 +598,7 @@ div.tocify {
 
 <h1 class="title toc-ignore">General Infectious Disease Epidemiology and Modeling Resources</h1>
 <h4 class="author">Andreas Handel</h4>
-<h4 class="date">2021-03-27</h4>
+<h4 class="date">2021-06-30</h4>
 
 </div>
 
@@ -640,6 +637,12 @@ div.tocify {
 <li>Allman and Rhodes (2004) Mathematical Models in Biology: An Introduction. Cambridge U Press: Integrates MATLAB into the text/exercises.</li>
 <li>Ellner and Guckenheimer (2006) Dynamic Models in Biology. Princeton University Press: Nice integration of mathematical analysis and computer modeling, topics very broad.</li>
 <li>Otto and Day (2007) A Biologist’s Guide to Mathematical Modeling in Ecology and Evolution. Princeton University Press: Some good background/primers on math topics, explanations on how to model, not much infectious disease specific material.</li>
+</ul>
+</div>
+<div id="other" class="section level2">
+<h2>Other</h2>
+<ul>
+<li><a href="https://epirhandbook.com/">R for applied epidemiology and public health</a> - online book that focuses on using R for all kinds of epidemiological tasks, including infectious disease related topics.</li>
 </ul>
 </div>
 </div>
@@ -729,6 +732,9 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
 
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')

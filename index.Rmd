@@ -26,9 +26,9 @@ Last update/recompile: `r Sys.time()`
 
 Welcome to the website for the course **Infectious Disease Epidemiology(Ecology)(Evolution) - A model-based approach (IDEMA).** 
 
-This website contains content for an online course taught in Fall 2020 at the University of Georgia by [Andreas Handel.](https://www.andreashandel.com/) Most materials are hosted here, some are on external sites and either linked or embedded from here.
+This website contains content for an online course I ([Andreas Handel](https://www.andreashandel.com/)) regularly teach at the University of Georgia. The last time this course was offered was fall 2020. This website contains all course materials, either hosted here or linked to/embedded from other sources.
 
-The course has finished, but the website will remain continuously online, with likely larger updates happening every time I teach the course again and minor ones in between.
+The website will remain continuously online, with ongoing minor updates and generally larger updates happening every time I teach the course.
 
 
 # Website content
