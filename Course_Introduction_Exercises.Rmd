@@ -65,7 +65,7 @@ In a similar fashion, you can add a picture to your Zoom account. Hopefully we c
 
 
 # 2. Hands-on computer exercise
-For this module, please work through the _Basic SIR Model_ in DSAIDE. Read through all the documentation material (the tabs below the inputs and outputs. Then work through all the tasks. As you do so, record your answers to the questions in the quiz spreadsheet for this app, which you can get download from the [Course Resources](https://andreashandel.github.io/IDEMAcourse/Course_Resources.html) page. Once you are done, upload your quiz for grading [to this website.](https://shiny.ovpr.uga.edu/gradingapp/)
+For this module, please work through the _Basic SIR Model_ in DSAIDE. Read through all the documentation material (the tabs below the inputs and outputs. Then work through all the tasks. As you do so, record your answers to the questions in the quiz spreadsheet for this app, which you can get download from the [Course Resources](https://andreashandel.github.io/IDEMAcourse/Course_Resources.html) page. Once you are done, upload your quiz for grading.
 
 **Note: This grading app is new and not too well tested. I expect things to not work 100% at least for the first few submissions. So if you notice anything that doesn't work right, please let me know.**
 
