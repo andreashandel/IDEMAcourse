@@ -47,7 +47,7 @@ You can make and deliver the introduction in multiple ways. No matter what metho
 
 **The multimedia way:** Record a video of yourself talking about the topics mentioned above, and post the video or a link to it to the Slack channel.
 
-**The geeky way:** Create a quick personal website by following the workflow of the introduction exercise from my Modern Applied Data Analysis class, [described here.](https://andreashandel.github.io/MADAcourse/Exercise_Introducing_Ourselves.html) This requires the use of Github. Note that for our class, there is no Github organization. Instead, create the repository in your own Github account. Everything else should work the same. 
+**The geeky way:** Create a personal website, e.g., by using [this workflow](https://www.andreashandel.com/posts/blogdown-website-1/). Or use any other setup you want to use. 
 
 **The inventive way:** Find another way to produce an introduction of yourself and share it with the class.
 
